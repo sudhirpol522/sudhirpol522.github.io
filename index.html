@@ -1,205 +1,171 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Sudhir Pol</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css"/>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.1/css/academicons.min.css"/>
-  <link href="https://fonts.googleapis.com/css?family=Merriweather:900,900italic,300,300italic" rel="stylesheet"/>
-  <link href="https://fonts.googleapis.com/css?family=Lato:900,300" rel="stylesheet"/>
-  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"/>
   <style>
-    body { font-family: 'Roboto', sans-serif; font-size: 16px; background: #fff; color: #333; }
-    .site-nav { padding: 18px 0 10px 0; text-align: right; }
-    .site-nav a { color: #333; font-family: 'Lato', sans-serif; font-size: 15px; font-weight: 900; text-decoration: none; margin-left: 22px; }
-    .site-nav a:hover { color: #c0392b; }
-    .site-header { padding: 30px 0 10px 0; }
-    .site-title { font-family: 'Merriweather', serif; font-weight: 900; font-size: 2rem; color: #222; margin-bottom: 0; }
-    .social-icons a { color: #333; font-size: 1.3rem; margin-right: 10px; }
-    .social-icons a:hover { color: #c0392b; }
-    .profile-photo { width: 220px; height: 220px; border-radius: 50%; object-fit: cover; object-position: top center; border: 4px solid #eee; margin-top: 10px; }
-    .profile-placeholder { width: 220px; height: 220px; border-radius: 50%; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); display: flex; align-items: center; justify-content: center; margin-top: 10px; border: 4px solid #eee; }
-    .profile-placeholder span { font-size: 4rem; font-weight: 900; color: white; font-family: 'Lato', sans-serif; }
-    .about-section p { line-height: 1.75; margin-bottom: 1rem; }
-    .about-section a { color: #2980b9; }
-    .about-section a:hover { color: #c0392b; text-decoration: none; }
-    .section-heading { font-family: 'Merriweather', serif; font-weight: 900; font-size: 1.4rem; border-bottom: 2px solid #eee; padding-bottom: 8px; margin-bottom: 20px; margin-top: 40px; color: #222; }
-    .exp-item { display: flex; margin-bottom: 24px; align-items: flex-start; }
-    .exp-logo-placeholder { width: 52px; height: 52px; min-width: 52px; border-radius: 8px; margin-right: 16px; display: flex; align-items: center; justify-content: center; font-size: 1.2rem; font-weight: 700; color: white; font-family: 'Lato', sans-serif; }
-    .exp-details h5 { font-weight: 700; margin-bottom: 2px; font-size: 1rem; }
-    .exp-details .company { color: #555; font-size: 0.92rem; margin-bottom: 2px; }
-    .exp-details .dates { color: #888; font-size: 0.85rem; margin-bottom: 4px; }
-    .exp-details p { font-size: 0.93rem; line-height: 1.6; margin-bottom: 0; color: #444; }
-    .skill-badge { display: inline-block; background: #f0f4ff; border: 1px solid #c8d8ff; border-radius: 20px; padding: 5px 14px; font-size: 0.88rem; margin: 4px 4px 4px 0; color: #2c3e7a; font-family: 'Lato', sans-serif; }
-    .project-card { border: 1px solid #e8e8e8; border-radius: 8px; padding: 18px 20px; margin-bottom: 16px; background: #fafafa; }
-    .project-card h5 { font-weight: 700; margin-bottom: 6px; font-size: 1rem; }
-    .project-card p { font-size: 0.93rem; color: #555; line-height: 1.6; margin-bottom: 6px; }
-    .project-card a { font-size: 0.88rem; color: #2980b9; }
-    .project-card .tags span { background: #eef2ff; color: #3a4db7; font-size: 0.78rem; border-radius: 4px; padding: 2px 8px; margin-right: 4px; }
-    .blog-item { border-left: 3px solid #c0392b; padding-left: 16px; margin-bottom: 18px; }
-    .blog-item h5 { font-weight: 700; font-size: 1rem; margin-bottom: 3px; }
-    .blog-item p { font-size: 0.9rem; color: #666; margin-bottom: 2px; }
-    .blog-item a { font-size: 0.88rem; color: #2980b9; }
-    .cert-item { padding: 10px 0; border-bottom: 1px solid #f0f0f0; }
-    .cert-item:last-child { border-bottom: none; }
-    .cert-item h5 { font-weight: 700; font-size: 0.95rem; margin-bottom: 2px; }
-    .cert-item p { font-size: 0.87rem; color: #777; margin-bottom: 0; }
-    .logo-strip { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 30px; padding: 30px 0 20px; border-top: 1px solid #f0f0f0; margin-top: 40px; }
-    .logo-strip img { height: 50px; object-fit: contain; filter: grayscale(30%); opacity: 0.8; transition: opacity 0.2s; }
-    .logo-strip img:hover { opacity: 1; filter: grayscale(0); }
-    footer { text-align: center; padding: 20px; color: #aaa; font-size: 0.85rem; margin-top: 20px; border-top: 1px solid #f5f5f5; }
-    @media (max-width: 767px) { .profile-photo, .profile-placeholder { width: 150px; height: 150px; margin: 0 auto 20px; } .site-title { font-size: 1.5rem; } }
+    body {
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      max-width: 832px;
+      margin: 36px auto;
+      padding: 0 18px;
+      color: #0b1220;
+      line-height: 1.65;
+    }
+    a { color: #0366d6; }
+    a:hover { text-decoration: underline; }
+    header { margin-bottom: 28px; }
+    .site-title { font-weight: 700; font-size: 1.25rem; color: inherit; text-decoration: none; display: block; margin-bottom: 2px; }
+    .site-subtitle { color: #6b7280; font-size: 0.95rem; }
+    .hero { display: flex; gap: 28px; margin-bottom: 24px; align-items: flex-start; }
+    .hero-photo { flex-shrink: 0; }
+    .hero-photo img { width: 290px; height: 290px; object-fit: cover; object-position: top center; display: block; }
+    .hero-placeholder { width: 290px; height: 290px; background: linear-gradient(160deg, #e8edf5 0%, #d4dce8 100%); display: flex; align-items: center; justify-content: center; font-size: 3.5rem; font-weight: 700; color: #8898b3; letter-spacing: -2px; }
+    .hero-text p { margin-bottom: 12px; font-size: 0.975rem; }
+    .hero-text p:last-child { margin-bottom: 0; }
+    .otw { display: inline-flex; align-items: center; gap: 7px; background: #eaf4ee; border: 1px solid #b2dfbb; color: #1a6b30; border-radius: 20px; padding: 5px 13px; font-size: 0.82rem; font-weight: 600; margin-bottom: 22px; text-decoration: none; }
+    .otw::before { content: ''; width: 8px; height: 8px; border-radius: 50%; background: #2ea043; flex-shrink: 0; box-shadow: 0 0 0 2px #b2dfbb; }
+    .social-list { display: inline-flex; gap: 0.6rem; align-items: center; margin-bottom: 44px; }
+    .social { display: inline-flex; width: 40px; height: 40px; align-items: center; justify-content: center; border-radius: 50%; background: #f3f4f6; color: inherit; text-decoration: none; box-shadow: 0 1px 3px rgba(2,6,23,0.08); transition: background 0.12s ease, box-shadow 0.12s ease; }
+    .social img { width: 18px; height: 18px; display: block; }
+    .social svg { width: 18px; height: 18px; display: block; }
+    .social:hover { background: #e8eaed; box-shadow: none; }
+    h2 { font-size: 1.1rem; font-weight: 700; margin: 0 0 6px 0; }
+    .section-label { font-size: 1.1rem; font-weight: 700; margin-bottom: 4px; padding-bottom: 10px; border-bottom: 1px solid #eee; }
+    article { padding: 18px 0; border-bottom: 1px solid #eee; }
+    article h3 { margin: 0 0 5px 0; }
+    article h3 a { color: #0b1220; font-size: 1rem; font-weight: 600; text-decoration: none; }
+    article h3 a:hover { text-decoration: underline; color: #0b1220; }
+    article .meta { font-size: 0.83rem; color: #6b7280; margin-bottom: 7px; display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+    article .meta .tag { background: #f3f4f6; border-radius: 4px; padding: 1px 7px; font-size: 0.78rem; color: #555; }
+    article p { font-size: 0.95rem; color: #2d3748; margin: 0 0 8px 0; }
+    article p:last-child { margin-bottom: 0; }
+    article .links { font-size: 0.85rem; margin-top: 6px; }
+    article .links a { margin-right: 14px; text-decoration: none; }
+    article .links a:hover { text-decoration: underline; }
+    .blog-item { padding: 16px 0; border-bottom: 1px solid #eee; }
+    .blog-item h3 { margin: 0 0 5px 0; }
+    .blog-item h3 a { color: #0b1220; font-size: 1rem; font-weight: 600; text-decoration: none; }
+    .blog-item h3 a:hover { text-decoration: underline; }
+    .blog-item p { font-size: 0.93rem; color: #4a5568; margin: 0; }
+    footer { color: #6b7280; font-size: 0.88rem; margin-top: 36px; border-top: 1px solid #eee; padding-top: 14px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px; }
+    footer .social-list { margin-bottom: 0; }
+    @media (max-width: 600px) { .hero { flex-direction: column; } .hero-photo img, .hero-placeholder { width: 180px; height: 180px; } }
   </style>
 </head>
 <body>
-<div class="container" style="max-width:900px;">
-  <nav class="site-nav">
-    <a href="#experience">Experience</a>
-    <a href="#projects">Projects</a>
-    <a href="#blog">Blog</a>
-    <a href="#education">Education</a>
-  </nav>
-  <div class="row site-header">
-    <div class="col-md-8 about-section">
-      <h1 class="site-title">Sudhir Pol</h1>
-      <div class="social-icons mt-2 mb-3">
-        <a href="https://github.com/sudhirpol522" target="_blank" title="GitHub"><i class="fa fa-github"></i></a>
-        <a href="https://www.linkedin.com/in/sudhir-pol-a6b544179/" target="_blank" title="LinkedIn"><i class="fa fa-linkedin"></i></a>
-        <a href="https://sudhirpol522.medium.com" target="_blank" title="Medium Blog"><i class="fa fa-medium"></i></a>
-        <a href="mailto:sypol@iu.edu" title="Email"><i class="fa fa-envelope"></i></a>
-      </div>
-      <p>Hi! I am <strong>Sudhir Pol</strong>, a Machine Learning Engineer specializing in <strong>LLM inference optimization</strong>, <strong>Retrieval-Augmented Generation (RAG)</strong>, and <strong>Agentic AI</strong>. I am currently a Research Assistant and MS in Data Science candidate at <a href="https://luddy.indiana.edu/" target="_blank">Indiana University Bloomington</a> (graduating May 2026), seeking MLE and Data Scientist roles.</p>
-      <p>Most recently, I interned as a Machine Learning Engineer at <a href="https://www.adobe.com" target="_blank"><strong>Adobe</strong></a> (San Jose, CA) where I built an LLM-as-Judge evaluation framework benchmarking frontier models for multimodal chart quality assessment and a <a href="https://github.com/langchain-ai/langgraph" target="_blank">LangGraph</a> agent with MCP integration for automated online evaluation feedback. At <a href="https://www.spglobal.com" target="_blank"><strong>S&amp;P Global</strong></a>, I deployed fine-tuned models on NVIDIA Triton with MLflow/DVC pipelines. At <a href="https://www.americanexpress.com" target="_blank"><strong>American Express</strong></a>, I built production classifiers and demand prediction models at enterprise scale.</p>
-      <p>I write an <strong>LLM inference series</strong> on <a href="https://sudhirpol522.medium.com" target="_blank">Medium</a> covering KV caching, speculative decoding, continuous batching, LoRA from raw PyTorch, and reward model training for RLHF.</p>
-      <p>Day-to-day stack: model quantization (AWQ, GPTQ, GGUF), <strong>vLLM</strong>, speculative decoding, RAG with FAISS and cross-encoder reranking, MLOps with Kubernetes and ArgoCD.</p>
+  <header>
+    <span class="site-title">Sudhir Pol</span>
+    <span class="site-subtitle">Homepage</span>
+  </header>
+  <div class="hero">
+    <div class="hero-photo">
+      <img src="assets/photo.jpg" alt="Sudhir Pol" onerror="this.outerHTML='<div class=\'hero-placeholder\'>SP</div>'">
     </div>
-    <div class="col-md-4 text-center">
-      <img src="assets/photo.jpg" class="profile-photo" alt="Sudhir Pol" onerror="this.style.display='none'; document.getElementById('profile-placeholder').style.display='flex';">
-      <div id="profile-placeholder" class="profile-placeholder mx-auto" style="display:none;"><span>SP</span></div>
+    <div class="hero-text">
+      <p>Hi! I'm <strong>Sudhir Pol</strong>, a Machine Learning Engineer specializing in <strong>LLM inference optimization</strong>, RAG systems, and Agentic AI.</p>
+      <p>I'm completing my <strong>MS in Data Science</strong> at <a href="https://luddy.indiana.edu/" target="_blank">Indiana University Bloomington</a> (graduating May 2026) and am actively seeking <strong>Machine Learning Engineer</strong> and Data Scientist roles. I bring hands-on experience deploying models at enterprise scale across Adobe, S&amp;P Global, and American Express.</p>
+      <p>Most recently I interned at <strong>Adobe</strong> (San Jose, CA), building an LLM-as-Judge evaluation framework that benchmarks frontier models for multimodal chart quality assessment, and a <strong>LangGraph agent with MCP integration</strong> for automated online evaluation feedback. Before that, as <strong>Data Scientist II at S&amp;P Global</strong>, I delivered a sparse-retrieval RAG system with a fine-tuned T5 deployed on NVIDIA Triton on AWS EC2. At <strong>American Express</strong>, I built production classifiers and demand-prediction models serving millions of customers.</p>
+      <p>I run an <strong>LLM inference series</strong> on <a href="https://sudhirpol522.medium.com" target="_blank">Medium</a> implementing core serving primitives from scratch &mdash; KV caching, speculative decoding, continuous batching, LoRA from raw PyTorch &mdash; with full math derivations. My open-source work is on <a href="https://github.com/sudhirpol522" target="_blank">GitHub</a>.</p>
+      <p>Feel free to reach out!</p>
     </div>
   </div>
-  <div class="logo-strip">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Wordmark_IU_%22Indiana_University%22.svg/320px-Wordmark_IU_%22Indiana_University%22.svg.png" alt="Indiana University"/>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Adobe_Corporate_logo.png/320px-Adobe_Corporate_logo.png" alt="Adobe"/>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/S%26P_Global_logo.svg/320px-S%26P_Global_logo.svg.png" alt="S&P Global"/>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/American_Express_logo_%282018%29.svg/200px-American_Express_logo_%282018%29.svg.png" alt="American Express"/>
+  <div><span class="otw">Open to work &mdash; Machine Learning Engineer &amp; Data Scientist roles (May 2026)</span></div>
+  <p style="margin-top:16px;">
+    <span class="social-list">
+      <a class="social" href="https://www.linkedin.com/in/sudhir-pol-a6b544179/" target="_blank" aria-label="LinkedIn"><img src="https://www.linkedin.com/favicon.ico" alt="LinkedIn"></a>
+      <a class="social" href="https://github.com/sudhirpol522" target="_blank" aria-label="GitHub"><img src="https://github.com/favicon.ico" alt="GitHub"></a>
+      <a class="social" href="https://sudhirpol522.medium.com" target="_blank" aria-label="Medium"><img src="https://medium.com/favicon.ico" alt="Medium"></a>
+      <a class="social" href="mailto:sypol@iu.edu" aria-label="Email"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><polyline points="2,4 12,13 22,4"/></svg></a>
+    </span>
+  </p>
+  <h2 class="section-label" style="margin-top:12px;">Some of my work</h2>
+  <article>
+    <h3><a href="https://github.com/sudhirpol522/Continuous-Batching" target="_blank">Continuous Batching Inference Server</a></h3>
+    <div class="meta"><span class="tag">Python</span><span class="tag">LLM Inference</span><span class="tag">vLLM</span></div>
+    <p>A minimal LLM inference server built from scratch with a continuous batching engine and dynamic request scheduling &mdash; the same mechanism that gives vLLM its throughput advantage over naive sequential serving. The server handles variable-length requests, manages a KV-cache budget, and preempts lower-priority sequences under VRAM pressure.</p>
+    <div class="links"><a href="https://github.com/sudhirpol522/Continuous-Batching" target="_blank">&#8594; GitHub</a></div>
+  </article>
+  <article>
+    <h3><a href="https://github.com/sudhirpol522/Multi-Doc-RAG" target="_blank">Multi-Document RAG System</a></h3>
+    <div class="meta"><span class="tag">RAG</span><span class="tag">FAISS</span><span class="tag">Python</span><span class="tag">MLflow</span></div>
+    <p>Production-grade multi-document RAG pipeline: semantic chunking, FAISS dense retrieval, cross-encoder reranking, and AWQ/GPTQ model quantization. Experiment tracking with MLflow. Demonstrates the full retrieval stack at the fidelity level expected in a production MLE role.</p>
+    <div class="links"><a href="https://github.com/sudhirpol522/Multi-Doc-RAG" target="_blank">&#8594; GitHub</a></div>
+  </article>
+  <article>
+    <h3><a href="https://github.com/sudhirpol522" target="_blank">Speculative Decoding: DistilGPT2 as Draft Model</a></h3>
+    <div class="meta"><span class="tag">PyTorch</span><span class="tag">Speculative Decoding</span><span class="tag">LLM</span></div>
+    <p>Full draft-verify loop from scratch using DistilGPT2 as the draft model and GPT-2 as target. Derives acceptance probability from first principles, runs gamma sweep benchmarks to find optimal draft length, and measures wall-clock speedup. Companion piece to the Medium article.</p>
+    <div class="links"><a href="https://github.com/sudhirpol522" target="_blank">&#8594; GitHub</a></div>
+  </article>
+  <article>
+    <h3>LangGraph MCP Agent &mdash; Adobe (2025)</h3>
+    <div class="meta"><span class="tag">LangGraph</span><span class="tag">MCP</span><span class="tag">Agentic AI</span><span class="tag">LLM-as-Judge</span></div>
+    <p>Built during my Adobe internship: a LangGraph-based agentic workflow with Model Context Protocol (MCP) integration for automated online evaluation feedback. Works alongside an LLM-as-Judge framework benchmarking frontier models (GPT-4o, Gemini, Claude) for multimodal chart quality assessment at scale, replacing a manual review process.</p>
+  </article>
+  <article>
+    <h3>Fine-Tuned T5 RAG on NVIDIA Triton &mdash; S&amp;P Global (2022&ndash;2024)</h3>
+    <div class="meta"><span class="tag">NVIDIA Triton</span><span class="tag">RAG</span><span class="tag">MLflow</span><span class="tag">DVC</span><span class="tag">AWS EC2</span></div>
+    <p>Production sparse-retrieval RAG system with a fine-tuned T5 encoder, served on NVIDIA Triton Inference Server (HTTP) on AWS EC2. MLflow and DVC pipelines managed experiment tracking and data versioning across S&amp;P Global's financial data corpus.</p>
+  </article>
+  <h2 class="section-label" style="margin-top:36px;">Experience</h2>
+  <article>
+    <h3>Machine Learning Engineer Intern &mdash; <a href="https://www.adobe.com" target="_blank">Adobe</a></h3>
+    <div class="meta">May 2025 &ndash; Aug 2025 &nbsp;&middot;&nbsp; San Jose, CA &nbsp;&middot;&nbsp; On-site</div>
+    <p>Built an LLM-as-Judge evaluation framework benchmarking frontier models for multimodal chart quality. Developed a LangGraph agent with MCP tool integration for automated evaluation feedback loops, cutting manual review time significantly.</p>
+  </article>
+  <article>
+    <h3>Research Assistant &mdash; <a href="https://luddy.indiana.edu/" target="_blank">Indiana University Bloomington</a></h3>
+    <div class="meta">2024 &ndash; Present &nbsp;&middot;&nbsp; Bloomington, IN</div>
+    <p>Applied ML research in the Luddy School of Informatics, Computing, and Engineering, focusing on LLM inference optimization and ML systems.</p>
+  </article>
+  <article>
+    <h3>Data Scientist II &mdash; <a href="https://www.spglobal.com" target="_blank">S&amp;P Global</a></h3>
+    <div class="meta">Nov 2022 &ndash; Aug 2024 &nbsp;&middot;&nbsp; 1 yr 10 mos &nbsp;&middot;&nbsp; Hyderabad, India</div>
+    <p>Built production NLP and document-AI pipelines for financial data. Delivered a sparse-retrieval RAG system with a fine-tuned T5, served on NVIDIA Triton on AWS EC2. Managed experiment lifecycle with MLflow and DVC. Automated document processing workflows at enterprise scale.</p>
+  </article>
+  <article>
+    <h3>Data Scientist I &mdash; <a href="https://www.americanexpress.com" target="_blank">American Express</a></h3>
+    <div class="meta">Dec 2021 &ndash; Nov 2022 &nbsp;&middot;&nbsp; 1 yr &nbsp;&middot;&nbsp; Gurugram, India</div>
+    <p>Improved call quality assessment accuracy by 10% with a VIBE model combining XGBoost with BERT embeddings. Built and deployed LSTM-based demand prediction models on AWS EC2. Worked on production pipelines serving millions of cardholders daily.</p>
+  </article>
+  <h2 class="section-label" style="margin-top:36px;">Education</h2>
+  <article>
+    <h3>MS in Data Science &mdash; <a href="https://luddy.indiana.edu/" target="_blank">Indiana University Bloomington</a></h3>
+    <div class="meta">2024 &ndash; May 2026 (expected) &nbsp;&middot;&nbsp; Luddy School of Informatics, Computing, and Engineering</div>
+    <p>Research focus: LLM inference optimization and ML systems. Currently a Research Assistant.</p>
+  </article>
+  <article>
+    <h3>B.E. in Electrical and Electronics Engineering &mdash; Rajarambapu Institute of Technology</h3>
+    <div class="meta">2017 &ndash; 2021 &nbsp;&middot;&nbsp; Rajaramnagar, Maharashtra &nbsp;&middot;&nbsp; GPA 3.88 / 4.00</div>
+  </article>
+  <h2 class="section-label" style="margin-top:36px;">Technical Blogs</h2>
+  <p style="font-size:0.92rem; color:#4a5568; margin-bottom:4px;">I write on <a href="https://sudhirpol522.medium.com" target="_blank">Medium</a> implementing LLM inference primitives from scratch &mdash; every post includes full mathematical derivations, not just intuition.</p>
+  <div class="blog-item" style="border-top:1px solid #eee;">
+    <h3><a href="https://sudhirpol522.medium.com" target="_blank">Building a Continuous Batching Inference Server from Scratch</a></h3>
+    <p>Implements the scheduling loop, iteration-level batching, and KV-cache eviction policy that power high-throughput LLM serving. Explains why naive sequential serving leaves 70%+ of GPU compute idle.</p>
   </div>
-  <h2 class="section-heading" id="experience">Experience</h2>
-  <div class="exp-item">
-    <div class="exp-logo-placeholder" style="background:#b00b1e;">A</div>
-    <div class="exp-details">
-      <h5>Machine Learning Engineer &mdash; Intern</h5>
-      <div class="company"><strong>Adobe</strong> &middot; San Jose, California</div>
-      <div class="dates">May 2025 &ndash; Aug 2025 &middot; 4 months &middot; On-site</div>
-      <p>Built an LLM-as-Judge evaluation framework benchmarking frontier models for multimodal chart quality assessment. Developed a LangGraph agent with MCP integration for automated online evaluation feedback. <em>Skills: NLP, LLMs, Agentic AI, MCP, Python.</em></p>
-    </div>
+  <div class="blog-item">
+    <h3><a href="https://sudhirpol522.medium.com" target="_blank">Speculative Decoding: The Clever Trick Making LLMs Faster</a></h3>
+    <p>Full derivation of the draft-verify acceptance probability, gamma sweep analysis for optimal draft length, and wall-clock benchmarks comparing DistilGPT2-drafted vs. standard GPT-2 decoding.</p>
   </div>
-  <div class="exp-item">
-    <div class="exp-logo-placeholder" style="background:#006ba6;">RA</div>
-    <div class="exp-details">
-      <h5>Research Assistant</h5>
-      <div class="company"><strong>Indiana University Bloomington</strong></div>
-      <div class="dates">2024 &ndash; Present</div>
-      <p>Conducting applied ML research as part of the MS in Data Science program at Indiana University.</p>
-    </div>
+  <div class="blog-item">
+    <h3><a href="https://sudhirpol522.medium.com" target="_blank">KV Caching: Memory Formula Derivations &amp; Implementation</a></h3>
+    <p>Derives exact VRAM consumption for KV cache given model width, heads, and sequence length. Walks through a from-scratch PyTorch implementation showing precisely where and why memory explodes with context length.</p>
   </div>
-  <div class="exp-item">
-    <div class="exp-logo-placeholder" style="background:#e2241a;">S&amp;P</div>
-    <div class="exp-details">
-      <h5>Data Scientist II</h5>
-      <div class="company"><strong>S&amp;P Global</strong> &middot; Hyderabad, Telangana, India</div>
-      <div class="dates">Nov 2022 &ndash; Aug 2024 &middot; 1 yr 10 mos &middot; Full-time</div>
-      <p>Built production NLP/document AI pipelines. Delivered a sparse-retrieval RAG system with a fine-tuned T5 model, deployed on NVIDIA Triton Inference Server on AWS EC2 with MLflow/DVC pipelines. <em>Skills: RAG, NVIDIA Triton, MLflow, DVC, AWS, Generative AI.</em></p>
-    </div>
+  <div class="blog-item">
+    <h3><a href="https://sudhirpol522.medium.com" target="_blank">LoRA from Raw PyTorch &amp; Reward Model Training for RLHF</a></h3>
+    <p>Implements LoRA rank decomposition without any PEFT library, then trains a reward model from paired preference data for an RLHF pipeline &mdash; covering loss functions, Bradley-Terry model math, and training stability.</p>
   </div>
-  <div class="exp-item">
-    <div class="exp-logo-placeholder" style="background:#016fcf;">AX</div>
-    <div class="exp-details">
-      <h5>Data Scientist I</h5>
-      <div class="company"><strong>American Express</strong> &middot; Gurugram, Haryana, India</div>
-      <div class="dates">Dec 2021 &ndash; Nov 2022 &middot; 1 yr &middot; Full-time</div>
-      <p>Built production classifiers and demand prediction models at enterprise scale. Boosted call quality assessment accuracy by 10% through a VIBE model combining XGBoost with BERT embeddings. <em>Skills: XGBoost, BERT, LSTM, AWS, MLOps.</em></p>
-    </div>
-  </div>
-  <h2 class="section-heading" id="projects">Projects</h2>
-  <div class="row">
-    <div class="col-md-6">
-      <div class="project-card">
-        <h5><i class="fa fa-code" style="color:#c0392b;margin-right:6px;"></i><a href="https://github.com/sudhirpol522/Continuous-Batching" target="_blank">Continuous Batching Inference Server</a></h5>
-        <p>Minimal LLM inference server from scratch featuring a continuous batching engine with dynamic request scheduling &mdash; core to understanding how vLLM works under the hood.</p>
-        <div class="tags mb-1"><span>Python</span><span>LLM Inference</span><span>vLLM</span></div>
-        <a href="https://github.com/sudhirpol522/Continuous-Batching" target="_blank"><i class="fa fa-github"></i> View on GitHub</a>
-      </div>
-    </div>
-    <div class="col-md-6">
-      <div class="project-card">
-        <h5><i class="fa fa-code" style="color:#c0392b;margin-right:6px;"></i><a href="https://github.com/sudhirpol522/Multi-Doc-RAG" target="_blank">Multi-Document RAG System</a></h5>
-        <p>Production-grade multi-document RAG pipeline with FAISS vector store, semantic chunking, cross-encoder reranking, AWQ/GPTQ quantization and MLflow experiment tracking.</p>
-        <div class="tags mb-1"><span>RAG</span><span>FAISS</span><span>Python</span><span>MLflow</span></div>
-        <a href="https://github.com/sudhirpol522/Multi-Doc-RAG" target="_blank"><i class="fa fa-github"></i> View on GitHub</a>
-      </div>
-    </div>
-    <div class="col-md-6">
-      <div class="project-card">
-        <h5><i class="fa fa-code" style="color:#c0392b;margin-right:6px;"></i>Speculative Decoding: DistilGPT2 + GPT-2</h5>
-        <p>Implemented speculative decoding with a draft-verify loop, acceptance probability math, and gamma sweep benchmarks from scratch in pure PyTorch.</p>
-        <div class="tags mb-1"><span>PyTorch</span><span>Speculative Decoding</span><span>LLM</span></div>
-        <a href="https://github.com/sudhirpol522" target="_blank"><i class="fa fa-github"></i> View on GitHub</a>
-      </div>
-    </div>
-    <div class="col-md-6">
-      <div class="project-card">
-        <h5><i class="fa fa-code" style="color:#c0392b;margin-right:6px;"></i>LangGraph MCP Agent (Adobe)</h5>
-        <p>LangGraph-based agentic workflow with Model Context Protocol (MCP) integration for automated online evaluation feedback at Adobe.</p>
-        <div class="tags mb-1"><span>LangGraph</span><span>MCP</span><span>Agentic AI</span></div>
-      </div>
-    </div>
-  </div>
-  <h2 class="section-heading" id="blog">Blog &mdash; LLM Inference Series</h2>
-  <p style="font-size:0.95rem;color:#555;margin-bottom:20px;">Deep-dive technical articles on <a href="https://sudhirpol522.medium.com" target="_blank">Medium</a>, implementing LLM inference primitives from scratch with full math derivations.</p>
-  <div class="blog-item"><h5>Building a Continuous Batching Inference Server from Scratch</h5><p>A production-style inference engine with dynamic request scheduling &mdash; the core engine behind vLLM's throughput gains.</p><a href="https://sudhirpol522.medium.com" target="_blank"><i class="fa fa-external-link"></i> Read on Medium</a></div>
-  <div class="blog-item"><h5>Speculative Decoding: The Clever Trick Making LLMs Faster</h5><p>Draft-verify loop with acceptance probability math and gamma sweep benchmarks.</p><a href="https://sudhirpol522.medium.com" target="_blank"><i class="fa fa-external-link"></i> Read on Medium</a></div>
-  <div class="blog-item"><h5>KV Caching: Memory Formula Derivations &amp; Implementation</h5><p>KV cache memory formulas from first principles &mdash; why it trades memory for compute.</p><a href="https://sudhirpol522.medium.com" target="_blank"><i class="fa fa-external-link"></i> Read on Medium</a></div>
-  <div class="blog-item"><h5>LoRA from Raw PyTorch &amp; Reward Model Training for RLHF</h5><p>LoRA adapters without libraries and reward model training for RLHF pipelines.</p><a href="https://sudhirpol522.medium.com" target="_blank"><i class="fa fa-external-link"></i> Read on Medium</a></div>
-  <h2 class="section-heading">Technical Skills</h2>
-  <p><strong>LLM / Inference:</strong><br><span class="skill-badge">Large Language Models (LLM)</span><span class="skill-badge">vLLM</span><span class="skill-badge">Speculative Decoding</span><span class="skill-badge">KV Caching</span><span class="skill-badge">Continuous Batching</span><span class="skill-badge">AWQ / GPTQ / GGUF</span><span class="skill-badge">LoRA / PEFT</span><span class="skill-badge">RLHF</span><span class="skill-badge">NVIDIA Triton</span></p>
-  <p><strong>RAG &amp; Search:</strong><br><span class="skill-badge">Retrieval-Augmented Generation (RAG)</span><span class="skill-badge">FAISS</span><span class="skill-badge">Cross-encoder Reranking</span><span class="skill-badge">LangGraph</span><span class="skill-badge">MCP</span><span class="skill-badge">Agentic AI</span></p>
-  <p><strong>ML / Deep Learning:</strong><br><span class="skill-badge">NLP</span><span class="skill-badge">Deep Learning</span><span class="skill-badge">PyTorch</span><span class="skill-badge">Transformers</span><span class="skill-badge">XGBoost</span><span class="skill-badge">BERT</span><span class="skill-badge">LSTM</span></p>
-  <p><strong>MLOps &amp; Infrastructure:</strong><br><span class="skill-badge">MLflow</span><span class="skill-badge">DVC</span><span class="skill-badge">Kubernetes</span><span class="skill-badge">ArgoCD</span><span class="skill-badge">AWS EC2</span><span class="skill-badge">Docker</span><span class="skill-badge">Python</span></p>
-  <h2 class="section-heading" id="education">Education</h2>
-  <div class="exp-item">
-    <div class="exp-logo-placeholder" style="background:#7d1d3f;font-size:0.8rem;">IU</div>
-    <div class="exp-details">
-      <h5>MS in Data Science</h5>
-      <div class="company"><strong><a href="https://luddy.indiana.edu/" target="_blank">Indiana University Bloomington</a></strong> &mdash; Luddy School of Informatics, Computing, and Engineering</div>
-      <div class="dates">2024 &ndash; May 2026 (expected)</div>
-      <p>Research focus: LLM inference optimization, machine learning systems. Currently a Research Assistant.</p>
-    </div>
-  </div>
-  <div class="exp-item">
-    <div class="exp-logo-placeholder" style="background:#2e86ab;font-size:0.75rem;">RIT</div>
-    <div class="exp-details">
-      <h5>B.E. in Electrical and Electronics Engineering</h5>
-      <div class="company"><strong>Rajarambapu Institute of Technology</strong>, Rajaramnagar, Maharashtra, India</div>
-      <div class="dates">2017 &ndash; 2021 &middot; GPA: 3.88 / 4.00</div>
-    </div>
-  </div>
-  <h2 class="section-heading">Certifications</h2>
-  <div class="cert-item"><h5>Applied Machine Learning</h5><p>Applied AI Course</p></div>
-  <div class="cert-item"><h5>Convolutional Neural Networks</h5><p>Coursera &middot; Issued Nov 2020 &middot; Credential ID: HBZWU7UE7SQM</p></div>
   <footer>
-    <p>
-      <a href="https://github.com/sudhirpol522" target="_blank"><i class="fa fa-github"></i></a> &nbsp;
-      <a href="https://www.linkedin.com/in/sudhir-pol-a6b544179/" target="_blank"><i class="fa fa-linkedin"></i></a> &nbsp;
-      <a href="https://sudhirpol522.medium.com" target="_blank"><i class="fa fa-medium"></i></a> &nbsp;
-      <a href="mailto:sypol@iu.edu"><i class="fa fa-envelope"></i></a>
-    </p>
-    <p>Sudhir Pol &middot; Bloomington, Indiana &middot; sypol@iu.edu</p>
+    <span>Sudhir Pol &nbsp;&middot;&nbsp; <a href="mailto:sypol@iu.edu">sypol@iu.edu</a></span>
+    <span class="social-list">
+      <a class="social" href="https://www.linkedin.com/in/sudhir-pol-a6b544179/" target="_blank" aria-label="LinkedIn"><img src="https://www.linkedin.com/favicon.ico" alt="LinkedIn"></a>
+      <a class="social" href="https://github.com/sudhirpol522" target="_blank" aria-label="GitHub"><img src="https://github.com/favicon.ico" alt="GitHub"></a>
+      <a class="social" href="https://sudhirpol522.medium.com" target="_blank" aria-label="Medium"><img src="https://medium.com/favicon.ico" alt="Medium"></a>
+      <a class="social" href="mailto:sypol@iu.edu" aria-label="Email"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><polyline points="2,4 12,13 22,4"/></svg></a>
+    </span>
   </footer>
-</div>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
