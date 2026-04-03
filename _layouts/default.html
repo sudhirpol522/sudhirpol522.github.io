@@ -12,7 +12,7 @@
 <body>
   {% include header.html %}
   <main class="page-content">
-    <div class="wrapper">
+    <div class="wrapper{% if page.layout == 'about' %} wrapper--about{% endif %}">
       {{ content }}
     </div>
   </main>

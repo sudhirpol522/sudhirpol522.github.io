@@ -1,20 +1,27 @@
 ---
 layout: default
 ---
-<div class="hero">
-  <div class="hero-photo">
-    <img src="{{ "/assets/photo.png" | relative_url }}" alt="{{ site.title }}"
-         onerror="this.outerHTML='<div class=\'hero-placeholder\'>SP</div>'">
-  </div>
-  <div class="hero-text">
+<div class="about-layout">
+  <aside class="sidebar">
+    <div class="sidebar-photo">
+      <img src="{{ "/assets/photo.png" | relative_url }}" alt="{{ site.title }}"
+           onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+      <div class="sidebar-placeholder" style="display:none">SP</div>
+    </div>
+    <h1 class="sidebar-name">{{ site.title }}</h1>
+    <p class="sidebar-role">Machine Learning Engineer</p>
+    <p class="sidebar-inst">
+      <a href="https://luddy.indiana.edu/" target="_blank">Indiana University, Bloomington</a>
+    </p>
+    <div class="sidebar-otw">
+      <span class="otw">Open to work</span>
+    </div>
+    <div class="sidebar-social">
+      {% include social.html %}
+    </div>
+  </aside>
+
+  <div class="about-content">
     {{ content }}
   </div>
 </div>
-
-<div class="otw-wrap">
-  <span class="otw">Open to work &mdash; MLE &amp; Data Scientist roles (May 2026)</span>
-</div>
-
-<p class="social-wrap">
-  {% include social.html %}
-</p>
