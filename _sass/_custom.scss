@@ -1,0 +1,277 @@
+// ── Base ──────────────────────────────────────────────────────────────────────
+body {
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, 'Helvetica Neue', Arial;
+  max-width: 832px;
+  margin: 36px auto;
+  padding: 0 18px;
+  color: #0b1220;
+  line-height: 1.65;
+}
+
+a { color: #0366d6; }
+a:hover { text-decoration: underline; }
+
+// ── Header / Nav ──────────────────────────────────────────────────────────────
+.site-header {
+  margin-bottom: 24px;
+  border-bottom: none;
+  min-height: unset;
+  background: none;
+}
+
+.header-inner {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px;
+  max-width: 832px;
+  margin: 0 auto;
+  padding: 0 18px;
+}
+
+.site-title {
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: #0b1220 !important;
+  text-decoration: none !important;
+  letter-spacing: normal;
+  &:hover { color: #0b1220 !important; text-decoration: none !important; }
+}
+
+.site-nav {
+  display: flex;
+  gap: 1.25rem;
+  font-size: 0.9rem;
+  // hide the hamburger from minima
+  .menu-icon { display: none !important; }
+  a {
+    color: #0366d6;
+    text-decoration: none;
+    &:hover { text-decoration: underline; }
+    &.active { font-weight: 600; color: #0b1220; }
+  }
+}
+
+// ── Main wrapper ──────────────────────────────────────────────────────────────
+.page-content { padding: 0; }
+.wrapper {
+  max-width: 832px;
+  margin: 0 auto;
+  padding: 0 18px;
+}
+
+// ── Hero (About page) ─────────────────────────────────────────────────────────
+.hero {
+  display: flex;
+  gap: 1.25rem;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.hero-photo {
+  flex: 0 0 220px;
+  img {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    object-position: top center;
+    display: block;
+    border-radius: 8px;
+  }
+}
+
+.hero-placeholder {
+  width: 220px;
+  height: 220px;
+  background: linear-gradient(160deg, #e8edf5 0%, #c9d4e8 100%);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #8898b3;
+  letter-spacing: -2px;
+}
+
+.hero-text {
+  flex: 1;
+  min-width: 220px;
+  p {
+    margin-bottom: 12px;
+    font-size: 0.975rem;
+    &:last-child { margin-bottom: 0; }
+  }
+}
+
+// ── Open-to-work badge ────────────────────────────────────────────────────────
+.otw-wrap { margin-bottom: 6px; }
+
+.otw {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  background: #eaf4ee;
+  border: 1px solid #b2dfbb;
+  color: #1a6b30;
+  border-radius: 20px;
+  padding: 5px 13px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  text-decoration: none;
+  &::before {
+    content: '';
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #2ea043;
+    flex-shrink: 0;
+    box-shadow: 0 0 0 2px #b2dfbb;
+  }
+}
+
+// ── Social icons ──────────────────────────────────────────────────────────────
+.social-wrap { margin: 0 0 36px 0; }
+
+.social-list {
+  display: inline-flex;
+  gap: 0.6rem;
+  align-items: center;
+}
+
+.social {
+  display: inline-flex;
+  width: 40px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: #f3f4f6;
+  color: #0b1220;
+  text-decoration: none;
+  box-shadow: 0 1px 3px rgba(2, 6, 23, 0.06);
+  transition: background-color 0.12s ease;
+  svg { width: 18px; height: 18px; display: block; }
+  img { width: 18px; height: 18px; display: block; }
+  &:hover { background: #e5e7eb; color: #0b1220; text-decoration: none; }
+}
+
+// ── Section label ─────────────────────────────────────────────────────────────
+.section-label {
+  font-size: 1.05rem;
+  font-weight: 700;
+  margin: 0 0 4px 0;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+  scroll-margin-top: 20px;
+}
+
+// ── Article cards (projects / experience / education) ─────────────────────────
+article.card {
+  padding: 16px 0;
+  border-bottom: 1px solid #eee;
+
+  h3 {
+    margin: 0 0 4px 0;
+    a {
+      color: #0b1220;
+      font-size: 1rem;
+      font-weight: 600;
+      text-decoration: none;
+      &:hover { text-decoration: underline; }
+    }
+  }
+
+  .meta {
+    font-size: 0.83rem;
+    color: #6b7280;
+    margin-bottom: 6px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    align-items: center;
+  }
+
+  .tag {
+    background: #f3f4f6;
+    border-radius: 4px;
+    padding: 1px 7px;
+    font-size: 0.78rem;
+    color: #555;
+  }
+
+  p {
+    font-size: 0.95rem;
+    color: #2d3748;
+    margin: 0 0 7px 0;
+    &:last-child { margin-bottom: 0; }
+  }
+
+  .card-links {
+    font-size: 0.85rem;
+    margin-top: 5px;
+    a {
+      margin-right: 14px;
+      text-decoration: none;
+      &:hover { text-decoration: underline; }
+    }
+  }
+}
+
+// ── Blog items ────────────────────────────────────────────────────────────────
+.blog-group-label {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: #6b7280;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin: 20px 0 2px 0;
+}
+
+.blog-item {
+  padding: 14px 0;
+  border-bottom: 1px solid #eee;
+  h3 {
+    margin: 0 0 4px 0;
+    a {
+      color: #0b1220;
+      font-size: 1rem;
+      font-weight: 600;
+      text-decoration: none;
+      &:hover { text-decoration: underline; }
+    }
+  }
+  p { font-size: 0.93rem; color: #4a5568; margin: 0; }
+}
+
+// ── Footer ────────────────────────────────────────────────────────────────────
+.site-footer {
+  color: #6b7280;
+  font-size: 0.9rem;
+  margin-top: 36px;
+  border-top: 1px solid #eee;
+  padding-top: 12px;
+  background: none;
+}
+
+.footer-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+  max-width: 832px;
+  margin: 0 auto;
+  padding: 0 18px;
+  a { color: #0366d6; }
+}
+
+// ── Responsive ────────────────────────────────────────────────────────────────
+@media (max-width: 600px) {
+  .hero { flex-direction: column; }
+  .hero-photo,
+  .hero-photo img,
+  .hero-placeholder { width: 160px; height: 160px; }
+}

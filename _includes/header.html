@@ -1,0 +1,14 @@
+<header class="site-header">
+  <div class="header-inner">
+    <a class="site-title" href="{{ "/" | relative_url }}">{{ site.title }}</a>
+    <nav class="site-nav">
+      <a href="{{ "/" | relative_url }}"{% if page.url == "/" %} class="active"{% endif %}>About</a>
+      {%- for page_path in site.header_pages -%}
+        {%- assign node = site.pages | where: "path", page_path | first -%}
+        {%- if node -%}
+          <a href="{{ node.url | relative_url }}"{% if page.url == node.url %} class="active"{% endif %}>{{ node.title }}</a>
+        {%- endif -%}
+      {%- endfor -%}
+    </nav>
+  </div>
+</header>

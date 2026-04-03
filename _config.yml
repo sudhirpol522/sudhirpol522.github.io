@@ -1,0 +1,45 @@
+title: Sudhir Pol
+author: Sudhir Pol
+email: sudhirpol522@gmail.com
+description: >-
+  Machine Learning Engineer specializing in LLM inference optimization, RAG, and Agentic AI.
+
+baseurl: ""
+url: "https://sudhirpol522.github.io"
+
+# Social links
+github_username: sudhirpol522
+linkedin_username: sudhir-pol-a6b544179
+medium_username: sudhirpol522
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Nav pages
+header_pages:
+  - experience.md
+  - projects.md
+  - blog.md
+  - education.md
+
+permalink: /:title/
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: page
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .gitignore
+  - README.md

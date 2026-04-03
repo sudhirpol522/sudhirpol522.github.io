@@ -1,0 +1,20 @@
+---
+layout: default
+---
+<div class="hero">
+  <div class="hero-photo">
+    <img src="{{ "/assets/photo.png" | relative_url }}" alt="{{ site.title }}"
+         onerror="this.outerHTML='<div class=\'hero-placeholder\'>SP</div>'">
+  </div>
+  <div class="hero-text">
+    {{ content }}
+  </div>
+</div>
+
+<div class="otw-wrap">
+  <span class="otw">Open to work &mdash; MLE &amp; Data Scientist roles (May 2026)</span>
+</div>
+
+<p class="social-wrap">
+  {% include social.html %}
+</p>

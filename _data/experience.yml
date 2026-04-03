@@ -1,0 +1,41 @@
+- title: Machine Learning Engineer Intern
+  company: Adobe
+  url: https://www.adobe.com
+  period: "May 2025 – Aug 2025"
+  location: San Jose, CA
+  type: On-site
+  description: >-
+    Built an LLM-as-Judge evaluation framework benchmarking frontier models (GPT-4o, Gemini, Claude)
+    for multimodal chart quality assessment. Developed a LangGraph agent with MCP tool integration
+    for automated evaluation feedback loops, cutting manual review time significantly.
+
+- title: Research Assistant
+  company: Indiana University Bloomington
+  url: https://luddy.indiana.edu/
+  period: "2024 – Present"
+  location: Bloomington, IN
+  description: >-
+    Applied ML research in the Luddy School of Informatics, Computing, and Engineering. Focus on
+    LLM inference optimization and machine learning systems, complementing the MS Data Science program.
+
+- title: Data Scientist II
+  company: S&P Global
+  url: https://www.spglobal.com
+  period: "Nov 2022 – Aug 2024"
+  duration: "1 yr 10 mos"
+  location: Hyderabad, India
+  description: >-
+    Built production NLP and document-AI pipelines for financial data. Delivered a sparse-retrieval
+    RAG system with a fine-tuned T5 encoder deployed on NVIDIA Triton (HTTP) on AWS EC2. Managed
+    experiment lifecycle with MLflow and DVC. Automated document-processing workflows at enterprise scale.
+
+- title: Data Scientist I
+  company: American Express
+  url: https://www.americanexpress.com
+  period: "Dec 2021 – Nov 2022"
+  duration: "1 yr"
+  location: Gurugram, India
+  description: >-
+    Improved call quality assessment accuracy by 10% with a VIBE model combining XGBoost with BERT
+    embeddings. Built and deployed LSTM-based demand prediction models on AWS EC2 serving millions
+    of cardholders daily.
