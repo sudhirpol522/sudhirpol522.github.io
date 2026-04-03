@@ -20,13 +20,6 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
-# Nav pages
-header_pages:
-  - experience.md
-  - projects.md
-  - blog.md
-  - education.md
-
 permalink: /:title/
 
 defaults:
@@ -43,3 +36,4 @@ exclude:
   - vendor
   - .gitignore
   - README.md
+  - _ref_site

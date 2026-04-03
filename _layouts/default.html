@@ -1,21 +1,19 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{% if page.title and page.title != "About" %}{{ page.title }} | {% endif %}{{ site.title }}</title>
-  <meta name="description" content="{{ page.description | default: site.description }}">
-  <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
-  {% seo %}
-  {% feed_meta %}
-</head>
-<body>
-  {% include header.html %}
-  <main class="page-content">
-    <div class="wrapper{% if page.layout == 'about' %} wrapper--about{% endif %}">
-      {{ content }}
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <div class="page-content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
     </div>
-  </main>
-  {% include footer.html %}
-</body>
+
+    {% include footer.html %}
+  </body>
+
 </html>

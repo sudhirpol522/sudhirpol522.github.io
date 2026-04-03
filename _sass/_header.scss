@@ -1,0 +1,138 @@
+/**
+ * Site header
+ */
+
+.site-header {
+    background-color: #f8f9fa; /* Greyish color like bottom navbar */
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    padding: 15px 0;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.wrapper {
+    max-width: 95%;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 3rem;
+    
+    @media (min-width: 1200px) {
+        max-width: 1200px;
+    }
+    
+    @media (min-width: 1400px) {
+        max-width: 1400px;
+    }
+    
+    @media (min-width: 1600px) {
+        max-width: 1600px;
+        padding: 0 4rem;
+    }
+    
+    @media (min-width: 1920px) {
+        max-width: 1800px;
+        padding: 0 5rem;
+    }
+    
+    @media (min-width: 2560px) {
+        max-width: 2200px;
+        padding: 0 6rem;
+    }
+    
+    @include media-query($on-laptop) {
+        max-width: 95%;
+        padding: 0 2rem;
+    }
+    
+    @include media-query($on-palm) {
+        max-width: 100%;
+        padding: 0 1rem;
+    }
+}
+
+.site-title {
+    float: left;
+    font-size: 26px;
+    font-weight: 500;
+    color: #333333;
+    text-decoration: none;
+    font-family: 'Titillium Web', sans-serif;
+    line-height: 1;
+    
+    @media (min-width: 1600px) {
+        font-size: 28px;
+    }
+    
+    @media (max-width: 950px) {
+        font-size: 22px;
+    }
+    
+    @media (max-width: 600px) {
+        font-size: 20px;
+    }
+}
+
+.site-nav {
+    float: right;
+    line-height: 1;
+}
+
+.site-nav .page-link {
+    display: inline-block;
+    color: #333333;
+    text-decoration: none;
+    font-weight: 700;
+    font-family: 'Titillium Web', sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-left: 30px;
+    transition: color 0.3s ease;
+    
+    @media (min-width: 1600px) {
+        font-size: 15px;
+        margin-left: 35px;
+    }
+    
+    @include media-query(900px) {
+        font-size: 12px;
+        margin-left: 20px;
+    }
+    
+    @include media-query(768px) {
+        font-size: 12px;
+        margin-left: 15px;
+    }
+}
+
+.site-nav .page-link:hover {
+    color: #0077CC;
+}
+
+.site-nav .page-link.active {
+    color: #0077CC;
+    font-weight: 800;
+}
+
+/* Responsive breakpoints */
+@include media-query(900px) {
+    .site-nav .page-link {
+        font-size: 12px;
+        margin-left: 15px;
+    }
+}
+
+@include media-query(768px) {
+    .site-nav {
+        display: none;
+    }
+    
+    .site-title {
+        float: none;
+        text-align: center;
+        display: block;
+    }
+}
+
+
+
