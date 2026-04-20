@@ -12,6 +12,8 @@ Most recently, I interned as a Machine Learning Engineer at [Adobe](https://www.
 
 I write an **LLM inference series** on [Medium](https://sudhirpol522.medium.com) covering KV caching, speculative decoding, continuous batching, and LoRA from raw PyTorch — every post includes full mathematical derivations. My open-source work is on [GitHub](https://github.com/sudhirpol522).
 
+Currently, I'm working through **CUDA kernels for LLM inference** in [CUDA-AI-Kernels](https://github.com/sudhirpol522/CUDA-AI-Kernels) — building up from thread/memory hierarchy, coalescing, and reduction patterns toward deep-learning kernels like softmax and a worked-out flash attention, with notes on register tiling, vectorized (`float4`) loads, and Nsight profiling.
+
 Feel free to reach out!
 
 ## Research Interests
