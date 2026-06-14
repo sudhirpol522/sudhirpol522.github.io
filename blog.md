@@ -4,8 +4,6 @@ title: Blog
 permalink: /blog/
 ---
 
-<h2 class="section-label">Blog</h2>
-
 <p style="font-size:0.92rem;color:#4a5568;margin-bottom:4px">
   Deep-dive technical articles on <a href="https://sudhirpol522.medium.com" target="_blank">Medium</a>,
   implementing LLM inference primitives from scratch with full math derivations.
