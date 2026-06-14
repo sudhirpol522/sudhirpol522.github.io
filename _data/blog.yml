@@ -1,4 +1,11 @@
 llm_inference_series:
+  - title: "Demystifying GPTQ: From Lagrange Multipliers to Vectorized PyTorch"
+    url: /blog/demystifying-gptq/
+    description: >-
+      Derives the GPTQ weight-quantization update from scratch with Lagrange multipliers,
+      shadow-runs a 2D example by hand, and translates it into vectorized PyTorch. Covers the
+      inverse-Hessian compensation that lets 4-bit LLMs keep their perplexity.
+
   - title: "Minimal LLM Inference: Continuous Batching"
     url: https://sudhirpol522.medium.com/minimal-llm-inference-continuous-batching-df37779b1c18
     description: >-
