@@ -128,3 +128,10 @@ Rather than training, they perform a lightning-fast **Grid Search** over $$\alph
 * **When $$\alpha = 1$$:** We get the most aggressive scaling possible ($$s=s_X$$). We fully protect the salient channel, but we risk inflating $$\Delta'$$ and ruining the rest of the group.
 
 By testing a few points between 0 and 1, AWQ elegantly finds the $$\alpha$$ that optimally balances the tug of war—scaling salient channels up just enough to land on cleaner grid points, shrinking the dangerous activations, and keeping the group's $$\Delta$$ safe.
+
+---
+
+## References
+
+- Hamza Elshafie, [AWQ: Activation-aware Weight Quantisation](https://hamzaelshafie.bearblog.dev/awq-activation-aware-weight-quantisation/)
+- Lin et al., [AWQ: Activation-aware Weight Quantization for LLM Compression and Acceleration](https://arxiv.org/abs/2306.00978) (original paper)
