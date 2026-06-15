@@ -80,7 +80,7 @@ If we only care about the magnitude of the error, **the average absolute roundin
 
 If the activation flowing into a weight is small, the error is tiny. But if the network relies on a massive, "salient" activation channel, that large $$x$$ multiplies with the grid misalignment and produces a catastrophic discrepancy in the final output.
 
-## Step 5: The AWQ Solution — Scaling Down Activations
+## Step 5: The AWQ Solution: Scaling Down Activations
 
 We are trapped by algebra. We cannot shrink $$\Delta$$ or stop the rounding error. To save the network, we must mathematically reduce the input activation magnitude ($$x$$).
 
@@ -114,7 +114,7 @@ We must find the perfect scale $$s$$ that shrinks the activation, but stops *jus
 
 How do we find this perfect $$s$$? In traditional deep learning, we would train the neural network using gradients and backpropagation.
 
-But AWQ avoids this. Because the error relies on a `Round()` function—which looks like a flat staircase on a graph—its mathematical derivative is exactly zero. Gradients cannot flow through step functions reliably, making gradient-based optimization wildly unstable and incredibly memory-hungry.
+But AWQ avoids this. Because the error relies on a `Round()` function, which looks like a flat staircase on a graph, its mathematical derivative is exactly zero. Gradients cannot flow through step functions reliably, making gradient-based optimization wildly unstable and incredibly memory-hungry.
 
 Instead, the authors use pure logic. We know a weight channel only needs to be scaled up if the activations flowing through it are large. Therefore, the scale $$s$$ should just be a mathematical reflection of the average activation magnitude ($$s_X$$).
 
@@ -127,7 +127,7 @@ Rather than training, they perform a lightning-fast **Grid Search** over $$\alph
 * **When $$\alpha = 0$$:** There is effectively no scaling ($$s=1$$). We get naive quantization, and loud activations destroy the output.
 * **When $$\alpha = 1$$:** We get the most aggressive scaling possible ($$s=s_X$$). We fully protect the salient channel, but we risk inflating $$\Delta'$$ and ruining the rest of the group.
 
-By testing a few points between 0 and 1, AWQ elegantly finds the $$\alpha$$ that optimally balances the tug of war—scaling salient channels up just enough to land on cleaner grid points, shrinking the dangerous activations, and keeping the group's $$\Delta$$ safe.
+By testing a few points between 0 and 1, AWQ elegantly finds the $$\alpha$$ that optimally balances the tug of war: scaling salient channels up just enough to land on cleaner grid points, shrinking the dangerous activations, and keeping the group's $$\Delta$$ safe.
 
 ---
 
