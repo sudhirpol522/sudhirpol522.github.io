@@ -1,4 +1,11 @@
 llm_inference_series:
+  - title: "The Math of AWQ: Protecting Salient Channels from the Inside Out"
+    url: /blog/math-of-awq/
+    description: >-
+      Builds AWQ from first principles: the anatomy of a quantized weight, why output error is
+      proportional to activation magnitude, and the "tug of war" with the group step size that the
+      per-channel scale search must balance.
+
   - title: "Demystifying GPTQ: From Lagrange Multipliers to Vectorized PyTorch"
     url: /blog/demystifying-gptq/
     description: >-
