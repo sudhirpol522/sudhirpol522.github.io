@@ -1,4 +1,11 @@
 llm_inference_series:
+  - title: "Unpacking Speculative Decoding: The Math Behind the Speedup"
+    url: /blog/speculative-decoding-math/
+    description: >-
+      Derives the speculative decoding acceptance probability and its Total Variation identity,
+      works a 5-token vocabulary example by hand, and builds the speedup objective, showing why
+      a weak early draft token is far more costly than a weak late one.
+
   - title: "The Math of AWQ: Protecting Salient Channels from the Inside Out"
     url: /blog/math-of-awq/
     description: >-
