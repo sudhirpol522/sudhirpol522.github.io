@@ -39,15 +39,15 @@ $$\beta = \sum_x \min(q(x), p(x))$$
 
 ### The Total Variation Distance Identity
 
-We can rewrite this using a standard mathematical identity: $$\min(a,b) = \frac{a+b-|a-b|}{2}$$.
+We can rewrite this using a standard mathematical identity: $$\min(a,b) = \frac{a+b-\lvert a-b \rvert}{2}$$.
 
-$$\sum_x \min(p,q) = \frac{1}{2}\sum_x \big(p(x) + q(x) - |p(x) - q(x)|\big)$$
+$$\sum_x \min(p,q) = \frac{1}{2}\sum_x \big(p(x) + q(x) - \lvert p(x) - q(x) \rvert\big)$$
 
 Because $$p$$ and $$q$$ are valid probability distributions, they both sum to $$1$$.
 
-$$= \frac{1}{2}\big(1 + 1 - \sum_x|p(x) - q(x)|\big)$$
+$$= \frac{1}{2}\big(1 + 1 - \sum_x \lvert p(x) - q(x) \rvert\big)$$
 
-By definition, Total Variation (TV) distance is $$D_{TV}(p,q) = \frac{1}{2}\sum_x|p(x) - q(x)|$$. Substituting this in gives us our final, elegant identity:
+By definition, Total Variation (TV) distance is $$D_{TV}(p,q) = \frac{1}{2}\sum_x \lvert p(x) - q(x) \rvert$$. Substituting this in gives us our final, elegant identity:
 
 $$\beta = 1 - D_{TV}(p,q)$$
 
