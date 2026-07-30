@@ -8,8 +8,7 @@ nav_order: 3
 ---
 
 <div class="section-intro">
-  These projects reflect my focus on understanding systems from first principles and carrying them through implementation,
-  benchmarking, and deployment.
+  Projects focused on inference systems, quantization, retrieval, and applied machine learning — from first-principles implementation through benchmarking and deployment.
 </div>
 
 <div class="portfolio-grid">
@@ -20,7 +19,7 @@ nav_order: 3
     <h2><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h2>
     <p>{{ project.description }}</p>
     <p class="portfolio-card-stack">{{ project.stack }}</p>
-    <a class="text-link" href="{{ project.url | relative_url }}">View project details</a>
+    <a class="text-link" href="{{ project.url | relative_url }}">View details</a>
   </article>
   {% endfor %}
 </div>

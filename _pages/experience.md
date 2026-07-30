@@ -2,14 +2,13 @@
 layout: page
 title: experience
 permalink: /experience/
-description: Production machine learning experience across model evaluation, document intelligence, and applied NLP.
+description: Production machine learning experience across evaluation, document intelligence, and applied NLP.
 nav: true
 nav_order: 2
 ---
 
 <div class="section-intro">
-  I have worked across evaluation, model development, deployment, and production support.
-  The outcomes below are drawn from my role-specific resumes.
+  Production ML roles at Adobe, S&P Global, and American Express — from evaluation design and document AI to deployment and monitoring.
 </div>
 
 {% for job in site.data.experience %}

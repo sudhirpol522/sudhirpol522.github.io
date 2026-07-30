@@ -8,8 +8,8 @@ nav_order: 4
 ---
 
 <div class="section-intro">
-  I write technical explanations that connect mathematical derivations to working implementations.
-  Additional articles are available on <a href="https://sudhirpol522.medium.com">Medium</a>.
+  Technical notes connecting mathematical derivations to working implementations.
+  Additional writing is on <a href="https://sudhirpol522.medium.com">Medium</a>.
 </div>
 
 <div class="writing-list">

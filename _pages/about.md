@@ -2,13 +2,15 @@
 layout: about
 title: about
 permalink: /
-subtitle: Machine Learning Engineer and Data Scientist
-
+subtitle: Machine Learning Engineer
 profile:
   align: right
   image: sudhir-pol.jpg
   image_circular: false
-  more_info:
+  more_info: >
+    <p>Bloomington, IN · open to relocation</p>
+    <p><a href="mailto:sudhirpol522@gmail.com">sudhirpol522@gmail.com</a></p>
+    <p><a href="https://www.linkedin.com/in/sudhir-pol-a6b544179">LinkedIn</a> · <a href="https://github.com/sudhirpol522">GitHub</a></p>
 
 selected_papers: false
 social: false
@@ -20,47 +22,14 @@ latest_posts:
   enabled: false
 ---
 
-I build machine learning systems that move from careful evaluation to reliable production deployment.
-My work spans LLM inference, model serving, retrieval augmented generation, agentic workflows, and classical machine learning.
+Machine Learning Engineer with 3 years of experience taking models from prototype to production at Adobe, S&P Global, and American Express. I work across fine-tuning, evaluation, containerization, deployment, and monitoring on AWS and Kubernetes, treating latency, cost, quality, and reliability as design constraints.
 
-Across Adobe, S and P Global, and American Express, I have shipped systems on AWS and Kubernetes,
-designed evaluation frameworks for frontier models, and translated research ideas into measurable improvements in quality,
-latency, cost, and analyst time.
-
-<div class="portfolio-highlights" aria-label="Career highlights">
-  <div class="portfolio-highlight">
-    <strong>3 years</strong>
-    <span>Production machine learning experience</span>
-  </div>
-  <div class="portfolio-highlight">
-    <strong>79 to 92 percent</strong>
-    <span>Offline F1 improvement for LLM evaluation</span>
-  </div>
-  <div class="portfolio-highlight">
-    <strong>48 hours to 30 minutes</strong>
-    <span>Evaluation workflow automation</span>
-  </div>
-</div>
+At Adobe I built an LLM-as-Judge harness that raised offline F1 from 79% to 92%, and a LangGraph agent that cut a 48-hour evaluation cycle to 30 minutes. Earlier work at S&P Global and American Express covered document intelligence, production NLP services, and calibrated risk models used in live business workflows.
 
 ## Current focus
 
-I am completing a Master of Science in Data Science at Indiana University and developing practical work in
-CUDA attention kernels, quantization aware routing, speculative decoding, and high throughput model serving.
+I am completing an M.S. in Data Science at Indiana University, with recent work on CUDA attention kernels, quantization-aware routing, speculative decoding, and high-throughput model serving.
 
-## Selected work
+## Selected writing
 
-[View experience]({% link _pages/experience.md %})
-
-[View projects]({% link _pages/projects.md %})
-
-[Read technical writing]({% link _pages/writing.md %})
-
-## Contact
-
-[Email](mailto:sudhirpol522@gmail.com)
-
-[LinkedIn](https://www.linkedin.com/in/sudhir-pol-a6b544179)
-
-[GitHub](https://github.com/sudhirpol522)
-
-[Medium](https://sudhirpol522.medium.com)
+Articles on AWQ, GPTQ, and speculative decoding are collected on the [writing]({% link _pages/writing.md %}) page.

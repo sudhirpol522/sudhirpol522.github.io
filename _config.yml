@@ -7,9 +7,9 @@ first_name: Sudhir
 middle_name:
 last_name: Pol
 contact_note: >
-  Available for machine learning engineering, LLM inference, and data science opportunities.
+  Open to machine learning engineering, LLM inference, and data science roles.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Portfolio of Sudhir Pol, a machine learning engineer focused on LLM inference,
+  Portfolio of Sudhir Pol — machine learning engineer focused on LLM inference,
   model serving, evaluation, and production machine learning systems.
 footer_text: >
   Sudhir Pol. Built with al-folio and hosted on GitHub Pages.
@@ -474,7 +474,7 @@ third_party_libraries:
     version: "5.5.0"
   google_fonts:
     url:
-      fonts: "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&display=swap"
+      fonts: "https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&display=swap"
   highlightjs:
     integrity:
       css:

@@ -1,27 +1,26 @@
 - company: Adobe
   position: Machine Learning Engineer Intern
-  period: May 2025 - August 2025
+  period: May 2025 – August 2025
   location: San Jose, California
   highlights:
-    - Built an LLM as Judge evaluation framework with LiteLLM to benchmark Gemini 2.5 Pro, GPT 4.1, and Claude 4.5 on multimodal chart quality tasks, improving offline F1 from 79 percent to 92 percent through redesigned scoring metrics.
-    - Automated a 48 hour manual evaluation workflow into a 30 minute pipeline with a LangGraph agent, Model Context Protocol, Adobe PDF Spaces, and a human approval gate.
-    - Added structured output validation and rerouting across multiple model providers so failed generations were caught before reaching users.
+    - Built an LLM-as-Judge evaluation harness with LiteLLM to benchmark Gemini 2.5 Pro, GPT-4.1, and Claude 4.5 on multimodal chart-quality tasks, raising offline F1 from 79% to 92% by redesigning the scoring rubric against a human-labeled reference set and tracking every run in Weights & Biases.
+    - Shipped a LangGraph agent over Model Context Protocol and Adobe PDF Spaces that cut evaluation feedback from 48 hours to 30 minutes, with LangSmith tracing and a human approval gate on every generated plan.
 
-- company: S and P Global
+- company: S&P Global
   position: Data Scientist II
-  period: November 2022 - August 2024
+  period: November 2022 – August 2024
   location: Hyderabad, India
   highlights:
-    - Owned a Llama 2 extraction service on SageMaker and AWS Lambda from architecture through deployment and support, removing about 20 minutes of manual lookup per analyst task.
-    - Fine tuned and deployed LayoutLMv3 for token classification on AWS EC2, turning unstructured financial documents into structured fields for downstream search and verification.
-    - Designed and deployed a T5 question answering API over long financial filings, including logic to resolve current year values from document context.
-    - Replaced a paid third party vendor with an in house Java extraction service built on named group regular expressions, reducing licensing cost and analyst review time.
+    - Fine-tuned and served LayoutLMv3 for token classification over financial filings on AWS EC2, versioning datasets and model artifacts with DVC and MLflow and promoting releases through CI/CD so training runs stayed reproducible and rollbacks were safe.
+    - Deployed Llama 2 on SageMaker and AWS Lambda with chain-of-thought prompt templates for page-level extraction, removing about 20 minutes of manual data collection per analyst task.
+    - Designed and deployed a T5 question generation and answering API on AWS EC2 that resolved current-year figures from long unstructured filings inside analyst-facing latency budgets.
+    - Owned the team MLOps workflow with DVC, MLflow, GitHub Actions, and Docker, and replaced a paid third-party parser with an in-house Java named-group regex service that saved roughly 10 minutes of analyst time per filing.
 
 - company: American Express
   position: Data Scientist I
-  period: December 2021 - November 2022
-  location: Gurugram, India
+  period: December 2021 – November 2022
+  location: Gurgaon, India
   highlights:
-    - Built and containerized the VIBE call quality service with Docker, combining XGBoost and BERT embeddings for a system used to support representative bonus decisions.
-    - Deployed an LSTM demand prediction service with Flask on AWS EC2 to map call transcripts to demand types and prioritize high value customer calls.
-    - Trained and deployed a complaint risk classifier with calibrated probabilities and used PySpark to identify missing offer disclosures in transcript data.
+    - Built and containerized VIBE, a production call-quality scoring model combining XGBoost with BERT embeddings, used as the system of record for annual representative incentive decisions.
+    - Deployed a three-tier complaint risk classifier with Naive Bayes, TF-IDF, and isotonic probability calibration on AWS EC2 so routing thresholds could be set on calibrated risk.
+    - Served an LSTM intent model with Flask on AWS EC2 that mapped call transcripts to demand types and prioritized incoming contacts, with PySpark feature generation over the transcript corpus.
