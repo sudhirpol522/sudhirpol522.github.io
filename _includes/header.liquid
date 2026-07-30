@@ -1,0 +1,46 @@
+<header>
+  <nav
+    id="navbar"
+    class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}"
+    role="navigation"
+  >
+    <div class="container">
+      <a class="navbar-brand title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+
+      <button
+        class="navbar-toggler collapsed navbar-toggler-main"
+        type="button"
+        data-nav-toggle="navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        Menu
+      </button>
+
+      <div class="collapse navbar-collapse navbar-collapse-main" id="navbarNav">
+        <ul class="navbar-nav navbar-menu-list flex-nowrap">
+          {% for item in site.pages %}
+            {% if item.permalink == '/' %}
+              {% assign about_title = item.title %}
+            {% endif %}
+          {% endfor %}
+
+          <li class="nav-item {% if page.permalink == '/' %}active{% endif %}">
+            <a class="nav-link" href="{{ '/' | relative_url }}">{{ about_title }}</a>
+          </li>
+
+          {% assign sorted_pages = site.pages | sort: 'nav_order' %}
+          {% for item in sorted_pages %}
+            {% if item.nav and item.autogen == null %}
+              {% assign parent_link = item.permalink | remove: 'index.html' %}
+              <li class="nav-item {% if page.url contains parent_link %}active{% endif %}">
+                <a class="nav-link" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+              </li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
