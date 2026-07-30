@@ -1,0 +1,20 @@
+---
+layout: default
+---
+<div class="post">
+  <header class="post-header">
+    <h1 class="post-title">{{ site.title }}</h1>
+    <p class="desc">{{ page.subtitle }}</p>
+  </header>
+
+  <article>
+    {% if page.profile and page.profile.image %}
+      <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
+        {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
+        {% include figure.liquid loading="eager" path=profile_image_path class="img-fluid" alt="Portrait of Sudhir Pol" cache_bust=true %}
+      </div>
+    {% endif %}
+
+    <div class="clearfix">{{ content }}</div>
+  </article>
+</div>
