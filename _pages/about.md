@@ -8,7 +8,7 @@ profile:
   image: sudhir-pol.jpg
   image_circular: false
   more_info: >
-    <p>Bloomington, IN · open to relocation</p>
+    <p>Seattle, Washington</p>
     <p><a href="mailto:sudhirpol522@gmail.com">sudhirpol522@gmail.com</a></p>
     <p><a href="https://www.linkedin.com/in/sudhir-pol-a6b544179">LinkedIn</a> · <a href="https://github.com/sudhirpol522">GitHub</a></p>
 
