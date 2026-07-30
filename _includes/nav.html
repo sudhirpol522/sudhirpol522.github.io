@@ -1,3 +1,0 @@
-{% for menu_item in site.data.menu %}
-<a href="{{ site.baseurl }}{{ menu_item.href }}" class="page-link{% if page.url == menu_item.href %} active{% endif %}">{{ menu_item.title }}</a>
-{% endfor %}
