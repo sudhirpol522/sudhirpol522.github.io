@@ -1,0 +1,11 @@
+- category: Languages
+  items: Python, C++, CUDA C++, SQL, Java, PySpark
+
+- category: Machine learning
+  items: Deep learning, NLP, transformers, LLMs, RAG, fine tuning, quantization, evaluation design, feature engineering, probability calibration
+
+- category: Frameworks
+  items: PyTorch, TensorFlow, Hugging Face Transformers, Scikit-learn, XGBoost, LangChain, LangGraph, LiteLLM, vLLM, FastAPI, Flask
+
+- category: Infrastructure and MLOps
+  items: AWS SageMaker, EC2, Lambda, Docker, Kubernetes, ArgoCD, GitHub Actions, MLflow, CUDA, Nsight Compute

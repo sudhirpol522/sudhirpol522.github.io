@@ -1,41 +1,27 @@
-- title: Machine Learning Engineer Intern
-  company: Adobe
-  url: https://www.adobe.com
-  period: "May 2025 – Aug 2025"
-  location: San Jose, CA
-  type: On-site
-  description: >-
-    Built an LLM-as-Judge evaluation framework benchmarking frontier models (GPT-4o, Gemini, Claude)
-    for multimodal chart quality assessment. Developed a LangGraph agent with MCP tool integration
-    for automated evaluation feedback loops, cutting manual review time significantly.
+- company: Adobe
+  position: Machine Learning Engineer Intern
+  period: May 2025 - August 2025
+  location: San Jose, California
+  highlights:
+    - Built an LLM as Judge evaluation framework with LiteLLM to benchmark Gemini 2.5 Pro, GPT 4.1, and Claude 4.5 on multimodal chart quality tasks, improving offline F1 from 79 percent to 92 percent through redesigned scoring metrics.
+    - Automated a 48 hour manual evaluation workflow into a 30 minute pipeline with a LangGraph agent, Model Context Protocol, Adobe PDF Spaces, and a human approval gate.
+    - Added structured output validation and rerouting across multiple model providers so failed generations were caught before reaching users.
 
-- title: Research Assistant
-  company: Indiana University Bloomington
-  url: https://luddy.indiana.edu/
-  period: "2024 – Present"
-  location: Bloomington, IN
-  description: >-
-    Applied ML research in the Luddy School of Informatics, Computing, and Engineering. Focus on
-    LLM inference optimization and machine learning systems, complementing the MS Data Science program.
-
-- title: Data Scientist II
-  company: S&P Global
-  url: https://www.spglobal.com
-  period: "Nov 2022 – Aug 2024"
-  duration: "1 yr 10 mos"
+- company: S and P Global
+  position: Data Scientist II
+  period: November 2022 - August 2024
   location: Hyderabad, India
-  description: >-
-    Built production NLP and document-AI pipelines for financial data. Delivered a sparse-retrieval
-    RAG system with a fine-tuned T5 encoder deployed on NVIDIA Triton (HTTP) on AWS EC2. Managed
-    experiment lifecycle with MLflow and DVC. Automated document-processing workflows at enterprise scale.
+  highlights:
+    - Owned a Llama 2 extraction service on SageMaker and AWS Lambda from architecture through deployment and support, removing about 20 minutes of manual lookup per analyst task.
+    - Fine tuned and deployed LayoutLMv3 for token classification on AWS EC2, turning unstructured financial documents into structured fields for downstream search and verification.
+    - Designed and deployed a T5 question answering API over long financial filings, including logic to resolve current year values from document context.
+    - Replaced a paid third party vendor with an in house Java extraction service built on named group regular expressions, reducing licensing cost and analyst review time.
 
-- title: Data Scientist I
-  company: American Express
-  url: https://www.americanexpress.com
-  period: "Dec 2021 – Nov 2022"
-  duration: "1 yr"
+- company: American Express
+  position: Data Scientist I
+  period: December 2021 - November 2022
   location: Gurugram, India
-  description: >-
-    Improved call quality assessment accuracy by 10% with a VIBE model combining XGBoost with BERT
-    embeddings. Built and deployed LSTM-based demand prediction models on AWS EC2 serving millions
-    of cardholders daily.
+  highlights:
+    - Built and containerized the VIBE call quality service with Docker, combining XGBoost and BERT embeddings for a system used to support representative bonus decisions.
+    - Deployed an LSTM demand prediction service with Flask on AWS EC2 to map call transcripts to demand types and prioritize high value customer calls.
+    - Trained and deployed a complaint risk classifier with calibrated probabilities and used PySpark to identify missing offer disclosures in transcript data.

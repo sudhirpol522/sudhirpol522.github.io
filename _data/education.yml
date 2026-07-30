@@ -1,13 +1,9 @@
-- degree: MS in Data Science
-  institution: Indiana University Bloomington
-  url: https://luddy.indiana.edu/
-  period: "2024 – May 2026 (expected)"
-  location: Luddy School of Informatics, Computing, and Engineering
-  description: >-
-    Research focus: LLM inference optimization and machine learning systems. Currently a Research Assistant.
+- institution: Indiana University
+  degree: Master of Science in Data Science
+  period: August 2024 - May 2026
+  location: Bloomington, Indiana
 
-- degree: B.E. in Electrical and Electronics Engineering
-  institution: Rajarambapu Institute of Technology
-  period: "2017 – 2021"
-  location: "Rajaramnagar, Maharashtra, India"
-  gpa: "3.88 / 4.00"
+- institution: Rajarambapu Institute of Technology
+  degree: Bachelor of Technology in Electronics and Tele-Communications
+  period: August 2017 - May 2021
+  location: Sangli, India
