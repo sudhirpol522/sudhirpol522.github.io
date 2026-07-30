@@ -7,7 +7,7 @@
     - Shipped a LangGraph agent over Model Context Protocol and Adobe PDF Spaces that cut evaluation feedback from 48 hours to 30 minutes, with LangSmith tracing and a human approval gate on every generated plan.
 
 - company: S&P Global
-  position: Data Scientist II
+  position: Machine Learning Engineer II
   period: November 2022 – August 2024
   location: Hyderabad, India
   highlights:
