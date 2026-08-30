@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 430" role="img" aria-labelledby="title desc">
+  <title id="title">Medusa independent heads compared with recursive multi-token prediction</title>
+  <desc id="desc">The Medusa side sends one hidden state to independent future-token heads. The recursive MTP side feeds each intermediate state and prior token embedding into the next step.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#475569"/>
+    </marker>
+    <style>
+      .panel { fill: #f8fafc; stroke: #cbd5e1; stroke-width: 2; }
+      .box { fill: #ffffff; stroke: #64748b; stroke-width: 2; }
+      .source { fill: #e0f2fe; stroke: #0369a1; stroke-width: 2; }
+      .medusa { fill: #ede9fe; stroke: #7c3aed; stroke-width: 2; }
+      .mtp { fill: #dcfce7; stroke: #047857; stroke-width: 2; }
+      .token { fill: #fff7ed; stroke: #c2410c; stroke-width: 2; }
+      .line { fill: none; stroke: #475569; stroke-width: 2; marker-end: url(#arrow); }
+      .title { font: 700 22px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #0f172a; }
+      .label { font: 600 16px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #0f172a; text-anchor: middle; dominant-baseline: middle; }
+      .small { font: 500 14px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #334155; text-anchor: middle; dominant-baseline: middle; }
+      .note { font: 500 15px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #475569; text-anchor: middle; }
+    </style>
+  </defs>
+
+  <rect class="panel" x="15" y="15" width="455" height="400" rx="18"/>
+  <rect class="panel" x="490" y="15" width="455" height="400" rx="18"/>
+
+  <text class="title" x="42" y="52">Classic Medusa</text>
+  <text class="title" x="517" y="52">Recursive MTP</text>
+
+  <rect class="source" x="42" y="175" width="110" height="62" rx="12"/>
+  <text class="label" x="97" y="199">Backbone</text>
+  <text class="small" x="97" y="220">state h<tspan baseline-shift="sub" font-size="11">t</tspan></text>
+
+  <path class="line" d="M 152 206 C 185 206, 182 94, 218 94"/>
+  <path class="line" d="M 152 206 C 185 206, 182 166, 218 166"/>
+  <path class="line" d="M 152 206 C 185 206, 182 238, 218 238"/>
+  <path class="line" d="M 152 206 C 185 206, 182 310, 218 310"/>
+
+  <rect class="box" x="220" y="66" width="190" height="56" rx="10"/>
+  <rect class="medusa" x="220" y="138" width="190" height="56" rx="10"/>
+  <rect class="medusa" x="220" y="210" width="190" height="56" rx="10"/>
+  <rect class="medusa" x="220" y="282" width="190" height="56" rx="10"/>
+  <text class="label" x="315" y="88">LM head</text>
+  <text class="small" x="315" y="108">predict x<tspan baseline-shift="sub" font-size="11">t+1</tspan></text>
+  <text class="label" x="315" y="160">Medusa head 1</text>
+  <text class="small" x="315" y="180">predict x<tspan baseline-shift="sub" font-size="11">t+2</tspan></text>
+  <text class="label" x="315" y="232">Medusa head 2</text>
+  <text class="small" x="315" y="252">predict x<tspan baseline-shift="sub" font-size="11">t+3</tspan></text>
+  <text class="label" x="315" y="304">Medusa head 3</text>
+  <text class="small" x="315" y="324">predict x<tspan baseline-shift="sub" font-size="11">t+4</tspan></text>
+  <text class="note" x="242" y="382">Independent heads share the same input state</text>
+
+  <rect class="source" x="517" y="80" width="116" height="58" rx="10"/>
+  <text class="label" x="575" y="103">Backbone</text>
+  <text class="small" x="575" y="123">state h<tspan baseline-shift="sub" font-size="11">t</tspan></text>
+  <rect class="token" x="517" y="161" width="116" height="48" rx="10"/>
+  <text class="small" x="575" y="185">E(x<tspan baseline-shift="sub" font-size="11">t+1</tspan>)</text>
+  <path class="line" d="M 633 109 C 658 109, 655 149, 681 149"/>
+  <path class="line" d="M 633 185 C 658 185, 655 165, 681 165"/>
+  <rect class="mtp" x="684" y="118" width="210" height="62" rx="12"/>
+  <text class="label" x="789" y="143">MTP step 1</text>
+  <text class="small" x="789" y="164">z<tspan baseline-shift="sub" font-size="11">0</tspan> predicts x<tspan baseline-shift="sub" font-size="11">t+2</tspan></text>
+
+  <rect class="token" x="517" y="261" width="116" height="48" rx="10"/>
+  <text class="small" x="575" y="285">E(x<tspan baseline-shift="sub" font-size="11">t+2</tspan>)</text>
+  <path class="line" d="M 789 180 C 789 217, 705 219, 681 250"/>
+  <path class="line" d="M 633 285 C 658 285, 655 271, 681 271"/>
+  <rect class="mtp" x="684" y="224" width="210" height="62" rx="12"/>
+  <text class="label" x="789" y="249">MTP step 2</text>
+  <text class="small" x="789" y="270">z<tspan baseline-shift="sub" font-size="11">1</tspan> predicts x<tspan baseline-shift="sub" font-size="11">t+3</tspan></text>
+
+  <path class="line" d="M 789 286 L 789 330"/>
+  <rect class="mtp" x="684" y="333" width="210" height="48" rx="12"/>
+  <text class="label" x="789" y="357">reuse MTP layer</text>
+  <text class="note" x="717" y="405">Each step depends on the previous step</text>
+</svg>
