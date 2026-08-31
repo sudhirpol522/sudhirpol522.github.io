@@ -1,0 +1,16 @@
+# A100 setup
+# ----------
+# Start from an NVIDIA/PyTorch image that already includes CUDA-enabled PyTorch.
+# From the repository root, run:
+#
+#   python -m pip install -r examples/requirements-medusa-pretrained.txt
+#
+# The official Medusa code targets an older Transformers API, so these versions
+# are intentionally conservative instead of tracking the latest releases.
+torch>=2.1
+transformers==4.34.1
+accelerate==0.24.1
+fschat==0.2.36
+sentencepiece==0.1.99
+protobuf>=3.20,<5
+medusa-llm @ git+https://github.com/FasterDecoding/Medusa.git
