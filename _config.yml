@@ -7,7 +7,8 @@ first_name: Sudhir
 middle_name:
 last_name: Pol
 contact_note: >
-  Open to machine learning engineering, LLM inference, and data science roles.
+  Seeking full-time machine learning engineering, LLM inference and model serving,
+  or applied data science roles in the United States.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Portfolio of Sudhir Pol — machine learning engineer focused on LLM inference,
   model serving, evaluation, and production machine learning systems.

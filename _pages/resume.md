@@ -20,7 +20,7 @@ nav_order: 5
 
 ## Professional summary
 
-Machine Learning Engineer with 3 years of experience designing, building, and deploying models in production for cross-functional teams. Covers the full path from data preprocessing and feature engineering to evaluation, fine-tuning, and continuous delivery on AWS with Docker, Kubernetes, and automated CI/CD. Currently completing an M.S. in Data Science at Indiana University (May 2026).
+Machine Learning Engineer with 3+ years of experience designing, building, and deploying models in production for cross-functional teams. Covers the full path from data preprocessing and feature engineering to evaluation, fine-tuning, and continuous delivery on AWS with Docker, Kubernetes, and automated CI/CD. Earned an M.S. in Data Science from Indiana University in May 2026.
 
 ## Experience
 
