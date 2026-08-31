@@ -3,7 +3,7 @@ layout: page
 title: experience
 permalink: /experience/
 description: Production machine learning experience across evaluation, document intelligence, and applied NLP.
-nav: true
+nav: false
 nav_order: 2
 ---
 

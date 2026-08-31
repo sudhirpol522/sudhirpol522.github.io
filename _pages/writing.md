@@ -4,7 +4,7 @@ title: writing
 permalink: /writing/
 description: Technical articles on quantization, speculative decoding, and LLM serving.
 nav: true
-nav_order: 3
+nav_order: 2
 ---
 
 <div class="section-intro">
