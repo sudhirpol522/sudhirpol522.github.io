@@ -22,19 +22,19 @@ latest_posts:
   enabled: false
 ---
 
-Machine Learning Engineer with 3+ years of experience building production machine learning systems at Adobe, S&P Global, and American Express. My work spans agentic AI, LLM evaluation and serving, NLP, and MLOps, from prototyping and fine-tuning through deployment and observability on AWS and Kubernetes.
+Machine Learning Engineer with 3+ years of experience building production machine learning systems at Adobe, S&P Global, and American Express. I work across agentic AI, LLM evaluation and serving, NLP, and MLOps, from prototyping and fine-tuning to deployment and observability on AWS and Kubernetes.
 
-At Adobe, I developed a LangGraph evaluation agent that connected to Adobe PDF Spaces through Model Context Protocol, traced decisions and tool activity with LangSmith, and required human approval before plan execution. The system reduced an end-to-end review cycle from 48 hours to 30 minutes. In parallel, I built a LiteLLM-based LLM-as-Judge harness that raised F1 on a labeled evaluation set from 0.79 to 0.92 after rubric refinement with domain reviewers.
+At Adobe, I developed a LangGraph evaluation agent that connected to Adobe PDF Spaces through the Model Context Protocol (MCP), traced decisions and tool calls with LangSmith, and required human approval before executing each generated plan. The workflow reduced evaluation feedback from 48 hours to 30 minutes. In parallel, I built a LiteLLM-based LLM-as-Judge harness that raised F1 on a labeled evaluation set from 0.79 to 0.92 after rubric refinement with domain reviewers.
 
-My earlier work at S&P Global and American Express included document intelligence, production NLP services, and calibrated risk models used in live business workflows.
+Earlier roles at S&P Global and American Express included document intelligence, production NLP services, and calibrated risk models used in live business workflows.
 
 ## What I am looking for
 
-I earned an M.S. in Data Science from Indiana University in May 2026 and am seeking full-time opportunities in the United States across machine learning engineering, agentic AI, LLM systems and model serving, or applied data science. I am especially interested in teams that turn research ideas into dependable products with measurable user and business impact.
+I earned an M.S. in Data Science from Indiana University in May 2026 and am seeking full-time roles in the United States in machine learning engineering, agentic AI, LLM systems and model serving, or applied data science. I am especially interested in teams that turn research ideas into reliable products and measure their impact on quality, latency, cost, and user outcomes.
 
 ## Current technical interests
 
-My current work focuses on dependable agent architectures with explicit workflow state, MCP-based tool interfaces, human-in-the-loop approval, and end-to-end tracing. I also work on CUDA attention kernels, quantization-aware routing, speculative decoding, model evaluation, and high-throughput serving.
+My current technical focus is dependable agent architecture: explicit workflow state, MCP-based tool interfaces, human-in-the-loop controls, and end-to-end tracing. Alongside this, I work on CUDA attention kernels, quantization-aware routing, speculative decoding, model evaluation, and high-throughput serving.
 
 ## Selected writing
 
