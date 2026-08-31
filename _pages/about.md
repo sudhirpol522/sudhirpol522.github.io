@@ -36,8 +36,6 @@ I earned an M.S. in Data Science from Indiana University in May 2026 and am seek
 
 My current work focuses on dependable agent architectures with explicit workflow state, MCP-based tool interfaces, human-in-the-loop approval, and end-to-end tracing. I also work on CUDA attention kernels, quantization-aware routing, speculative decoding, model evaluation, and high-throughput serving.
 
-See [Human-in-the-Loop Agent Systems]({% link _projects/00-agent-systems.md %}) for a detailed case study of this approach.
-
 ## Selected writing
 
 I write implementation-focused articles on quantization, speculative decoding, and LLM inference. They are collected on the [writing]({% link _pages/writing.md %}) page.

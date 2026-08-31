@@ -3,7 +3,7 @@ layout: page
 title: projects
 permalink: /projects/
 description: Selected work in agent systems, LLM inference, model serving, retrieval, and applied machine learning.
-nav: true
+nav: false
 nav_order: 3
 ---
 

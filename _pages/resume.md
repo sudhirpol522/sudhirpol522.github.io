@@ -3,7 +3,7 @@ layout: page
 title: resume
 permalink: /resume/
 description: Resume and professional background for Sudhir Pol.
-nav: true
+nav: false
 nav_order: 5
 ---
 
