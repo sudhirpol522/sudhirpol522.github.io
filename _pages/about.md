@@ -24,8 +24,6 @@ latest_posts:
 
 Machine Learning Engineer with 3+ years of experience building production machine learning systems at Adobe, S&P Global, and American Express. I work across agentic AI, LLM evaluation and serving, NLP, and MLOps, from prototyping and fine-tuning to deployment and observability on AWS and Kubernetes.
 
-At Adobe, I developed a LangGraph evaluation agent that connected to Adobe PDF Spaces through the Model Context Protocol (MCP), traced decisions and tool calls with LangSmith, and required human approval before executing each generated plan. The workflow reduced evaluation feedback from 48 hours to 30 minutes. In parallel, I built a LiteLLM-based LLM-as-Judge harness that raised F1 on a labeled evaluation set from 0.79 to 0.92 after rubric refinement with domain reviewers.
-
 Earlier roles at S&P Global and American Express included document intelligence, production NLP services, and calibrated risk models used in live business workflows.
 
 ## What I am looking for
