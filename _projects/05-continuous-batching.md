@@ -4,7 +4,7 @@ title: Continuous Batching Inference Server
 description: A minimal serving engine that demonstrates the scheduling ideas behind high throughput LLM inference.
 area: Model Serving
 stack: Python, PyTorch, LLM Inference
-importance: 5
+importance: 6
 category: featured
 ---
 

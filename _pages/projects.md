@@ -2,13 +2,13 @@
 layout: page
 title: projects
 permalink: /projects/
-description: Selected work in LLM inference, model serving, retrieval, and applied machine learning.
+description: Selected work in agent systems, LLM inference, model serving, retrieval, and applied machine learning.
 nav: true
 nav_order: 3
 ---
 
 <div class="section-intro">
-  Projects focused on inference systems, quantization, retrieval, and applied machine learning — from first-principles implementation through benchmarking and deployment.
+  Projects and professional case studies spanning human-in-the-loop agents, MCP-integrated workflows, inference systems, quantization, retrieval, and applied machine learning — from architecture through evaluation and deployment.
 </div>
 
 <div class="portfolio-grid">

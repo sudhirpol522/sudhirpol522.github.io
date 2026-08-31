@@ -4,7 +4,7 @@ title: Speculative Decoding from Scratch
 description: A complete draft and verify implementation with correctness derivations and performance benchmarks.
 area: LLM Inference
 stack: PyTorch, Hugging Face Transformers
-importance: 3
+importance: 4
 category: featured
 ---
 

@@ -4,7 +4,7 @@ title: MultiDocChat
 description: Production retrieval-augmented generation service with tracing and GitOps deployment.
 area: Retrieval and MLOps
 stack: FastAPI, LangChain, FAISS, Kubernetes, ArgoCD
-importance: 4
+importance: 5
 category: featured
 ---
 

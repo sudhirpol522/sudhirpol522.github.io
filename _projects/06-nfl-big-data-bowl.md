@@ -4,7 +4,7 @@ title: Probabilistic Yard Gain Forecasting
 description: Calibrated play-outcome modeling from NFL tracking data, framed as a full cumulative distribution rather than a point estimate.
 area: Applied Machine Learning
 stack: Python, Scikit-learn, XGBoost, Pandas, NumPy, Flask
-importance: 6
+importance: 7
 category: featured
 ---
 

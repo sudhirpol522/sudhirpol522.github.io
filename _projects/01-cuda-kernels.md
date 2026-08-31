@@ -4,7 +4,7 @@ title: FlashAttention V2 from Scratch
 description: CUDA implementation of FlashAttention with tiled attention, online softmax, and Nsight-guided optimization.
 area: LLM Inference
 stack: CUDA C++, PyTorch, Nsight Compute
-importance: 1
+importance: 2
 category: featured
 ---
 

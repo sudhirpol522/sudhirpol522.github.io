@@ -4,7 +4,7 @@ title: QuantRoute
 description: Quantization-aware inference router that trades precision, latency, and cost across multi-precision serving lanes.
 area: Model Serving
 stack: vLLM, llm-compressor, AWQ, GPTQ, NVIDIA A100
-importance: 2
+importance: 3
 category: featured
 ---
 
