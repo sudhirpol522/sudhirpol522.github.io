@@ -7,14 +7,14 @@ first_name: Sudhir
 middle_name:
 last_name: Pol
 contact_note: >
-  Seeking full-time machine learning engineering, LLM inference and model serving,
-  or applied data science roles in the United States.
+  Seeking full-time machine learning engineering, agentic AI, LLM systems,
+  model serving, or applied data science roles in the United States.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Portfolio of Sudhir Pol — machine learning engineer focused on LLM inference,
-  model serving, evaluation, and production machine learning systems.
+  Portfolio of Sudhir Pol — machine learning engineer focused on agentic AI,
+  LLM inference, model serving, evaluation, and production ML systems.
 footer_text: >
   Sudhir Pol. Built with al-folio and hosted on GitHub Pages.
-keywords: machine learning engineer, llm inference, model serving, data science, rag, cuda
+keywords: machine learning engineer, agentic ai, mcp, human in the loop, llm inference, model serving, data science, rag, cuda
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: sudhir-pol.jpg
 
