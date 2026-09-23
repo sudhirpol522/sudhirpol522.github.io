@@ -1,0 +1,73 @@
+/* Modeled on the "researcher" Jekyll theme: one monospace font, black on white, plain lists. */
+:root {
+  --bg: #fff;
+  --fg: #272727;
+  --rule: rgb(0 0 0 / 0.12);
+  --code-bg: rgb(0 0 0 / 0.04);
+  --accent: #ff0f00;
+}
+.dark {
+  --bg: #161616;
+  --fg: #dcdcdc;
+  --rule: rgb(255 255 255 / 0.15);
+  --code-bg: rgb(255 255 255 / 0.06);
+  --accent: #ff5a4f;
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font: 17px/1.6 var(--font-inconsolata), ui-monospace, Menlo, monospace;
+  -webkit-font-smoothing: antialiased;
+}
+a { color: var(--accent); font-weight: 700; text-decoration: none; }
+a:hover { text-decoration: underline; }
+img { max-width: 100%; }
+hr { border: 0; border-top: 1px solid var(--rule); margin: 2rem 0; }
+h1 { font-size: 2rem; font-weight: 700; line-height: 1.25; margin: 0 0 1rem; }
+h2 { font-size: 1.55rem; font-weight: 700; margin: 2.4rem 0 0.6rem; }
+h3 { font-size: 1.25rem; font-weight: 700; margin: 1.6rem 0 0.4rem; }
+p { margin: 0.8rem 0; }
+ul, ol { padding-left: 20px; }
+li { margin: 5px 0; }
+code { font-family: inherit; font-size: 1em; background: var(--code-bg); padding: 0 0.25em; }
+pre { font-size: 15px; line-height: 1.5; overflow-x: auto; padding: 0.8rem 1rem; border: 1px solid var(--rule); background: var(--code-bg); }
+pre code { background: none; padding: 0; }
+blockquote { margin: 1.25rem 0; padding: 2px 10px; border-left: 5px solid #333; font-style: italic; }
+table { border-collapse: collapse; display: block; overflow-x: auto; }
+th, td { border: 1px solid var(--rule); padding: 4px 10px; }
+
+.container { max-width: 700px; margin: 0 auto; padding: 0 20px; }
+.site-header { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 8px 20px; padding: 48px 0; }
+.site-name { font-size: 30px; font-weight: 400; color: var(--fg); }
+.site-name:hover { text-decoration: none; }
+.site-header nav { display: flex; flex-wrap: wrap; gap: 0 16px; }
+.site-header nav a, .site-footer a { font-weight: 400; }
+#theme-toggle { font: inherit; color: var(--accent); background: none; border: 0; padding: 0; cursor: pointer; }
+#theme-toggle:hover { text-decoration: underline; }
+.when-dark, .dark .when-light { display: none; }
+.dark .when-dark { display: inline; }
+.content { padding-bottom: 4rem; }
+.site-footer { border-top: 1px solid var(--rule); padding: 2rem 0; font-size: 0.9rem; }
+
+.muted { opacity: 0.7; }
+.lead { font-style: italic; }
+.spaced { margin-bottom: 1.2rem; }
+.avatar { float: right; width: 85px; height: 85px; margin-left: 16px; border-radius: 50%; object-fit: cover; }
+.prose img { display: block; margin: 1.5rem auto; background: #fff; }
+.katex-display { overflow-x: auto; overflow-y: hidden; padding: 0.25rem 0; }
+
+@media (max-width: 500px) {
+  .site-header { flex-direction: column; align-items: center; padding: 40px 0 24px; }
+}
+article > h1 { margin-top: 1.5rem; }
+.role { font-size: 1.5rem; font-weight: 700; margin: 0; }
+
+/* Numbered citations, as in the researcher theme: [1] [2] ... */
+ol.citations { list-style: none; counter-reset: cite; padding-left: 36px; }
+ol.citations > li { position: relative; margin: 0 0 1rem; }
+ol.citations > li::before { content: "[" counter(cite) "]"; counter-increment: cite; position: absolute; left: -36px; }
+ul.plain { list-style: none; padding-left: 0; }
