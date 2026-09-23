@@ -1,0 +1,62 @@
+1:"$Sreact.fragment"
+2:I[22016,["/_next/static/chunks/1mpnoxox0-4cg.js"],""]
+3:Td9c,<h2>Overview</h2>
+<p>I design agent systems as controlled workflows rather than unconstrained chains of model calls. The agent can interpret context, propose a plan, and coordinate tools, but consequential transitions remain observable and subject to explicit human approval.</p>
+<p>Two implementations shaped this approach: an MCP-integrated evaluation workflow built during my Adobe internship and BrandForge, a production-style multi-agent platform with durable approval checkpoints.</p>
+<blockquote>
+<p>Agents propose and coordinate. Tools execute through defined interfaces. People retain authority at the decisions that matter.</p>
+</blockquote>
+<h2>MCP-integrated evaluation at Adobe</h2>
+<p>I built a LangGraph agent that connected to Adobe PDF Spaces through Model Context Protocol. The workflow generated an evaluation plan, paused for human review before execution, and recorded agent activity with LangSmith tracing.</p>
+<h3>Selected results</h3>
+<ul>
+<li>Reduced an end-to-end evaluation feedback cycle from 48 hours to 30 minutes.</li>
+<li>Used MCP as a clear boundary between agent reasoning and document capabilities.</li>
+<li>Required human approval before a generated plan could execute.</li>
+<li>Traced the workflow so plans, tool activity, and outcomes could be inspected during review.</li>
+<li>Paired the workflow with a LiteLLM-based LLM-as-Judge harness whose rubric refinement with domain reviewers raised F1 on a labeled evaluation set from 0.79 to 0.92.</li>
+</ul>
+<h2>BrandForge multi-agent platform</h2>
+<p>BrandForge applies the same control principles to a larger creative workflow. A deterministic state machine coordinates brand compilation, planning, eight-way generation, ranking, and four versioned approval gates.</p>
+<h3>Selected results</h3>
+<ul>
+<li>Built idempotent FastAPI endpoints with tenant isolation and optimistic concurrency so retries and simultaneous reviews could not silently corrupt workflow state.</li>
+<li>Implemented a two-stage multimodal ranker with policy, claims, and accessibility critics; Bradley-Terry preference scoring; MMR diversity; and vision-based alignment scores.</li>
+<li>Added OpenTelemetry traces with Tempo and Grafana for end-to-end observability.</li>
+<li>Built a tenant-isolated PostgreSQL and pgvector retrieval layer with row-level security, policy filters, idempotent indexing, and a bounded SQLite fallback.</li>
+<li>Benchmarked on a 120-scenario deterministic evaluation with ablations: multi-agent generation alone gave no gain over a single output (61.7% task success, 17.5% brand-claim violations at 8x the API calls), while adding two-stage reranking raised task success to 100% and cut claim violations to 0% at the same 16 calls.</li>
+<li>Verified workflow behavior with 90 automated tests.</li>
+</ul>
+<h2>Design principles</h2>
+<ul>
+<li><strong>Explicit state:</strong> every transition is represented in a deterministic workflow rather than hidden inside a prompt loop.</li>
+<li><strong>Bounded tools:</strong> MCP or typed service interfaces separate reasoning from side effects.</li>
+<li><strong>Human authority:</strong> approval gates protect high-impact transitions without forcing people to perform repetitive orchestration.</li>
+<li><strong>Idempotency and concurrency control:</strong> safe retries and version checks make long-running workflows reliable.</li>
+<li><strong>Traceability:</strong> plans, tool calls, approvals, and outputs remain inspectable after execution.</li>
+</ul>6:X
+b:X
+b:C
+0:{"buildId":"93kuNGIylnHk62A4z3eVb","data":[{"rsc":["$","$1","c",{"children":[["$","article",null,{"children":[["$","$L2",null,{"href":"/projects/","children":["← ","All projects"]}],["$","h1",null,{"children":"Human-in-the-Loop Agent Systems"}],["$","p",null,{"className":"muted","children":"Agentic AI · LangGraph, MCP, FastAPI, OpenTelemetry"}],["$","p",null,{"className":"lead","children":"Agent workflows that combine structured planning, MCP tool access, traceable execution, and explicit human approval."}],["$","hr",null,{}],["$","div",null,{"className":"prose","dangerouslySetInnerHTML":{"__html":"$3"}}]]}],null,"$L4"]}],"isPartial":"$@5","staleTime":"$6","varyParams":null},{"rsc":"$L7","isPartial":"$@8","staleTime":"$6","varyParams":null},{"rsc":"$L9","isPartial":"$@a","staleTime":"$6","varyParams":"$b"},{"rsc":"$Lc","isPartial":"$@d","staleTime":"$6","varyParams":"$b"},{"rsc":"$Le","isPartial":"$@f","staleTime":"$6","varyParams":null}],"isUpgradeableISRFallback":false,"a":"$@10","rootVaryParams":null,"needsRuntimeRequest":"$@11"}
+12:I[97367,["/_next/static/chunks/1mpnoxox0-4cg.js"],"OutletBoundary"]
+13:"$Sreact.suspense"
+15:I[97367,["/_next/static/chunks/1mpnoxox0-4cg.js"],"ViewportBoundary"]
+16:I[97367,["/_next/static/chunks/1mpnoxox0-4cg.js"],"MetadataBoundary"]
+17:I[39756,["/_next/static/chunks/1mpnoxox0-4cg.js"],"default"]
+18:I[37457,["/_next/static/chunks/1mpnoxox0-4cg.js"],"default"]
+:HL["/_next/static/chunks/3wdkhrh4or0b-.css","style"]
+4:["$","$L12",null,{"children":["$","$13",null,{"name":"Next.MetadataOutlet","children":"$@14"}]}]
+7:["$","$1","h",{"children":[null,["$","$L15",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$L16",null,{"children":["$","$13",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Human-in-the-Loop Agent Systems · Sudhir Pol"}],["$","meta","1",{"name":"description","content":"Agent workflows that combine structured planning, MCP tool access, traceable execution, and explicit human approval."}],["$","meta","2",{"property":"og:title","content":"Human-in-the-Loop Agent Systems · Sudhir Pol"}],["$","meta","3",{"property":"og:description","content":"Agent workflows that combine structured planning, MCP tool access, traceable execution, and explicit human approval."}],["$","meta","4",{"property":"og:image","content":"https://sudhirpol522.github.io/assets/img/og.png"}],["$","meta","5",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","6",{"name":"twitter:title","content":"Human-in-the-Loop Agent Systems · Sudhir Pol"}],["$","meta","7",{"name":"twitter:description","content":"Agent workflows that combine structured planning, MCP tool access, traceable execution, and explicit human approval."}],["$","meta","8",{"name":"twitter:image","content":"https://sudhirpol522.github.io/assets/img/og.png"}]]}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+9:["$","$1","c",{"children":[null,["$","$L17",null,{"parallelRouterKey":"children","template":["$","$L18",null,{}]}]]}]
+c:["$","$1","c",{"children":[null,["$","$L17",null,{"parallelRouterKey":"children","template":["$","$L18",null,{}]}]]}]
+e:["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/3wdkhrh4or0b-.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/1mpnoxox0-4cg.js","async":true}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"className":"inconsolata_fb73a77b-module__WAEJVq__variable","children":[["$","head",null,{"children":["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\ntry { if (localStorage.getItem(\"theme\") === \"dark\") document.documentElement.classList.add(\"dark\"); } catch (e) {}\ndocument.addEventListener(\"click\", function (e) {\n  if (!e.target.closest || !e.target.closest(\"#theme-toggle\")) return;\n  var dark = document.documentElement.classList.toggle(\"dark\");\n  try { localStorage.setItem(\"theme\", dark ? \"dark\" : \"light\"); } catch (e) {}\n});"}}]}],["$","body",null,{"children":["$","div",null,{"className":"container","children":[["$","header",null,{"className":"site-header","children":[["$","$L2",null,{"href":"/","className":"site-name","children":"Sudhir Pol"}],["$","nav",null,{"children":[[["$","$L2","/",{"href":"/","children":"about"}],["$","$L2","/projects/",{"href":"/projects/","children":"projects"}],["$","$L2","/writing/",{"href":"/writing/","children":"writing"}]],["$","button",null,{"id":"theme-toggle","type":"button","aria-label":"Toggle dark mode","children":[["$","span",null,{"className":"when-light","children":"dark"}],["$","span",null,{"className":"when-dark","children":"light"}]]}]]}]]}],["$","main",null,{"className":"content","children":["$","$L17",null,{"parallelRouterKey":"children","template":["$","$L18",null,{}],"notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]]}]}],["$","footer",null,{"className":"site-footer muted","children":["© ",2026," ","Sudhir Pol"," ·"," ",[["$","span","Email",{"children":[false,["$","a",null,{"href":"mailto:sudhirpol522@gmail.com","children":"Email"}]]}],["$","span","GitHub",{"children":[" · ",["$","a",null,{"href":"https://github.com/sudhirpol522","children":"GitHub"}]]}],["$","span","LinkedIn",{"children":[" · ",["$","a",null,{"href":"https://www.linkedin.com/in/sudhir-pol-a6b544179","children":"LinkedIn"}]]}],["$","span","Medium",{"children":[" · ",["$","a",null,{"href":"https://sudhirpol522.medium.com","children":"Medium"}]]}]]]}]]}]}]]}]]}]
+14:null
+11:true
+6:300
+6:C
+10:0
+8:"$undefined"
+a:"$undefined"
+d:"$undefined"
+f:"$undefined"
+5:"$undefined"
