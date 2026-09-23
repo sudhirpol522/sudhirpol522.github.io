@@ -1,30 +1,25 @@
 # Sudhir Pol Portfolio
 
-This repository contains the professional portfolio for Sudhir Pol.
-It is built with the al-folio Jekyll starter and configured for GitHub Pages.
+Personal site for Sudhir Pol, built with Next.js and plain CSS and exported as static HTML for GitHub Pages.
 
 ## Local development
 
-Install Ruby 3.3, Bundler, Node.js 20, and ImageMagick.
-
-Run:
+Requires Node.js 20.9 or newer.
 
 ```bash
-bundle install
-npm ci
-bundle exec jekyll serve
+npm install
+npm run dev      # http://localhost:3000
+npm run build    # static site in out/
 ```
-
-Open the local address printed by Jekyll.
 
 ## Content
 
-The main content is organized in:
+- `content/profile.ts`: summary, experience summaries, open source, interests, earlier projects, education (wrap text in `**...**` to highlight it)
+- `app/`: one folder per page (home, projects, writing, blog); `lib/site.tsx` loads markdown and holds shared components; `app/globals.css` is the only stylesheet
+- `content/projects/*.md`: project pages (`/projects/<file-name>/`)
+- `content/posts/*.md`: articles (`/blog/<file-name>/`), with `$$...$$` math rendered by KaTeX
+- `public/assets`: images
 
-- `_pages` for top level pages
-- `_projects` for project case studies
-- `_posts` for technical articles
-- `_data` for experience, education, and skills
-- `assets/pdf` for role-specific resumes
+## Deployment
 
-The site uses the al-folio project under its MIT license.
+Pushing to `main` runs `.github/workflows/deploy.yml`, which builds the site and publishes `out/` to the `gh-pages` branch.
