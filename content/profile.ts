@@ -8,8 +8,11 @@ export const profile = {
   focus: "LLM inference · Agentic AI · Model evaluation",
   image: "/assets/img/sudhir-pol.jpg",
   summary: [
-    "Machine Learning Engineer with **3+ years** of experience building production machine learning systems at **Adobe**, **S&P Global**, and **American Express**. I work across **agentic AI**, **LLM evaluation and serving**, NLP, and MLOps, from prototyping and fine-tuning to deployment and observability on AWS and Kubernetes.",
-    "My current technical focus is dependable agent architecture: explicit workflow state, **MCP-based tool interfaces**, **human-in-the-loop controls**, and end-to-end tracing. Alongside this, I work on **CUDA attention kernels**, **quantization-aware routing**, **speculative decoding**, and high-throughput serving.",
+    "I build and evaluate LLM systems, and I publish what the measurements say — including when they say my own design didn't help.",
+    "At **Adobe** I built a multimodal LLM-as-judge framework that scored roughly 750 charts across ten quality dimensions and gated model releases; tuning the judge with DSPy raised its agreement with subject-matter experts from 0.79 to 0.92 F1. The hard part wasn't the model — it was getting the reviewers to agree with each other first, because that agreement is the ceiling on what any judge can reach. Before that, at **S&P Global**, I shipped a document-extraction workflow pairing a LoRA-fine-tuned Llama 2 with OpenSearch hybrid retrieval, evaluated in a comparison across 100 analysts.",
+    "Two of my recent projects produced results against my own design. A [quantization-aware inference router](/projects/02-quantroute/) I built turned out to be unnecessary: on an A100, AWQ ran 56% cheaper than FP16 at statistically indistinguishable quality, so the optimal policy collapsed to always using the cheap lane. A [multi-agent generation pipeline](/projects/00-agent-systems/) I designed performed identically to a single output at eight times the API calls — the entire gain came from the reranker. Both are in the READMEs, along with which numbers came from real hardware and which from a simulated backend.",
+    "Lately I've been working further down the stack: [articles](/writing/) deriving the mathematics behind GPTQ and AWQ, [two merged PRs](https://github.com/hao-ai-lab/FastVideo/pulls?q=is%3Apr+author%3Asudhirpol522) to hao-ai-lab's FastVideo, an [open PR](https://github.com/vllm-project/vllm/pull/53647) to vLLM, and hand-written CUDA FlashAttention kernels. That's the direction I want to keep going.",
+    "Currently looking for ML engineering roles in LLM evaluation and inference. Seattle-based.",
   ],
   links: [
     { label: "Email", href: "mailto:sudhirpol522@gmail.com", text: "sudhirpol522@gmail.com" },

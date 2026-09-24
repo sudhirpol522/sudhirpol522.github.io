@@ -89,19 +89,17 @@ export function formatDate(date: Date, style: "long" | "short" = "long") {
   });
 }
 
-/** Renders **bold** keywords and `code` spans from plain content strings. */
+/** Renders **bold** keywords, `code` spans, and [text](url) links from plain content strings. */
 export function Rich({ text }: { text: string }) {
   return (
     <>
-      {text.split(/(\*\*[^*]+\*\*|`[^`]+`)/g).map((part, i) =>
-        part.startsWith("**") ? (
-          <strong key={i}>{part.slice(2, -2)}</strong>
-        ) : part.startsWith("`") ? (
-          <code key={i}>{part.slice(1, -1)}</code>
-        ) : (
-          <Fragment key={i}>{part}</Fragment>
-        )
-      )}
+      {text.split(/(\*\*[^*]+\*\*|`[^`]+`|\[[^\]]+\]\([^)]+\))/g).map((part, i) => {
+        if (part.startsWith("**")) return <strong key={i}>{part.slice(2, -2)}</strong>;
+        if (part.startsWith("`")) return <code key={i}>{part.slice(1, -1)}</code>;
+        const link = part.match(/^\[([^\]]+)\]\(([^)]+)\)$/);
+        if (link) return <a key={i} href={link[2]}>{link[1]}</a>;
+        return <Fragment key={i}>{part}</Fragment>;
+      })}
     </>
   );
 }
