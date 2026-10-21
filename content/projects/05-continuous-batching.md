@@ -4,7 +4,7 @@ description: A minimal serving engine that demonstrates the scheduling ideas beh
 area: Model Serving
 stack: Python, PyTorch, LLM Inference
 highlight: "Iteration-level scheduling"
-importance: 6
+importance: 7
 ---
 
 ## Overview

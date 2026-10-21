@@ -4,7 +4,7 @@ description: Calibrated play-outcome modeling from NFL tracking data, framed as 
 area: Applied Machine Learning
 stack: Python, Scikit-learn, XGBoost, Pandas, NumPy, Flask
 highlight: "CRPS 0.017"
-importance: 7
+importance: 8
 ---
 
 ## Overview

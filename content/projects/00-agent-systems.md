@@ -4,7 +4,7 @@ description: Agent workflows that combine structured planning, MCP tool access, 
 area: Agentic AI
 stack: LangGraph, MCP, FastAPI, OpenTelemetry
 highlight: "Review cycle 48 h → 30 min"
-importance: 1
+importance: 2
 ---
 
 ## Overview

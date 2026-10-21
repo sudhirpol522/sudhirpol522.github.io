@@ -4,7 +4,7 @@ description: Production retrieval-augmented generation service with tracing and 
 area: Retrieval and MLOps
 stack: FastAPI, LangChain, FAISS, Kubernetes, ArgoCD
 highlight: "Zero-downtime GitOps deploys"
-importance: 5
+importance: 6
 ---
 
 ## Overview

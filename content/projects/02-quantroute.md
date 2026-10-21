@@ -4,7 +4,7 @@ description: Quantization-aware inference router that trades precision, latency,
 area: Model Serving
 stack: vLLM, llm-compressor, AWQ, GPTQ, NVIDIA A100
 highlight: "2.2× decode, 56% lower cost"
-importance: 3
+importance: 4
 ---
 
 ## Overview

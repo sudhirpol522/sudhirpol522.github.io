@@ -1,22 +1,22 @@
 ---
-title: FlashAttention V2 from Scratch
-description: CUDA implementation of FlashAttention with tiled attention, online softmax, and Nsight-guided optimization.
+title: FlashAttention-1 CUDA Kernels
+description: A tiled, non-causal FlashAttention-1 forward kernel in CUDA, built and optimized as a PyTorch C++ extension.
 area: LLM Inference
-stack: CUDA C++, PyTorch, Nsight Compute
-highlight: "8.5× kernel speedup"
-importance: 2
+stack: CUDA, C++, PyTorch C++ extension
+highlight: "Validated against PyTorch SDPA"
+importance: 3
 ---
 
 ## Overview
 
-Implemented the FlashAttention V1 and V2 forward pass in CUDA C++ from the papers, then profiled and optimized the kernel for memory bandwidth and warp-level efficiency.
+Implemented a tiled, non-causal FlashAttention-1 forward kernel in CUDA with online softmax, using one thread block per (batch, head, query tile) and shared-memory staging for the Q, K, V, score, and output-accumulator tiles. Both kernel variants are exposed to PyTorch as a C++/CUDA extension via pybind11.
 
 ## Selected results
 
-- Built tiled attention with online softmax and matched PyTorch scaled dot-product attention to within 2e-6 in fp32.
-- Improved kernel performance by 8.5× by removing redundant HBM traffic, clearing shared-memory bank conflicts, and parallelizing softmax with warp-shuffle reductions.
-- Profiled every revision in Nsight Compute and documented each optimization step with measured impact.
+- Traced the first implementation's shared-memory bank conflicts in the QK<sup>T</sup> inner loop and removed them by padding the K tile to (d+1).
+- Replaced a lane-0 serialized softmax reduction with warp-shuffle (`__shfl_xor_sync`) max and sum reductions across all 32 lanes.
+- Built a correctness-gated benchmark harness that validates both kernels against `torch.nn.functional.scaled_dot_product_attention` to a max absolute error under 5e-2 (FP32) before timing, sweeping sequence lengths 128 to 1024 at batch 8, 12 heads, head dimension 64.
 
 ## Source
 
-[View CUDA AI Kernels on GitHub](https://github.com/sudhirpol522/CUDA-AI-Kernels)
+[View fa1-noncausal-benchmark on GitHub](https://github.com/sudhirpol522/fa1-noncausal-benchmark) — the repository doesn't have a README yet, so the kernel files are the best reference for now.
