@@ -9,7 +9,7 @@ importance: 1
 
 ## Overview
 
-Tiny-vLLM is a CPU and Apple Silicon (MPS) inference engine built around the serving ideas behind production engines like vLLM: paged KV-cache management with prefix caching, continuous batching with chunked prefill, and OpenAI-compatible HTTP endpoints with streaming. The core engine components (KV cache manager, scheduler, reference attention, model definitions, and async server) are adapted from [tinyserve](https://github.com/priyammaz/tinyserve), used with the author's permission, with local additions for benchmarking, testing, and an optional MLX backend. This version does not include CUDA kernels or CUDA graphs.
+Tiny-vLLM is a CPU and Apple Silicon (MPS) inference engine built around the serving ideas behind production engines like vLLM: paged KV-cache management with prefix caching, continuous batching with chunked prefill, and OpenAI-compatible HTTP endpoints with streaming. The core engine components (KV cache manager, scheduler, reference attention, model definitions, and async server) are adapted from [tinyserve](https://github.com/priyammaz/tinyserve), with local additions for benchmarking, testing, and an optional MLX backend. This version does not include CUDA kernels or CUDA graphs.
 
 ## Selected results
 
