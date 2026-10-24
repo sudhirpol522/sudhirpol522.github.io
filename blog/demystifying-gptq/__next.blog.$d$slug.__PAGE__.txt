@@ -1,6 +1,6 @@
 1:"$Sreact.fragment"
 2:I[22016,["/_next/static/chunks/1mpnoxox0-4cg.js"],""]
-3:T25cd4,<p>If you are optimizing inference engines or writing custom CUDA kernels for modern LLMs, you inevitably hit the memory wall. Serving a 70B parameter model in FP16 requires over 140GB of VRAM, forcing you into multi-GPU tensor parallelism just to load the weights.</p>
+3:T25ac3,<p>If you are optimizing inference engines or writing custom CUDA kernels for modern LLMs, you inevitably hit the memory wall. Serving a 70B parameter model in FP16 requires over 140GB of VRAM, forcing you into multi-GPU tensor parallelism just to load the weights.</p>
 <p>Post-Training Quantization (PTQ) algorithms like GPTQ solve this by compressing weights down to 4-bits or 3-bits. But if you naively round the weights of a massive LLM, you destroy the model's perplexity.</p>
 <p>GPTQ survives aggressive quantization by recognizing a fundamental truth: weights do not act in isolation. If you force one weight down, you can calculate exactly how much to push the neighboring weights up to absorb the structural damage.</p>
 <p>In this post, we will derive the exact mathematics behind GPTQ from scratch using Lagrange multipliers, shadow-run a 2D example, translate the derivation into vectorized PyTorch code, and finally pack the resulting 4-bit integers into dense 32-bit checkpoint tensors.</p>
@@ -426,14 +426,10 @@ def unpack_and_dequantize_gptq(qweight, qzeros, scales, group_size=128):
 
     return s_expanded * (w_int4.to(scales.dtype) - z_expanded)
 
-</code></pre>
-<hr>
-<h2>Conclusion</h2>
-<p>Algorithms like GPTQ and AWQ are what allow modern serving infrastructure to exist at scale. By understanding the full pipeline—from continuous Lagrange multipliers and second-order Cholesky Hessian updates down to discrete 4-bit integer grids and bitwise register packing—we can bridge the gap between theoretical model compression and the exact memory layouts required by high-performance CUDA kernels like Marlin.</p>
-<p><em>© 2026 Sudhir Pol · Email · GitHub · LinkedIn · Medium</em></p>6:X
+</code></pre>6:X
 b:X
 b:C
-0:{"buildId":"SAvcnqkyGccwPDPi5RIfW","data":[{"rsc":["$","$1","c",{"children":[["$","article",null,{"children":[["$","$L2",null,{"href":"/writing/","children":["← ","All writing"]}],["$","h1",null,{"children":"Demystifying GPTQ: From Lagrange Multipliers to Vectorized PyTorch"}],["$","p",null,{"className":"muted","children":"June 14, 2026"}],["$","p",null,{"className":"lead","children":"A derivation of the inverse Hessian update used by GPTQ, followed by a vectorized PyTorch implementation and 4-bit integer bit-packing."}],["$","hr",null,{}],["$","div",null,{"className":"prose","dangerouslySetInnerHTML":{"__html":"$3"}}]]}],null,"$L4"]}],"isPartial":"$@5","staleTime":"$6","varyParams":null},{"rsc":"$L7","isPartial":"$@8","staleTime":"$6","varyParams":null},{"rsc":"$L9","isPartial":"$@a","staleTime":"$6","varyParams":"$b"},{"rsc":"$Lc","isPartial":"$@d","staleTime":"$6","varyParams":"$b"},{"rsc":"$Le","isPartial":"$@f","staleTime":"$6","varyParams":null}],"isUpgradeableISRFallback":false,"a":"$@10","rootVaryParams":null,"needsRuntimeRequest":"$@11"}
+0:{"buildId":"T0iHSV8FDf3T7o_up1_UG","data":[{"rsc":["$","$1","c",{"children":[["$","article",null,{"children":[["$","$L2",null,{"href":"/writing/","children":["← ","All writing"]}],["$","h1",null,{"children":"Demystifying GPTQ: From Lagrange Multipliers to Vectorized PyTorch"}],["$","p",null,{"className":"muted","children":"June 14, 2026"}],["$","p",null,{"className":"lead","children":"A derivation of the inverse Hessian update used by GPTQ, followed by a vectorized PyTorch implementation and 4-bit integer bit-packing."}],["$","hr",null,{}],["$","div",null,{"className":"prose","dangerouslySetInnerHTML":{"__html":"$3"}}]]}],null,"$L4"]}],"isPartial":"$@5","staleTime":"$6","varyParams":null},{"rsc":"$L7","isPartial":"$@8","staleTime":"$6","varyParams":null},{"rsc":"$L9","isPartial":"$@a","staleTime":"$6","varyParams":"$b"},{"rsc":"$Lc","isPartial":"$@d","staleTime":"$6","varyParams":"$b"},{"rsc":"$Le","isPartial":"$@f","staleTime":"$6","varyParams":null}],"isUpgradeableISRFallback":false,"a":"$@10","rootVaryParams":null,"needsRuntimeRequest":"$@11"}
 12:I[97367,["/_next/static/chunks/1mpnoxox0-4cg.js"],"OutletBoundary"]
 13:"$Sreact.suspense"
 15:I[97367,["/_next/static/chunks/1mpnoxox0-4cg.js"],"ViewportBoundary"]
