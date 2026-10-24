@@ -482,11 +482,3 @@ def unpack_and_dequantize_gptq(qweight, qzeros, scales, group_size=128):
     return s_expanded * (w_int4.to(scales.dtype) - z_expanded)
 
 ```
-
----
-
-## Conclusion
-
-Algorithms like GPTQ and AWQ are what allow modern serving infrastructure to exist at scale. By understanding the full pipeline—from continuous Lagrange multipliers and second-order Cholesky Hessian updates down to discrete 4-bit integer grids and bitwise register packing—we can bridge the gap between theoretical model compression and the exact memory layouts required by high-performance CUDA kernels like Marlin.
-
-*© 2026 Sudhir Pol · Email · GitHub · LinkedIn · Medium*
