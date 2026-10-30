@@ -630,7 +630,7 @@ The lookup itself does not increment reference counts, remove blocks from `free`
 
 #### Diagram 7: prefix hits and the logits limit
 
-*Draw this in Excalidraw:* use two panels. In the first, draw the request's hashes in order: H0, H1, H2, H3. Show arrows from H0 to physical block 17 and H1 to physical block 42. Mark H2 as “miss: stop” and H3 as “not checked,” even if its entry exists. Label the returned list `[17, 42]`. In the second panel, draw an eight-token prompt as two four-token blocks. Mark the first “reuse cached KV” and the second “process again to obtain final-token logits.” Show `(8 - 1) // 4 = 1` above that panel.
+[![Prefix lookup returns blocks 17 and 42, stops at the H2 miss, and leaves H3 unchecked. For an eight-token prompt with four-token blocks, only the first block is reused; the second is processed again to obtain final-token logits.](/assets/img/small-vllm/diagram-07-prefix-hits-logits-limit.png)](/assets/img/small-vllm/diagram-07-prefix-hits-logits-limit.png)
 
 <a id="allocating-blocks"></a>
 

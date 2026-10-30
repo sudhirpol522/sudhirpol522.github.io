@@ -6,7 +6,7 @@ These notes are for the author and reviewers. The images supplied so far are inc
 
 ## Diagram coverage
 
-Diagrams 1–6 and 8–10 are supplied. Diagram 7, covering prefix misses and the logits limit, still needs an image.
+All ten diagrams are supplied. Diagram 7, covering prefix misses and the logits limit, uses the author's supplied PNG unchanged.
 
 ## Diagram 1 revision notes for the author
 
@@ -48,6 +48,8 @@ The supplied image is included unchanged; the caption follows the actual code an
 
 ## Diagram 7 illustration plan
 
+Completed: [supplied Diagram 7](../public/assets/img/small-vllm/diagram-07-prefix-hits-logits-limit.png). The original illustration plan is retained below for reference.
+
 *Draw this in Excalidraw:* use two panels. In the first, draw the request's hashes in order: H0, H1, H2, H3. Show arrows from H0 to physical block 17 and H1 to physical block 42. Mark H2 as “miss: stop” and H3 as “not checked,” even if its entry exists. Label the returned list `[17, 42]`. In the second panel, draw an eight-token prompt as two four-token blocks. Mark the first “reuse cached KV” and the second “process again to obtain final-token logits.” Show `(8 - 1) // 4 = 1` above that panel.
 
 ## Code behavior to check while completing the series
@@ -70,11 +72,11 @@ The architecture overview was grounded in the repository source. Foundations and
 - Internal reading links resolve to existing GPTQ, AWQ, and speculative-decoding posts. The GPTQ link points readers to Parts 7 and 8 for packing and unpacking.
 - Explicit section anchors are included because the current Markdown renderer does not assign heading IDs.
 - The series concerns `small-vLLM`, the CUDA-oriented repository provided for this walkthrough. The existing Tiny-vLLM project page links to a separate CPU/MPS repository and is left unchanged.
-- Keep the pull request in draft until image revisions, the missing Diagram 7, and final content review are complete. The deployment workflow publishes pushes to `main`.
+- Diagram 7 is now included. The remaining image review notes above still apply. The deployment workflow publishes pushes to `main`.
 
 ## Preservation and validation
 
-- The website body retains the attached blog's wording, examples, comments, and draft placeholders. Only the title placement, section anchors, image paths, and full-size image links are adapted for the site.
-- The small-vLLM README links to the website blog. All nine diagram files match both supplied archives byte for byte.
+- The website body retains the attached blog's wording, examples, and comments. Diagram 7's illustration placeholder is replaced by the supplied image; its original plan is retained above. The title placement, section anchors, image paths, and full-size image links are adapted for the site.
+- The small-vLLM README links to the website blog. The original nine diagram files match both supplied archives byte for byte; Diagram 7 matches the author's supplied PNG byte for byte.
 - `npm ci` and `npm run build` passed. The static export includes the article, writing-list entry, and sitemap entry.
-- Export checks passed for all nine images, all 19 table-of-contents anchors, and the existing GPTQ, AWQ, and speculative-decoding routes. Chrome preview confirmed the article layout, inline diagrams, and full-size image navigation.
+- Export checks passed for all ten images, all 19 table-of-contents anchors, and the existing GPTQ, AWQ, and speculative-decoding routes. Chrome preview previously confirmed the article layout, inline diagrams, and full-size image navigation for the original nine figures.
