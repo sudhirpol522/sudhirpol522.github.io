@@ -5,7 +5,7 @@ description: "A code walkthrough of prefix caching, chunked prefill, and the blo
 tags: llm-inference small-vllm kv-cache prefix-caching chunked-prefill
 ---
 
-This walkthrough follows [small-vLLM](https://github.com/sudhirpol522/small-vLLM), a compact LLM inference engine. The accompanying [repository guide](https://github.com/sudhirpol522/small-vLLM/blob/main/BLOG.md) includes the original blog and documentation. The code is available at [source revision `62bfced`](https://github.com/sudhirpol522/small-vLLM/commit/62bfcedf01abcaa3df3d1905fd6028558e35dead).
+This walkthrough follows [small-vLLM](https://github.com/sudhirpol522/small-vLLM), a compact LLM inference engine. The [repository README](https://github.com/sudhirpol522/small-vLLM/blob/main/README.md) links to the blog series. The code is available at [source revision `62bfced`](https://github.com/sudhirpol522/small-vLLM/commit/62bfcedf01abcaa3df3d1905fd6028558e35dead).
 
 ## In this article
 

@@ -75,6 +75,6 @@ The architecture overview was grounded in the repository source. Foundations and
 ## Preservation and validation
 
 - The website body retains the attached blog's wording, examples, comments, and draft placeholders. Only the title placement, section anchors, image paths, and full-size image links are adapted for the site.
-- The original blog and documentation are preserved in the small-vLLM repository. All nine diagram files match both supplied archives byte for byte.
+- The small-vLLM README links to the website blog. All nine diagram files match both supplied archives byte for byte.
 - `npm ci` and `npm run build` passed. The static export includes the article, writing-list entry, and sitemap entry.
 - Export checks passed for all nine images, all 19 table-of-contents anchors, and the existing GPTQ, AWQ, and speculative-decoding routes. Chrome preview confirmed the article layout, inline diagrams, and full-size image navigation.
