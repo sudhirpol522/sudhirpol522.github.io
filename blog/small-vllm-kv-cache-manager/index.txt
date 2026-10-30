@@ -1,0 +1,1235 @@
+1:"$Sreact.fragment"
+2:I[22016,["/_next/static/chunks/1mpnoxox0-4cg.js"],""]
+3:I[39756,["/_next/static/chunks/1mpnoxox0-4cg.js"],"default"]
+4:I[37457,["/_next/static/chunks/1mpnoxox0-4cg.js"],"default"]
+6:I[97367,["/_next/static/chunks/1mpnoxox0-4cg.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+a:I[97367,["/_next/static/chunks/1mpnoxox0-4cg.js"],"ViewportBoundary"]
+c:I[97367,["/_next/static/chunks/1mpnoxox0-4cg.js"],"MetadataBoundary"]
+e:I[68027,["/_next/static/chunks/1mpnoxox0-4cg.js"],"default",1]
+:HL["/_next/static/chunks/0ewafgb_hrpg2.css","style"]
+:HL["/_next/static/media/c50f3c9c65fbdb75-s.p.29es_w-umji9l.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+9:X
+0:{"P":null,"c":["","blog","small-vllm-kv-cache-manager",""],"q":"","i":false,"f":[[["",{"children":["blog",{"children":[["slug","small-vllm-kv-cache-manager","d",[]],{"children":["__PAGE__",{},"$undefined","$undefined",4608]},"$undefined","$undefined",4608]},"$undefined","$undefined",4608]},"$undefined","$undefined",4624],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/0ewafgb_hrpg2.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/1mpnoxox0-4cg.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"className":"inconsolata_fb73a77b-module__WAEJVq__variable","children":[["$","head",null,{"children":["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\ntry { if (localStorage.getItem(\"theme\") === \"dark\") document.documentElement.classList.add(\"dark\"); } catch (e) {}\ndocument.addEventListener(\"click\", function (e) {\n  if (!e.target.closest || !e.target.closest(\"#theme-toggle\")) return;\n  var dark = document.documentElement.classList.toggle(\"dark\");\n  try { localStorage.setItem(\"theme\", dark ? \"dark\" : \"light\"); } catch (e) {}\n});"}}]}],["$","body",null,{"children":["$","div",null,{"className":"container","children":[["$","header",null,{"className":"site-header","children":[["$","$L2",null,{"href":"/","className":"site-name","children":"Sudhir Pol"}],["$","nav",null,{"children":[[["$","$L2","/",{"href":"/","children":"about"}],["$","$L2","/projects/",{"href":"/projects/","children":"projects"}],["$","$L2","/writing/",{"href":"/writing/","children":"writing"}]],["$","button",null,{"id":"theme-toggle","type":"button","aria-label":"Toggle dark mode","children":[["$","span",null,{"className":"when-light","children":"dark"}],["$","span",null,{"className":"when-dark","children":"light"}]]}]]}]]}],["$","main",null,{"className":"content","children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","footer",null,{"className":"site-footer muted","children":["© ",2026," ","Sudhir Pol"," ·"," ",[["$","span","Email",{"children":[false,["$","a",null,{"href":"mailto:sudhirpol522@gmail.com","children":"Email"}]]}],["$","span","GitHub",{"children":[" · ",["$","a",null,{"href":"https://github.com/sudhirpol522","children":"GitHub"}]]}],["$","span","LinkedIn",{"children":[" · ",["$","a",null,{"href":"https://www.linkedin.com/in/sudhir-pol-a6b544179","children":"LinkedIn"}]]}],["$","span","Medium",{"children":[" · ",["$","a",null,{"href":"https://sudhirpol522.medium.com","children":"Medium"}]]}]]]}]]}]}]]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",null,["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,null]},null,false,"$9"]},null,false,"$9"]},null,false,null],["$","$1","h",{"children":[null,["$","$La",null,{"children":"$Lb"}],["$","div",null,{"hidden":true,"children":["$","$Lc",null,{"children":["$","$7",null,{"name":"Next.Metadata","children":"$Ld"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$e",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/0ewafgb_hrpg2.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"h":null,"r":"$undefined","s":"$undefined","a":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"-N4C6m06eR0rR66v77Dbm"}
+9:C
+f:T122fc,<p>This walkthrough follows <a href="https://github.com/sudhirpol522/small-vLLM">small-vLLM</a>, a compact LLM inference engine. The accompanying <a href="https://github.com/sudhirpol522/small-vLLM/blob/main/BLOG.md">repository guide</a> includes the original blog and documentation. The code is available at <a href="https://github.com/sudhirpol522/small-vLLM/commit/62bfcedf01abcaa3df3d1905fd6028558e35dead">source revision <code>62bfced</code></a>.</p>
+<h2>In this article</h2>
+<ul>
+<li><a href="#start-with-the-kv-cache">1. Start with the KV cache</a></li>
+<li><a href="#prefix-caching-reuse-work-from-an-earlier-request">2. Prefix caching: reuse work from an earlier request</a></li>
+<li><a href="#chunked-prefill-process-a-long-prompt-over-several-steps">3. Chunked prefill: process a long prompt over several steps</a></li>
+<li><a href="#responsibilities">4. Where the KV cache manager fits</a></li>
+<li><a href="#free-blocks-can-retain-useful-kv-data">5. A free block can still contain useful KV data</a></li>
+<li><a href="#memory-pressure-and-preemption">6. What if every block is in use?</a></li>
+<li><a href="#method-walkthrough">7. Code walkthrough</a></li>
+<li><a href="#request-class">7.1 The <code>Request</code> class</a></li>
+<li><a href="#initialization">7.2 KV cache manager initialization: <code>__init__</code></a></li>
+<li><a href="#counting-free-blocks">7.3 Counting available blocks: <code>num_free</code></a></li>
+<li><a href="#updating-block-hashes">7.4 Building the request's hash chain: <code>_update_hashes</code></a></li>
+<li><a href="#finding-a-cached-prefix">7.5 Finding a reusable prefix: <code>find_cached_prefix</code></a></li>
+<li><a href="#allocating-blocks">7.6 Making room for a step: <code>allocate</code></a></li>
+<li><a href="#registering-full-blocks">7.7 Recording full-block identities: <code>_register_full_blocks</code></a></li>
+<li><a href="#releasing-a-request">7.8 Releasing a request's blocks: <code>free_request</code></a></li>
+<li><a href="#connecting-back-to-the-scheduler">7.9 Connecting back to the scheduler</a></li>
+<li><a href="#how-this-connects-to-quantization">How this connects to quantization</a></li>
+<li><a href="#series-roadmap">Series roadmap</a></li>
+<li><a href="#related-reading">Related reading</a></li>
+</ul>
+<p>This post assumes you already understand continuous batching. Before we look at the code, we need to understand two ideas: <strong>prefix caching</strong> and <strong>chunked prefill</strong>. They explain how we avoid repeating work and how we schedule prompt processing alongside requests that are already generating tokens.</p>
+<p>Then we will look at the KV cache manager and its role in the scheduler.</p>
+<blockquote>
+<p>Draft scope: the walkthroughs from <code>__init__</code> through <code>free_request</code> use the supplied KV cache manager code. The broader lifecycle describes the intended design; scheduler behavior will be explained and checked when its code is supplied.</p>
+</blockquote>
+<p><a id="start-with-the-kv-cache"></a></p>
+<h2>1. Start with the KV cache</h2>
+<p>An LLM processes a prompt and then generates output tokens. We can separate this into two phases:</p>
+<ul>
+<li><strong>Prefill:</strong> process the prompt and calculate the keys and values used by attention.</li>
+<li><strong>Decode:</strong> generate output tokens, typically one token per request per step, while adding their keys and values to the cache.</li>
+</ul>
+<p>The KV cache stores those keys and values so the model can reuse them in later steps. Without it, the model would need to calculate them again for earlier tokens as generation continues.</p>
+<p>The cache takes up GPU memory and grows as a request processes more tokens. That is why the inference engine needs to manage it carefully.</p>
+<p>In the design we are discussing, KV memory is divided into fixed-size <strong>blocks</strong>. Each block has room for the keys and values of a fixed number of tokens. A request keeps track of which physical blocks hold its cache.</p>
+<p>For example, if a block holds four tokens, a request with ten cached tokens needs three blocks. The last block has two occupied token positions and room for two more.</p>
+<p><a id="prefix-caching-reuse-work-from-an-earlier-request"></a></p>
+<h2>2. Prefix caching: reuse work from an earlier request</h2>
+<p>Different requests often start with the same tokens. They might share a system prompt, instructions, or the beginning of a document.</p>
+<p>Suppose two requests have these token sequences:</p>
+<pre><code class="language-text">Request A: [T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11]
+Request B: [T0, T1, T2, T3, T4, T5, T6, T7, T12, T13, T14, T15]
+</code></pre>
+<p>The first eight tokens are identical. If A has already computed their KV cache and those blocks are still available, B can reuse that work. B only needs to compute the uncached part of its prompt.</p>
+<p>That is prefix caching: <strong>reuse the KV cache for a matching beginning of a request</strong>.</p>
+<p>The match is based on token IDs, not whether two pieces of text have a similar meaning. Reuse also assumes the same model and compatible execution settings.</p>
+<h3>Why the earlier prefix matters</h3>
+<p>Matching the tokens inside one block is not enough. In a causal language model, a token's keys and values depend on the tokens before it.</p>
+<p>Consider these sequences:</p>
+<pre><code class="language-text">Request A: [p1, p2, p3, p4] [x1, x2, x3, x4]
+Request B: [q1, q2, q3, q4] [x1, x2, x3, x4]
+</code></pre>
+<p>The second block contains the same token IDs, but its earlier context is different. We cannot assume its KV cache is interchangeable.</p>
+<p>To capture that context, we can build a block's hash from both the previous block's hash and the current block's token IDs:</p>
+<pre><code class="language-text">block_hash = hash(previous_block_hash, current_block_token_ids)
+</code></pre>
+<p>The first block uses an agreed starting value in place of a previous block hash. Each later hash carries information about the prefix leading up to that block.</p>
+<p>This is the simplified key for the design discussed here. A system serving different models, adapters, or other relevant inputs must also distinguish those contexts. A hash is a practical identifier; it is not a mathematical guarantee that collisions are impossible.</p>
+<p>The manager can then maintain a mapping from a prefix hash to a physical block containing the corresponding KV data.</p>
+<h3>What a cache hit saves</h3>
+<p>A request looks for the longest available matching prefix. In the block-based approach described here, complete blocks are the unit of reusable prefix caching. A partially filled final block needs separate handling, which we will explain from the code.</p>
+<p>A cache hit lets the request skip the model computation for the reused tokens. The manager still needs to identify the prefix, which may involve computing hashes and looking them up.</p>
+<p><strong>The main saving is the KV computation, not avoiding hash computation.</strong> A matching hash is useful only while the corresponding KV data is still valid in its physical block.</p>
+<h3>Diagram 1: two requests sharing a prefix</h3>
+<p><a href="/assets/img/small-vllm/diagram-01-prefix-caching.png"><img src="/assets/img/small-vllm/diagram-01-prefix-caching.png" alt="Two requests sharing their first two token blocks and reusing the same physical KV blocks."></a></p>
+<p>Both requests share the first eight tokens, T0–T7. Their first logical blocks, T0–T3, use physical KV block 1; their second logical blocks, T4–T7, use physical KV block 2. The remaining tokens differ and need their own KV computation.</p>
+<p>The second block's hash combines the first block's hash with its own tokens: <code>H2 = hash((H1, (T4, T5, T6, T7)))</code>. The hash identifies the earlier context as well as the current token block.</p>
+<!-- Diagram 1 revision notes for the author:
+- Extend each Shared Prefix bracket across both blue blocks, T0–T7.
+- Replace the Hash 2 = Hash 1 + tokens label with H2 = hash((H1, (T4, T5, T6, T7))).
+- Make both T0–T3 blocks point clearly to Physical KV Block 1, and both T4–T7 blocks point to Physical KV Block 2. Remove arrows that could suggest different token blocks share one physical block.
+The supplied image is included unchanged; the caption explains the intended mapping.
+-->
+<p><a id="chunked-prefill-process-a-long-prompt-over-several-steps"></a></p>
+<h2>3. Chunked prefill: process a long prompt over several steps</h2>
+<p>Prefix caching reduces repeated work. Chunked prefill controls how much prompt work happens in one scheduling step.</p>
+<p>A long uncached prompt can take substantial computation to process. If the engine processes the entire prompt in one step, requests that are already decoding may wait longer for their next token.</p>
+<p>With chunked prefill, the scheduler processes only part of the prompt in a step. It keeps the resulting KV cache and continues with the remaining tokens in later steps.</p>
+<p>For example, a twelve-token prompt could be processed as follows:</p>
+<table>
+<thead>
+<tr>
+<th>Scheduling step</th>
+<th>Prompt tokens processed</th>
+<th>Prompt progress</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Tokens 1–4</td>
+<td>4 of 12</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Tokens 5–8</td>
+<td>8 of 12</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Tokens 9–12</td>
+<td>12 of 12</td>
+</tr>
+</tbody>
+</table>
+<p>These chunks belong to the same request. When the model processes tokens 5–8, it uses the KV cache already computed for tokens 1–4.</p>
+<p>The scheduler can also mix prefill work with decode work. For a simple example, suppose a step has a budget of six new token positions to process. Two decoding requests each need one token position. The remaining four positions can go to a prefill chunk. The exact priority and budget rules depend on the scheduler implementation.</p>
+<p>A <strong>chunk</strong> is a scheduling choice. A <strong>block</strong> is a memory allocation unit. They do not have to be the same size; implementations may impose alignment rules.</p>
+<h3>How prefix caching and chunked prefill work together</h3>
+<p>Suppose a request has twelve prompt tokens and finds a reusable prefix covering the first eight. It only needs prefill computation for the remaining four tokens. The scheduler may process those four together or divide them across steps, depending on its budget and rules.</p>
+<p>Prefix caching answers: <strong>Which prompt tokens already have reusable KV data?</strong></p>
+<p>Chunked prefill answers: <strong>How many of the remaining prompt tokens should we process in this step?</strong></p>
+<h3>Diagram 2: prefill alongside decode</h3>
+<p><a href="/assets/img/small-vllm/diagram-02-chunked-prefill.png"><img src="/assets/img/small-vllm/diagram-02-chunked-prefill.png" alt="A twelve-token prompt processed in three prefill chunks while requests A and B continue decoding at each step."></a></p>
+<p>Each step processes four prompt tokens in blue while requests A and B each take one decode step in green. The long prompt keeps its KV cache between chunks: the second chunk uses the cache for tokens 1–4, and the third uses the cache for tokens 1–8. The arrows show that retained context, not a second request sharing this prompt's cache.</p>
+<p><a id="responsibilities"></a></p>
+<h2>4. Where the KV cache manager fits</h2>
+<p>For this walkthrough, we will focus on two cooperating parts of the scheduling system:</p>
+<table>
+<thead>
+<tr>
+<th>Component</th>
+<th>Main responsibility</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scheduler</td>
+<td>Decide which requests run and how many tokens each processes in a step.</td>
+</tr>
+<tr>
+<td>KV cache manager</td>
+<td>Track reusable KV blocks and allocate, share, or release blocks for requests.</td>
+</tr>
+</tbody>
+</table>
+<p>The <code>Request</code> class represents one request. In the code walkthrough, we will connect its fields to the request's tokens, processing progress, and block ownership, using the actual names and comments in the class.</p>
+<p>In simple terms, the KV cache manager answers: <strong>Can this request get the blocks it needs?</strong> Some may already contain a matching prefix. Others need to be assigned for new KV data.</p>
+<p>The scheduler uses that answer to decide whether the request can run now or whether it needs to wait or another request needs to be preempted.</p>
+<p><a id="free-blocks-can-retain-useful-kv-data"></a></p>
+<h2>5. A free block can still contain useful KV data</h2>
+<p>When a request finishes, we do not need to erase all of its cached data immediately.</p>
+<p>A block can be free for allocation while still containing valid KV data from a previous request. Keeping that data gives a later request a chance to reuse it.</p>
+<p>For the design described here, a block can be in one of three useful states:</p>
+<table>
+<thead>
+<tr>
+<th>State</th>
+<th>Can it be assigned to a different prefix?</th>
+<th>Can a matching prefix reuse its existing data?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Referenced by an active request</td>
+<td>No, while it remains referenced.</td>
+<td>Yes, if sharing is supported and the block is safe to share.</td>
+</tr>
+<tr>
+<td>Unreferenced, with valid cached data</td>
+<td>Yes; assignment will discard the old cached entry.</td>
+<td>Yes, until the block is reassigned.</td>
+</tr>
+<tr>
+<td>Unreferenced, with no valid cached data</td>
+<td>Yes.</td>
+<td>No.</td>
+</tr>
+</tbody>
+</table>
+<p>When multiple requests share a block, finishing one request does not make the block free. The block becomes available for reassignment only when no request references it. A reference count is one way to track this.</p>
+<p>For an unreferenced cached block, we keep its hash-to-block mapping searchable and put the block on the LRU free list. If a later request matches that prefix, the manager takes the block off the free list and references it again.</p>
+<p>If memory is needed for different tokens, the manager can select a block from the least recently used end of the free list. Before reassigning it, the manager removes the old hash mapping. The old KV data is no longer reusable and will be overwritten by the new computation.</p>
+<p>The physical memory can remain inside the engine's allocated GPU block pool. Eviction here means losing the old cached contents, rather than necessarily returning GPU memory to the runtime.</p>
+<h3>Diagram 3: a cached block's lifecycle</h3>
+<p><a href="/assets/img/small-vllm/diagram-03-cached-block-lifecycle.png"><img src="/assets/img/small-vllm/diagram-03-cached-block-lifecycle.png" alt="A cached block moving between active use, the free cached queue, and reassignment to a different prefix."></a></p>
+<p>When the last reference is released, the block enters the back of the free list, shown as the most recently used end on the right. Its cached data and prefix lookup remain available. A matching request can reclaim that block from anywhere in the list and add an active reference without recomputing its KV data.</p>
+<p>When storage is needed for different tokens, allocation selects the front of the list, shown as the least recently used end on the left. The manager removes the selected block's old prefix mapping before reassigning it. The new model computation will overwrite the old KV data.</p>
+<!-- Diagram 3 revision notes for the author:
+- Route "last reference released" to the right/back (MRU) end of the queue.
+- Show the allocation arrow leaving the left/front (LRU) entry, even though the Reassigned box is drawn on the right.
+- Remove the duplicate MRU label beneath the queue; retain one LRU label over the left end and one MRU label over the right end.
+- A matching-prefix arrow may leave any queue entry because a hit removes its specific block by ID.
+The supplied image is included unchanged; the caption specifies the queue operations.
+-->
+<p><a id="memory-pressure-and-preemption"></a></p>
+<h2>6. What if every block is in use?</h2>
+<p>Reusing a free block and preempting a running request are different operations.</p>
+<p>If a block is on the free list, the manager can assign it without interrupting an active request. That block may still hold an older prefix, but no active request depends on it.</p>
+<p>If there are no free blocks, the scheduler may need to preempt a running request to make progress.</p>
+<p>Consider three running requests: A, B, and C. A needs another block to continue, but no blocks are free. Under a policy that selects the last request in the running queue, the scheduler chooses C as the victim.</p>
+<p>The sequence is:</p>
+<ol>
+<li>Pause C and retain its token sequence so it can resume later.</li>
+<li>Release C's references to its KV blocks.</li>
+<li>Make blocks with no remaining references available for allocation.</li>
+<li>Assign a suitable available block to A so it can continue.</li>
+<li>Reschedule C later and rebuild any KV data it no longer has.</li>
+</ol>
+<p>Blocks still shared with another request cannot be reclaimed just by pausing C. If C does not release enough blocks, the scheduler must take another action according to its policy.</p>
+<p>When C returns, prefix caching may reduce its recomputation. The manager looks for a still-available matching prefix, and C recomputes the missing suffix. But a hit is not guaranteed: A or another request may have overwritten C's old blocks in the meantime.</p>
+<p>This is the trade-off: preemption lets other requests continue under memory pressure, but the paused request may wait longer and repeat model computation.</p>
+<p>Choosing C because it is last in the running queue is a <strong>scheduler policy</strong>. Choosing an unused cached block from the LRU free list is a <strong>cache replacement policy</strong>. These should be explained separately in the code walkthrough.</p>
+<h3>Diagram 4: preempt C so A can continue</h3>
+<p><a href="/assets/img/small-vllm/diagram-04-request-preemption.png"><img src="/assets/img/small-vllm/diagram-04-request-preemption.png" alt="Request C is preempted to free KV capacity for A, then later resumes using any surviving cached prefix and recomputing missing KV data."></a></p>
+<p>A needs another block, but the free list is empty. The scheduler pauses C and releases all of C's block references. Blocks still referenced by another request stay in use; blocks whose counts reach zero enter the free list. A can then claim available storage and continue. Reassigning a block removes its old prefix mapping, and the new computation overwrites its contents.</p>
+<p>C's token sequence is retained, but <code>free_request</code> clears its page table. A surviving prefix therefore means KV data still available in shared blocks or in free cached blocks that have not been reassigned. When C is scheduled again, it must reclaim any available matching prefix and recompute the missing suffix. If no cached prefix survives, it must recompute from the start. Keeping token IDs alone does not preserve their KV data.</p>
+<!-- Diagram 4 revision notes for the author:
+- Release every reference held by C, not only references to its unshared blocks. Only zero-reference blocks become free.
+- Replace "shared/critical" labels with explicit reference states: "shared: still referenced by another request" or "unshared: reference count reaches zero." There is no separate critical-block protection in the supplied code.
+- Show another request pointing to any shared surviving physical blocks; sharing means the same physical storage, not separate copies in each row.
+- After release, show C.block_ids = []. Draw surviving cached contents separately from C's current ownership, and show C reclaiming them when it resumes.
+- A uses the same physical block that was released; draw the transfer or recolor that block instead of implying a new physical block was created.
+- The preemption stage appears twice in the supplied image. A single sequence of Before, Release and reassign, and Resume would make the progression easier to follow.
+The supplied image is included unchanged; the caption explains the reference-count and cache-survival rules.
+-->
+<p><a id="method-walkthrough"></a></p>
+<h2>7. Code walkthrough</h2>
+<p>We will explain each function in its own subsection. We now have code for initialization, counting free blocks, building hashes, finding a cached prefix, allocating blocks, registering full blocks, and releasing a request. Sections without code remain placeholders for the methods that follow.</p>
+<p><a id="request-class"></a></p>
+<h3>7.1 The <code>Request</code> class</h3>
+<p>Start with the fields that describe a single request. Explain how the code records its tokens, progress, status, and block references. Then explain each method using its comments and a small example where useful.</p>
+<p><a id="initialization"></a></p>
+<h3>7.2 KV cache manager initialization: <code>__init__</code></h3>
+<p>The constructor sets up the bookkeeping needed to manage KV cache blocks. It records which blocks are in use, which prefix each cached block represents, and which blocks are available for allocation.</p>
+<p>Here is the method with the comments reworded for clarity. The logic is unchanged. <code>OrderedDict</code> is imported from Python's <code>collections</code> module.</p>
+<pre><code class="language-python">def __init__(self,
+             num_blocks: int,
+             block_size: int,
+             enable_caching: bool):
+
+    self.block_size = block_size
+    self.enable_caching = enable_caching
+
+    # Number of active references to each physical block.
+    self.ref_cnt = [0] * num_blocks
+
+    # Prefix hash represented by each physical block, if any.
+    self.block_hash: list[int | None] = [None] * num_blocks
+
+    # Available blocks, ordered from front to back for LRU reuse.
+    # Block 0 is reserved for padding positions masked during attention.
+    self.free: OrderedDict[int, None] = OrderedDict(
+        (i, None) for i in range(1, num_blocks)
+    )
+
+    # Prefix hash -> physical block containing the corresponding KV data.
+    self.hash_to_block: dict[int, int] = {}
+</code></pre>
+<h4>Block size and the caching flag</h4>
+<p><code>block_size</code> is the number of token positions that fit in one KV block. For example, a block size of four means that each block can hold KV data for four tokens. It does not mean four bytes or four requests.</p>
+<p><code>enable_caching</code> records whether prefix caching is enabled. Disabling prefix caching does not mean disabling the KV cache used during generation. It means disabling prefix reuse through the caching mechanism.</p>
+<p>In this constructor, the flag is only stored. All the bookkeeping structures are initialized regardless of its value. We will see how the flag affects behavior in the later methods.</p>
+<h4>Reference counts: is a block still in use?</h4>
+<p><code>ref_cnt</code> has one entry for every physical block. The list index is the block ID, and its value records how many active references that block has.</p>
+<p>For example, if requests A and B share block 2, its reference count is two. When A releases it, the count becomes one. B still needs the block, so it cannot be reassigned. Only after B also releases it does the count become zero.</p>
+<p>A zero count means there are no active references. For an ordinary usable block, that makes it eligible to return to the free list. It may still contain useful cached KV data.</p>
+<p>The count tells us <strong>how many references exist</strong>, not which requests hold them. Request identities and their block assignments must be tracked elsewhere.</p>
+<p>At initialization, every count is zero because the manager has not assigned any blocks yet. Block 0 also has a zero count, but it is reserved and excluded from normal allocation.</p>
+<h4>Block hashes: what prefix does this block represent?</h4>
+<p><code>block_hash</code> also has one entry per physical block. Given a block ID, it tells us which prefix hash is associated with the block's cached contents.</p>
+<p>For example, <code>block_hash[2] = h</code> would mean that physical block 2 represents the cached prefix identified by <code>h</code>. As discussed earlier, the intended hash includes the preceding prefix as well as the current block's tokens. The constructor itself does not calculate those hashes.</p>
+<p>Every entry starts as <code>None</code> because no cached prefix has been registered yet. <code>None</code> means there is no registered prefix hash for that block; it does not tell us whether the block has active references. That is the job of <code>ref_cnt</code>.</p>
+<h4>The free list: which blocks can we allocate?</h4>
+<p><code>free</code> contains the IDs of blocks available for allocation. It uses an <code>OrderedDict</code> so we can preserve their order and remove a block by its ID.</p>
+<p>The keys are block IDs. The values are <code>None</code> because this structure only needs to track membership and order; it does not store KV tensors.</p>
+<p>For the allocation and release behavior described earlier, we need three operations:</p>
+<table>
+<thead>
+<tr>
+<th>Operation</th>
+<th>How an <code>OrderedDict</code> supports it</th>
+<th>Why we need it</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Take the front block</td>
+<td><code>popitem(last=False)</code></td>
+<td>Select the oldest available candidate for allocation.</td>
+</tr>
+<tr>
+<td>Remove a particular block</td>
+<td><code>pop(block_id)</code></td>
+<td>Take a cached prefix block out of the free list when a request reuses it.</td>
+</tr>
+<tr>
+<td>Append a released block at the back</td>
+<td><code>free[block_id] = None</code>, when the ID is absent</td>
+<td>Return an unreferenced block as the newest available entry.</td>
+</tr>
+</tbody>
+</table>
+<p>These operations take constant time on average. <code>OrderedDict</code> combines lookup by key with maintained order; describing it only as a doubly linked list leaves out the lookup needed to remove an arbitrary block efficiently.</p>
+<p>The constructor initializes the queue in increasing block-ID order. At this point, the blocks have no usage history. The later allocation, cache-hit, and release methods must maintain the order that makes it work as an LRU free list.</p>
+<p>When a released block still contains a cached prefix, returning it to this list does not have to remove its prefix mapping. A later request may take it back through a prefix hit before it is reassigned.</p>
+<h4>Block 0 and the number of usable blocks</h4>
+<p>The expression <code>range(1, num_blocks)</code> includes 1 and excludes <code>num_blocks</code>. Therefore, this code treats <code>num_blocks</code> as the <strong>total number of physical blocks, including block 0</strong>.</p>
+<p>For example, with <code>num_blocks = 5</code>:</p>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Initial value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Physical block IDs</td>
+<td>0, 1, 2, 3, 4</td>
+</tr>
+<tr>
+<td>Reserved block</td>
+<td>0</td>
+</tr>
+<tr>
+<td><code>ref_cnt</code></td>
+<td><code>[0, 0, 0, 0, 0]</code></td>
+</tr>
+<tr>
+<td><code>block_hash</code></td>
+<td><code>[None, None, None, None, None]</code></td>
+</tr>
+<tr>
+<td><code>free</code>, from front to back</td>
+<td>1, 2, 3, 4</td>
+</tr>
+<tr>
+<td><code>hash_to_block</code></td>
+<td><code>{}</code></td>
+</tr>
+<tr>
+<td>Usable block count</td>
+<td>4</td>
+</tr>
+</tbody>
+</table>
+<p>If we want <strong>N usable blocks</strong>, we must pass <code>num_blocks = N + 1</code>. Then the physical IDs run from 0 through N, inclusive, and the usable IDs run from 1 through N.</p>
+<p>Block 0 is the null block used for <strong>padding tokens</strong>, as the code comment states. The padding positions are masked during attention, so their values do not contribute to the result. This reserved block is separate from the previous-block hash used to identify prefixes.</p>
+<h4>Hash-to-block lookup: where is a cached prefix?</h4>
+<p><code>hash_to_block</code> lets us look up a physical block using a prefix hash. For example, <code>hash_to_block[h] = 2</code> would tell us that the KV data associated with <code>h</code> is in block 2.</p>
+<p>It complements <code>block_hash</code>:</p>
+<table>
+<thead>
+<tr>
+<th>Structure</th>
+<th>Lookup direction</th>
+<th>Question it answers</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>block_hash</code></td>
+<td>Block ID → prefix hash</td>
+<td>What cached prefix does this block represent?</td>
+</tr>
+<tr>
+<td><code>hash_to_block</code></td>
+<td>Prefix hash → block ID</td>
+<td>Where can I find this cached prefix?</td>
+</tr>
+</tbody>
+</table>
+<p>The forward lookup helps find prefix hits. The per-block hash lets the manager identify the old cache entry when a block is reassigned. Later methods must keep these structures consistent.</p>
+<p><code>hash_to_block</code> starts empty because there are no registered cached prefixes. It stores block IDs, not the KV data itself.</p>
+<h4>State after initialization</h4>
+<p>The manager now has zero references for every block, no registered prefixes, and an ordered collection of all usable blocks. The method initializes Python bookkeeping structures; it does not allocate the GPU tensors that hold the actual keys and values.</p>
+<h4>Diagram 5: the manager's bookkeeping</h4>
+<p><a href="/assets/img/small-vllm/diagram-05-manager-bookkeeping.png"><img src="/assets/img/small-vllm/diagram-05-manager-bookkeeping.png" alt="The KV cache manager immediately after initialization, with block 0 reserved and blocks 1 through 4 available for allocation."></a></p>
+<p><code>num_blocks = 5</code> includes the reserved padding block 0. All reference counts start at zero, all per-block hashes are <code>None</code>, and the prefix lookup is empty. The four usable blocks enter <code>free</code> in order: allocation takes from the front, while released blocks return at the back.</p>
+<p><a id="counting-free-blocks"></a></p>
+<h3>7.3 Counting available blocks: <code>num_free</code></h3>
+<p>This property returns the number of blocks currently available for allocation:</p>
+<pre><code class="language-python">@property
+def num_free(self):
+    return len(self.free)
+</code></pre>
+<p>The <code>@property</code> decorator lets us read it as <code>manager.num_free</code>, without parentheses. The value comes directly from the current free list; there is no separate counter to update.</p>
+<p>With the earlier <code>num_blocks = 5</code> example, the initial free list contains blocks 1, 2, 3, and 4, so <code>num_free</code> returns four. Reserved block 0 is not included.</p>
+<p>A free block may still contain valid cached KV data. This property counts every block available for allocation, including those cached blocks. It does not count prefix hits, identify requests, or change any state. Reading the length takes constant time.</p>
+<p><a id="updating-block-hashes"></a></p>
+<h3>7.4 Building the request's hash chain: <code>_update_hashes</code></h3>
+<p>This method extends <code>req.block_hashes</code> so the request has one hash for each complete block of token IDs. It leaves existing hashes in place and adds only the ones that are missing.</p>
+<p>Here is the code with the comments condensed. The logic is unchanged:</p>
+<pre><code class="language-python">def _update_hashes(self, req: Request):
+    """Add a prefix hash for each newly completed block of token IDs."""
+    bs = self.block_size
+
+    while len(req.block_hashes) &#x3C; req.num_tokens // bs:
+        i = len(req.block_hashes)
+        parent = req.block_hashes[-1] if req.block_hashes else None
+        req.block_hashes.append(
+            hash((parent, tuple(req.token_ids[i * bs:(i + 1) * bs])))
+        )
+</code></pre>
+<h4>Count the complete blocks</h4>
+<p>First, <code>bs</code> stores the block size. The expression <code>req.num_tokens // bs</code> uses integer division to count how many complete blocks the request's token sequence contains.</p>
+<p>Use the example from the comments: nine tokens, represented here by letters, and a block size of four.</p>
+<table>
+<thead>
+<tr>
+<th>Logical block index</th>
+<th>Tokens</th>
+<th>Complete?</th>
+<th>Hash needed?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>A, B, C, D</td>
+<td>Yes</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>1</td>
+<td>E, F, G, H</td>
+<td>Yes</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>2</td>
+<td>I</td>
+<td>No</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+<p>Nine divided by four gives two complete blocks and one remaining token. Therefore, the target length of <code>req.block_hashes</code> is two.</p>
+<p>Here, “complete” means that the token sequence contains all four token IDs for a block. It does not mean the model has already computed their KV data. This method only creates identifiers from token IDs.</p>
+<h4>Find the next block to hash</h4>
+<p>The loop runs while the number of existing hashes is smaller than the number of complete token blocks.</p>
+<p>Inside the loop, <code>i = len(req.block_hashes)</code> gives the index of the next logical block that needs a hash. If the list is empty, <code>i</code> is zero. After one hash is appended, <code>i</code> becomes one on the next iteration.</p>
+<p>The slice <code>req.token_ids[i * bs:(i + 1) * bs]</code> selects that block's tokens. Python excludes the slice's end position, so with <code>bs = 4</code>:</p>
+<ul>
+<li>For <code>i = 0</code>, the slice is <code>[0:4]</code>: A, B, C, D.</li>
+<li>For <code>i = 1</code>, the slice is <code>[4:8]</code>: E, F, G, H.</li>
+</ul>
+<p>These are logical positions within the request. Logical block 0 here is the first token block; it is not the reserved physical block 0 in the GPU block pool.</p>
+<h4>Include the parent hash</h4>
+<p>The parent is the last hash already in <code>req.block_hashes</code>. For the first block, the list is empty, so the parent is <code>None</code>.</p>
+<p>Using symbolic names for the resulting hashes, the first two iterations produce:</p>
+<pre><code class="language-python">H0 = hash((None, (A, B, C, D)))
+H1 = hash((H0, (E, F, G, H)))
+</code></pre>
+<p>The inner token sequence is converted to a tuple because a Python list cannot be hashed, while a tuple of integer token IDs can. The outer tuple combines the parent hash and those tokens into the single input passed to <code>hash()</code>.</p>
+<p>Including <code>H0</code> in the input for <code>H1</code> ties the second block's identity to the earlier prefix. If the earlier tokens change, the second block's hash input changes even if E, F, G, and H stay the same. The same principle continues through later blocks, subject to the collision limitation discussed earlier.</p>
+<p>After the second iteration, <code>req.block_hashes</code> contains <code>[H0, H1]</code>. Its length is now two, matching <code>9 // 4</code>, so the loop stops. No hash is created for the incomplete block containing I.</p>
+<h4>Add hashes as the token sequence grows</h4>
+<p>Suppose the request later appends J, K, and L. It now has twelve tokens, so it needs three hashes. The first two already exist; the method starts at <code>i = 2</code> and adds only:</p>
+<pre><code class="language-python">H2 = hash((H1, (I, J, K, L)))
+</code></pre>
+<table>
+<thead>
+<tr>
+<th>Token count when called</th>
+<th>Complete blocks</th>
+<th>Existing hashes</th>
+<th>Hashes appended</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>9</td>
+<td>2</td>
+<td>0</td>
+<td>H0, H1</td>
+</tr>
+<tr>
+<td>9, called again</td>
+<td>2</td>
+<td>2</td>
+<td>None</td>
+</tr>
+<tr>
+<td>10</td>
+<td>2</td>
+<td>2</td>
+<td>None</td>
+</tr>
+<tr>
+<td>11</td>
+<td>2</td>
+<td>2</td>
+<td>None</td>
+</tr>
+<tr>
+<td>12</td>
+<td>3</td>
+<td>2</td>
+<td>H2</td>
+</tr>
+</tbody>
+</table>
+<p>This works because the method assumes the token prefix covered by existing hashes stays unchanged and <code>req.num_tokens</code> agrees with the token sequence. It only appends hashes; it does not repair old hashes if earlier tokens are edited.</p>
+<h4>What changes after the call?</h4>
+<p>Only <code>req.block_hashes</code> is extended. The method does not allocate a physical block, compute KV tensors, or register entries in <code>self.block_hash</code> or <code>self.hash_to_block</code>.</p>
+<p>The request's hash list identifies its token prefixes. The manager's lookup structures track where cached KV data for those prefixes is stored. Creating a hash alone does not establish that the KV data is available for reuse.</p>
+<p>The method also does not check <code>enable_caching</code> itself. As we will see next, <code>find_cached_prefix</code> checks that flag before calling it.</p>
+<h4>Diagram 6: building and extending the hash chain</h4>
+<p><a href="/assets/img/small-vllm/diagram-06-hash-chain.png"><img src="/assets/img/small-vllm/diagram-06-hash-chain.png" alt="Complete token blocks produce H0 and H1; extending the partial block to four tokens adds H2 without recomputing earlier hashes."></a></p>
+<p>The first two complete blocks produce H0 and H1, while <code>[I]</code> has no hash yet. After J, K, and L are appended, the new block combines with the stored parent H1 to produce <code>H2 = hash((H1, (I, J, K, L)))</code>. H0 and H1 remain unchanged, and the request's hash list grows from <code>[H0, H1]</code> to <code>[H0, H1, H2]</code>.</p>
+<!-- Diagram 6 revision note for the author:
+In the extending panel, remove the arrow from [I J K L] to H1. Route [I J K L] and the already stored H1 as separate inputs to H2. The new tokens do not update H1.
+The supplied image is included unchanged.
+-->
+<p><a id="finding-a-cached-prefix"></a></p>
+<h3>7.5 Finding a reusable prefix: <code>find_cached_prefix</code></h3>
+<p>Now that the request has a way to identify its token blocks, we can look for their KV data in the cache.</p>
+<p><code>find_cached_prefix</code> returns the physical block IDs for the longest cached prefix allowed by this method's reuse limit. It walks from the beginning of the request and stops at the first missing block.</p>
+<p>Here is the method with the comments condensed. The logic is unchanged:</p>
+<pre><code class="language-python">def find_cached_prefix(self, req: Request):
+    """Find a contiguous cached prefix, leaving tokens to run for logits."""
+    if not self.enable_caching:
+        return []
+
+    self._update_hashes(req)
+
+    # Reuse only full blocks, and leave at least one token to process.
+    max_blocks = (req.num_tokens - 1) // self.block_size
+
+    hits = []
+    for h in req.block_hashes[:max_blocks]:
+        b = self.hash_to_block.get(h)
+        if b is None:
+            break
+        hits.append(b)
+
+    return hits
+</code></pre>
+<h4>Check whether prefix caching is enabled</h4>
+<p>If <code>enable_caching</code> is false, the method immediately returns an empty list. It does not update the request's hashes or look up any blocks.</p>
+<p>An empty result means this lookup provides no prefix blocks to reuse. The request can still use a KV cache as it runs; prefix caching is the reuse of work already available from matching prefixes.</p>
+<h4>Refresh the request's hashes</h4>
+<p>If caching is enabled, the method calls <code>_update_hashes(req)</code>. This ensures the request has hashes for every complete block of its current token sequence, preserving hashes already calculated.</p>
+<p>For the ten-token example in the comments, with a block size of four, the complete token blocks are A–D and E–H. I and J form an incomplete final block. Using symbolic names again, the hashes are:</p>
+<pre><code class="language-python">H0 = hash((None, (A, B, C, D)))
+H1 = hash((H0, (E, F, G, H)))
+</code></pre>
+<p>Another request with the same token prefix produces the same hash inputs. Within the same running process, those inputs produce the same hash values regardless of which request they came from. That is what allows the new request to look up an earlier request's cached blocks. This does not require the requests themselves to be identical after the shared prefix.</p>
+<h4>Leave tokens to compute the next-token logits</h4>
+<p>Why use <code>(req.num_tokens - 1) // self.block_size</code> instead of simply counting all complete blocks?</p>
+<p>The KV cache in this design stores keys and values. It does not store the final hidden state or the logits needed to choose the next output token.</p>
+<p>To produce those logits, the model must process the last prompt token through its layers and then the language-model head. If every prompt token were treated as already processed through prefix reuse, there would be no remaining token to run and obtain those logits in this execution path.</p>
+<p>For a nonempty request, subtracting one before dividing limits reuse to complete blocks that leave at least one token for model computation.</p>
+<p>Take an eight-token prompt with a block size of four. Both token blocks may be cached, but the reuse limit is:</p>
+<pre><code class="language-python">max_blocks = (8 - 1) // 4  # 1
+</code></pre>
+<p>Only the first block is reused. The remaining four tokens, including the last prompt token, are processed by the model.</p>
+<p>Because reuse happens in whole blocks, this rule can leave more than one token to compute. Assuming all eligible blocks are cache hits:</p>
+<table>
+<thead>
+<tr>
+<th>Prompt tokens</th>
+<th>Block size</th>
+<th>Maximum blocks reused</th>
+<th>Tokens reused</th>
+<th>Tokens left to process</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>4</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+</tr>
+<tr>
+<td>8</td>
+<td>4</td>
+<td>1</td>
+<td>4</td>
+<td>4</td>
+</tr>
+<tr>
+<td>9</td>
+<td>4</td>
+<td>2</td>
+<td>8</td>
+<td>1</td>
+</tr>
+<tr>
+<td>10</td>
+<td>4</td>
+<td>2</td>
+<td>8</td>
+<td>2</td>
+</tr>
+<tr>
+<td>12</td>
+<td>4</td>
+<td>2</td>
+<td>8</td>
+<td>4</td>
+</tr>
+</tbody>
+</table>
+<p>The last prompt token is always among those left to process. If a prefix miss happens earlier, more tokens remain.</p>
+<h4>Look up blocks from left to right</h4>
+<p>The slice <code>req.block_hashes[:max_blocks]</code> selects only the hashes eligible for reuse. The loop visits them in request order.</p>
+<p>For each hash, <code>self.hash_to_block.get(h)</code> returns the physical block ID if an entry exists. If there is no entry, it returns <code>None</code>, and the loop stops. Otherwise, the block ID is appended to <code>hits</code>.</p>
+<p>For example, suppose three hashes are eligible and the cache contains:</p>
+<table>
+<thead>
+<tr>
+<th>Prefix hash</th>
+<th>Lookup result</th>
+<th>Action</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>H0</td>
+<td>Physical block 17</td>
+<td>Append 17.</td>
+</tr>
+<tr>
+<td>H1</td>
+<td>Physical block 42</td>
+<td>Append 42.</td>
+</tr>
+<tr>
+<td>H2</td>
+<td>Missing</td>
+<td>Stop.</td>
+</tr>
+</tbody>
+</table>
+<p>The method returns <code>[17, 42]</code>. The order matches the request's logical block order, even though physical block IDs do not have to be consecutive.</p>
+<h4>Why stop at the first miss?</h4>
+<p>This method finds a <strong>contiguous cached prefix</strong>. Once a block is missing, the uninterrupted cached portion from the start of the request ends. The code does not keep searching for later hits or return a mixture of cached blocks and gaps.</p>
+<p>A miss means the cache lookup has no KV block for that hash. It does not mean the request's earlier tokens changed. The parent-hash chain already identifies the expected token context; stopping at the miss is how this method keeps its result limited to a prefix.</p>
+<h4>What does the result tell us?</h4>
+<p>If the result contains two blocks and the block size is four, it identifies a cached prefix covering eight tokens. The remaining token count is <code>req.num_tokens - len(hits) * self.block_size</code>. Later scheduling and allocation code can use that information to decide what still needs computation.</p>
+<p>The lookup itself does not increment reference counts, remove blocks from <code>free</code>, or reserve them for this request. Its only possible update to request state is extending <code>req.block_hashes</code> through <code>_update_hashes</code>. The later code must claim the returned blocks before using them.</p>
+<h4>Diagram 7: prefix hits and the logits limit</h4>
+<p><em>Draw this in Excalidraw:</em> use two panels. In the first, draw the request's hashes in order: H0, H1, H2, H3. Show arrows from H0 to physical block 17 and H1 to physical block 42. Mark H2 as “miss: stop” and H3 as “not checked,” even if its entry exists. Label the returned list <code>[17, 42]</code>. In the second panel, draw an eight-token prompt as two four-token blocks. Mark the first “reuse cached KV” and the second “process again to obtain final-token logits.” Show <code>(8 - 1) // 4 = 1</code> above that panel.</p>
+<p><a id="allocating-blocks"></a></p>
+<h3>7.6 Making room for a step: <code>allocate</code></h3>
+<p>Finding a cached prefix only gives us block IDs. <code>allocate</code> attaches those blocks to the request and assigns any additional blocks needed for the next step.</p>
+<p>Its inputs are the request, <code>num_new_tokens</code> to process in this step, and the sequence of <code>cached</code> block IDs to attach. <code>cached</code> defaults to the empty tuple <code>()</code>, so calls without prefix hits can omit it. The return value is <code>True</code> when allocation succeeds and <code>False</code> when the capacity check fails.</p>
+<p>The request's <code>block_ids</code> is its page table: an ordered list connecting logical token blocks to physical KV blocks. For a block size of four, <code>block_ids[0]</code> holds tokens 0–3, <code>block_ids[1]</code> holds tokens 4–7, and so on. The physical IDs themselves can be in any order.</p>
+<p>We will divide this method into five parts: calculate capacity, check the free list, claim cached blocks, assign blocks for new data, and register full blocks.</p>
+<h4>Start with one example</h4>
+<p>Assume a block size of four and a request with fourteen known token IDs, represented by A through N. No tokens have been computed for this request yet, and its page table is empty.</p>
+<p>The prefix lookup returns two blocks containing A–D and E–H. We schedule computation for the remaining six tokens, I–N.</p>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Value before allocation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>block_size</code></td>
+<td>4</td>
+</tr>
+<tr>
+<td><code>req.num_tokens</code></td>
+<td>14</td>
+</tr>
+<tr>
+<td><code>req.num_computed_tokens</code></td>
+<td>0</td>
+</tr>
+<tr>
+<td><code>req.block_ids</code></td>
+<td><code>[]</code></td>
+</tr>
+<tr>
+<td><code>cached</code></td>
+<td><code>[17, 42]</code>, in prefix order</td>
+</tr>
+<tr>
+<td><code>num_new_tokens</code></td>
+<td>6</td>
+</tr>
+<tr>
+<td><code>free</code>, front to back</td>
+<td><code>[17, 23, 31, 44]</code></td>
+</tr>
+<tr>
+<td><code>ref_cnt[17]</code></td>
+<td>0: cached, but currently unused</td>
+</tr>
+<tr>
+<td><code>ref_cnt[42]</code></td>
+<td>1: another request is using it</td>
+</tr>
+</tbody>
+</table>
+<p>Block 17 is both cached and free. Block 42 is cached and in use. Both can be prefix hits, but only block 17 needs to be removed from the free list.</p>
+<p>In this example, <code>cached</code> is attached once, before the request has any blocks. Later calls that extend this request pass no cached prefix again. The method appends IDs without deduplicating them, so the caller must avoid passing blocks already attached to the request or counting the same cached tokens twice.</p>
+<h4>Part 1: calculate how many blocks are needed</h4>
+<pre><code class="language-python">total = (
+    req.num_computed_tokens
+    + len(cached) * self.block_size
+    + num_new_tokens
+)
+
+total_needed_blocks = -(-total // self.block_size)
+need = total_needed_blocks - len(req.block_ids) - len(cached)
+</code></pre>
+<p><code>total</code> is the number of token positions the page table needs to cover after the scheduled step. It combines already-computed positions, positions supplied by the cached blocks being attached, and positions that will be processed in this step.</p>
+<p><code>num_new_tokens</code> means newly scheduled computation here. Those positions may be part of a known prompt; they are not necessarily newly generated output tokens.</p>
+<p>For our example:</p>
+<pre><code class="language-text">total = 0 + 2 * 4 + 6 = 14 token positions
+total_needed_blocks = ceil(14 / 4) = 4 blocks
+need = 4 - 0 - 2 = 2 additional blocks
+</code></pre>
+<p>The expression <code>-(-total // self.block_size)</code> performs ceiling division using integers. Fourteen positions need four blocks because three blocks only cover twelve positions.</p>
+<p>We subtract <code>len(req.block_ids)</code> because those blocks are already assigned. We also subtract <code>len(cached)</code> because the cached blocks will supply storage without needing additional blocks for their tokens.</p>
+<p><code>need</code> is therefore the number of blocks to take from the free list for new KV data. These blocks do not have to be blank; they may contain an older cached prefix that will be evicted.</p>
+<p>On a later decode step, <code>need</code> can be zero because a partially filled block still has space:</p>
+<table>
+<thead>
+<tr>
+<th>Already computed</th>
+<th>Cached blocks being attached</th>
+<th>New positions</th>
+<th>Existing blocks</th>
+<th>Required blocks</th>
+<th><code>need</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>14</td>
+<td>0</td>
+<td>1</td>
+<td>4</td>
+<td>4</td>
+<td>0</td>
+</tr>
+<tr>
+<td>16</td>
+<td>0</td>
+<td>1</td>
+<td>4</td>
+<td>5</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<p>With fourteen positions computed, the fifteenth fits in the existing fourth block. With sixteen computed, the seventeenth needs a fifth block.</p>
+<h4>Part 2: count cached blocks that will leave the free list</h4>
+<pre><code class="language-python">reclaim = sum(
+    1 for b in cached if self.ref_cnt[b] == 0
+)
+
+if need + reclaim > self.num_free:
+    return False
+</code></pre>
+<p>Checking only <code>need</code> would miss something important. A cached block with zero references is still in <code>free</code>. Claiming it for this request removes one entry from that same pool.</p>
+<p>Here, <code>reclaim</code> counts those cached blocks. It does not count blocks whose data will be discarded; their existing KV data is exactly what we want to keep.</p>
+<p>In our example, block 17 has zero references and block 42 has one, so <code>reclaim = 1</code>. We need two blocks for new data and one free-list entry for the cached block we are claiming:</p>
+<pre><code class="language-text">need + reclaim = 2 + 1 = 3
+num_free = 4
+</code></pre>
+<p>The allocation can proceed. It will remove three entries from <code>free</code> in total.</p>
+<p>If the free list contained only <code>[17, 23]</code>, the check would fail: three entries are needed, but only two are available. The method returns <code>False</code> before changing references, the page table, or cache mappings. It does not preempt a request itself; the scheduler decides how to respond.</p>
+<p>This arithmetic assumes a consistent request state as it advances through tokens. Existing storage and newly attached cached blocks must be accounted for without overlap.</p>
+<h4>Part 3 — first loop: claim the cached blocks</h4>
+<pre><code class="language-python">for b in cached:
+    if self.ref_cnt[b] == 0:
+        del self.free[b]
+
+    self.ref_cnt[b] += 1
+    req.block_ids.append(b)
+</code></pre>
+<p>This loop attaches existing KV data to the request. It does not copy the data into another block.</p>
+<p>For each cached block, there are two cases:</p>
+<table>
+<thead>
+<tr>
+<th>Cached block state</th>
+<th>Free-list action</th>
+<th>Reference-count action</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Unused: <code>ref_cnt[b] == 0</code></td>
+<td>Remove that specific ID from <code>free</code>.</td>
+<td>Increase from 0 to 1.</td>
+</tr>
+<tr>
+<td>Already in use: <code>ref_cnt[b] > 0</code></td>
+<td>None; it is already outside <code>free</code>.</td>
+<td>Add this request's reference.</td>
+</tr>
+</tbody>
+</table>
+<p>Now follow our two iterations:</p>
+<table>
+<thead>
+<tr>
+<th>Iteration</th>
+<th>Block</th>
+<th>Reference count</th>
+<th>Free list afterward</th>
+<th>Request page table afterward</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>17</td>
+<td>0 → 1</td>
+<td><code>[23, 31, 44]</code></td>
+<td><code>[17]</code></td>
+</tr>
+<tr>
+<td>2</td>
+<td>42</td>
+<td>1 → 2</td>
+<td><code>[23, 31, 44]</code></td>
+<td><code>[17, 42]</code></td>
+</tr>
+</tbody>
+</table>
+<p>Removing block 17 by ID is why the free list needs efficient removal from the middle as well as the front. A prefix hit must claim the matching block, wherever it happens to sit in the queue.</p>
+<p>After this loop, both blocks remain cached, and both are actively referenced. Being removed from the free list does not remove their prefix hashes or invalidate their KV data. Block 42 is now shared by two requests.</p>
+<p>Claiming these blocks first also prevents the next loop from selecting block 17 for unrelated new data.</p>
+<h4>Part 4 — second loop: assign blocks for new KV data</h4>
+<pre><code class="language-python">for _ in range(max(need, 0)):
+    b, _ = self.free.popitem(last=False)
+
+    if self.block_hash[b] is not None:
+        self.hash_to_block.pop(self.block_hash[b], None)
+        self.block_hash[b] = None
+
+    self.ref_cnt[b] = 1
+    req.block_ids.append(b)
+</code></pre>
+<p>The first loop reused known KV contents. This loop assigns physical storage for the tokens we still need to compute.</p>
+<p><code>range(max(need, 0))</code> runs once per additional block needed, or not at all if existing storage is sufficient. Each iteration takes the front entry with <code>popitem(last=False)</code>, following the free-list order.</p>
+<p>Suppose block 23 still represents an older prefix P, while block 31 has no registered hash:</p>
+<table>
+<thead>
+<tr>
+<th>Iteration</th>
+<th>Selected block</th>
+<th>Old metadata</th>
+<th>Action</th>
+<th>Request page table afterward</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>23</td>
+<td><code>block_hash[23] = P</code>, <code>hash_to_block[P] = 23</code></td>
+<td>Remove P's mapping and clear block 23's hash. Set its reference count to 1.</td>
+<td><code>[17, 42, 23]</code></td>
+</tr>
+<tr>
+<td>2</td>
+<td>31</td>
+<td><code>block_hash[31] = None</code></td>
+<td>No old mapping to remove. Set its reference count to 1.</td>
+<td><code>[17, 42, 23, 31]</code></td>
+</tr>
+</tbody>
+</table>
+<p>The free list is now <code>[44]</code>.</p>
+<p>Why clear the old hash? The block is about to hold different KV data. Leaving P mapped to block 23 would let a future lookup mistake that new data for P's old prefix. The old entry must stop being searchable when its storage is reassigned.</p>
+<p>The <code>.pop(..., None)</code> call tolerates an already-absent mapping. Clearing the metadata does not zero the GPU memory or compute the new values; the model execution will write the new KV data.</p>
+<p>The two loops therefore have different purposes:</p>
+<table>
+<thead>
+<tr>
+<th>Loop</th>
+<th>What happens to the existing KV contents?</th>
+<th>What happens to ownership?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Claim <code>cached</code></td>
+<td>Keep them for reuse.</td>
+<td>Add a reference and attach the block.</td>
+</tr>
+<tr>
+<td>Allocate <code>need</code> blocks</td>
+<td>Discard any old prefix identity so storage can be overwritten.</td>
+<td>Assign the block with one reference and attach it.</td>
+</tr>
+</tbody>
+</table>
+<h4>Part 5: register full blocks and return</h4>
+<pre><code class="language-python">self._register_full_blocks(req, total)
+return True
+</code></pre>
+<p>After both loops, the page table covers the scheduled token positions. The method calls <code>_register_full_blocks</code> to associate eligible full blocks with their prefix hashes, then reports success.</p>
+<p>Our example ends with this layout:</p>
+<table>
+<thead>
+<tr>
+<th>Logical block</th>
+<th>Physical block</th>
+<th>Token positions</th>
+<th>Source</th>
+<th>Reference count after allocation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>17</td>
+<td>A–D</td>
+<td>Reused prefix</td>
+<td>1</td>
+</tr>
+<tr>
+<td>1</td>
+<td>42</td>
+<td>E–H</td>
+<td>Reused, shared prefix</td>
+<td>2</td>
+</tr>
+<tr>
+<td>2</td>
+<td>23</td>
+<td>I–L</td>
+<td>Storage assigned for computation</td>
+<td>1</td>
+</tr>
+<tr>
+<td>3</td>
+<td>31</td>
+<td>M–N, with two spare positions</td>
+<td>Storage assigned for computation</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<p><code>allocate</code> does not advance <code>req.num_computed_tokens</code> or run the model. It prepares storage and metadata for the step. The computation and progress updates belong to the surrounding execution path.</p>
+<h4>Diagram 8: the two allocation loops</h4>
+<p><a href="/assets/img/small-vllm/diagram-08-allocation-loops.png"><img src="/assets/img/small-vllm/diagram-08-allocation-loops.png" alt="The request claims cached blocks 17 and 42, then receives blocks 23 and 31 for new computation, leaving block 44 free."></a></p>
+<p>The first loop attaches cached blocks 17 and 42. Only 17 leaves <code>free</code>, because 42 is already in use; their reference counts become one and two. The second loop takes 23 and 31 from the front of <code>free</code>, removes block 23's old prefix P, and extends the page table to <code>[17, 42, 23, 31]</code>. Only 44 remains free.</p>
+<p>The input sequence <code>cached</code> remains <code>[17, 42]</code> throughout. Both reused blocks retain their prefix identities, H0 and H1; P is the unrelated old prefix being evicted from block 23.</p>
+<!-- Diagram 8 revision notes for the author:
+- Keep cached = [17, 42] in all three panels. The method does not remove entries from this input or stop treating 17 as cached when it becomes active.
+- In the Before and middle panels, associate the old prefix P with free block 23, not block 42 or 17. Remove P only when the second loop reassigns 23.
+- Retain H0 for block 17 and H1 for block 42; their cached KV contents are reused.
+- Remove arrows between the final page-table blocks if they suggest that 23 or 31 points to 17 or 42. Each entry independently maps a logical token block to physical storage.
+The supplied image is included unchanged; the caption follows the actual code and worked example.
+-->
+<p><a id="registering-full-blocks"></a></p>
+<h3>7.7 Recording full-block identities: <code>_register_full_blocks</code></h3>
+<p>Once storage has been assigned, this helper records prefix hashes for full blocks within the covered, known token range.</p>
+<pre><code class="language-python">def _register_full_blocks(self, req: Request, num_tokens: int):
+    if not self.enable_caching:
+        return
+
+    self._update_hashes(req)
+
+    for i in range(min(num_tokens, req.num_tokens) // self.block_size):
+        b, h = req.block_ids[i], req.block_hashes[i]
+
+        if self.block_hash[b] is None:
+            self.block_hash[b] = h
+            self.hash_to_block.setdefault(h, b)
+</code></pre>
+<h4>Limit registration to covered, known, complete blocks</h4>
+<p>If caching is disabled, the method returns immediately. Otherwise, <code>_update_hashes</code> ensures hashes exist for the request's complete token blocks.</p>
+<p>The loop bound combines three limits:</p>
+<ul>
+<li><code>num_tokens</code> is the token range being covered; <code>allocate</code> passes its calculated <code>total</code>.</li>
+<li><code>req.num_tokens</code> limits registration to tokens whose IDs the request knows.</li>
+<li>Integer division by <code>block_size</code> excludes a partial final block.</li>
+</ul>
+<p>For our example, <code>min(14, 14) // 4</code> is three. The loop visits logical blocks 0, 1, and 2. It skips logical block 3 because M and N do not fill it.</p>
+<p>The <code>min</code> also matters for chunked prefill. If a request already knows twenty prompt token IDs but this step only covers the first six positions, <code>min(6, 20) // 4</code> is one. The helper registers only the first complete block, not every full block whose hash can be calculated from the longer prompt.</p>
+<h4>Pair each physical block with its logical prefix hash</h4>
+<p>At each logical index <code>i</code>, the code reads <code>req.block_ids[i]</code> and <code>req.block_hashes[i]</code>. One identifies the physical storage; the other identifies the token prefix that storage represents.</p>
+<p>Using H0, H1, and H2 for our example:</p>
+<table>
+<thead>
+<tr>
+<th>Logical index</th>
+<th>Physical block <code>b</code></th>
+<th>Hash <code>h</code></th>
+<th>Result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>17</td>
+<td>H0</td>
+<td>Already has a hash; leave unchanged.</td>
+</tr>
+<tr>
+<td>1</td>
+<td>42</td>
+<td>H1</td>
+<td>Already has a hash; leave unchanged.</td>
+</tr>
+<tr>
+<td>2</td>
+<td>23</td>
+<td>H2</td>
+<td>Set <code>block_hash[23] = H2</code>; add H2's lookup entry if absent.</td>
+</tr>
+</tbody>
+</table>
+<p>Block 31 remains unregistered because its logical token block is incomplete.</p>
+<p>Unlike <code>_update_hashes</code>, which appends only missing hashes, this loop revisits every complete block in the covered range. The <code>if self.block_hash[b] is None</code> guard makes it skip blocks that already have a registered identity. It assumes an existing identity is correct for that position; it does not compare and repair mismatched hashes.</p>
+<h4>Why use <code>setdefault</code>?</h4>
+<p><code>self.hash_to_block.setdefault(h, b)</code> inserts <code>h → b</code> only if h is not already a key. If another physical block is already indexed for that prefix, the existing lookup stays in place.</p>
+<p>For example, if H2 already maps to block 55, registering block 23 sets <code>block_hash[23] = H2</code> but leaves <code>hash_to_block[H2] = 55</code>. This keeps one searchable representative for that hash, even though more than one physical block may carry the same prefix identity.</p>
+<p>That detail also exposes an assumption in the eviction code above: it removes a block's old hash from <code>hash_to_block</code> without checking which physical block the entry currently points to. In this example, later reassigning block 23 would remove H2's mapping to block 55 as well. The remaining code needs to establish whether duplicate registrations can occur in practice; if they can, eviction should check that the mapping points to the block being reassigned before deleting it.</p>
+<h4>Registration is separate from computing KV data</h4>
+<p>This helper records metadata. It does not run attention or write keys and values.</p>
+<p>Because <code>allocate</code> calls it while preparing a step, a newly registered block may still be waiting for its model computation. For example, block 23 has H2's identity after allocation, but the code shown here has not computed I–L's KV data.</p>
+<p>The scheduler and model execution must ensure that another request does not consume a newly registered block before its KV data is ready. We will check that ordering when the execution code is available. A hash entry alone is not evidence that the model work has finished.</p>
+<h4>Diagram 9: physical blocks and prefix lookup</h4>
+<p><a href="/assets/img/small-vllm/diagram-09-prefix-lookup.png"><img src="/assets/img/small-vllm/diagram-09-prefix-lookup.png" alt="Physical blocks 17, 42, and 23 are indexed by H0, H1, and H2; partial block 31 has no registered prefix hash."></a></p>
+<p>The page table pairs each logical block with its physical location. Assuming H2 was not already indexed, the lookup contains H0 → 17, H1 → 42, and H2 → 23. Block 31 is partial and remains outside the prefix lookup. Registering H2 records the destination for this step's KV computation; the model still needs to produce block 23's new contents.</p>
+<p><a id="releasing-a-request"></a></p>
+<h3>7.8 Releasing a request's blocks: <code>free_request</code></h3>
+<p>When a request finishes, its blocks should become available to other requests unless they are still shared. <code>free_request</code> releases this request's references and clears its page table.</p>
+<p>The same operation can release ownership during preemption. Deciding when to call it and how to reschedule the request belongs to the scheduler.</p>
+<pre><code class="language-python">def free_request(self, req: Request):
+    for b in reversed(req.block_ids):
+        self.ref_cnt[b] -= 1
+        if self.ref_cnt[b] == 0:
+            self.free[b] = None
+    req.block_ids = []
+</code></pre>
+<h4>Continue the allocation example</h4>
+<p>Use the page table from the earlier example: <code>[17, 42, 23, 31]</code>. Assume the scheduled KV computation has completed and the request still has these four blocks when it is released.</p>
+<table>
+<thead>
+<tr>
+<th>Physical block</th>
+<th>Tokens</th>
+<th>Reference count before release</th>
+<th>Registered prefix hash</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>17</td>
+<td>A–D</td>
+<td>1</td>
+<td>H0</td>
+</tr>
+<tr>
+<td>42</td>
+<td>E–H</td>
+<td>2: this request and another request</td>
+<td>H1</td>
+</tr>
+<tr>
+<td>23</td>
+<td>I–L</td>
+<td>1</td>
+<td>H2</td>
+</tr>
+<tr>
+<td>31</td>
+<td>M–N, with two spare positions</td>
+<td>1</td>
+<td><code>None</code>: incomplete block</td>
+</tr>
+</tbody>
+</table>
+<p>The free list contains <code>[44]</code>. None of the request's four blocks is currently free because each has at least one active reference.</p>
+<h4>Part 1: visit the blocks in reverse order</h4>
+<pre><code class="language-python">for b in reversed(req.block_ids):
+</code></pre>
+<p>The page table is ordered from the beginning of the token sequence to its end. <code>reversed</code> visits the tail first, so the release order is 31, 23, 42, then 17.</p>
+<p>The physical IDs are not being sorted. The loop reverses their logical order within this particular request.</p>
+<h4>Part 2: remove this request's reference</h4>
+<pre><code class="language-python">self.ref_cnt[b] -= 1
+</code></pre>
+<p>Each block loses one reference because this request no longer owns it. The method does not set every count directly to zero: another request may still depend on the same cached block.</p>
+<p>For example, block 42 goes from two references to one. That remaining reference protects it from reassignment even though the request we are releasing is finished.</p>
+<p>The code assumes that every ID in the page table represents a valid reference held by this request.</p>
+<h4>Part 3: append only unreferenced blocks to the free list</h4>
+<pre><code class="language-python">if self.ref_cnt[b] == 0:
+    self.free[b] = None
+</code></pre>
+<p>When the count reaches zero, no request is using the block. Assigning its previously absent ID into the <code>OrderedDict</code> appends it at the back. The value <code>None</code> is just a placeholder; the key is the physical block ID.</p>
+<p>Follow the loop one iteration at a time:</p>
+<table>
+<thead>
+<tr>
+<th>Iteration</th>
+<th>Block released</th>
+<th>Reference count</th>
+<th>Free-list action</th>
+<th>Free list afterward, front to back</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>31</td>
+<td>1 → 0</td>
+<td>Append 31.</td>
+<td><code>[44, 31]</code></td>
+</tr>
+<tr>
+<td>2</td>
+<td>23</td>
+<td>1 → 0</td>
+<td>Append 23.</td>
+<td><code>[44, 31, 23]</code></td>
+</tr>
+<tr>
+<td>3</td>
+<td>42</td>
+<td>2 → 1</td>
+<td>Keep it in use; do not append.</td>
+<td><code>[44, 31, 23]</code></td>
+</tr>
+<tr>
+<td>4</td>
+<td>17</td>
+<td>1 → 0</td>
+<td>Append 17.</td>
+<td><code>[44, 31, 23, 17]</code></td>
+</tr>
+</tbody>
+</table>
+<p>Four references were released, but only three blocks became free. Shared block 42 stays outside the free list until its final user releases it.</p>
+<h4>Why release the tail first?</h4>
+<p>New allocations take blocks from the front of <code>free</code>, while released blocks are appended at the back. Releasing in reverse logical order puts later token blocks before earlier prefix blocks among the blocks returned by this call.</p>
+<p>In our result, block 31 is ahead of block 23, and block 23 is ahead of block 17. If no other operation changes the queue, allocations for new data will select 44, then 31, then 23, then 17.</p>
+<p>This ordering favors keeping earlier prefix blocks longer. A later request can only reuse the contiguous cached prefix from the beginning, so preserving an early block can help preserve a useful run of prefix hits. It is a preference within this release operation, not a guarantee that an early block will survive memory pressure.</p>
+<h4>Releasing ownership keeps the cached contents</h4>
+<p>Notice that this method never clears <code>block_hash</code> or removes entries from <code>hash_to_block</code>. It also does not erase KV tensors.</p>
+<p>After release, H0 can still point to block 17 and H2 can still point to block 23, even though those blocks are free. H1 still points to block 42, which remains in use by the other request. Block 31 becomes free without a prefix entry because its token block is incomplete.</p>
+<p>Suppose another request now has ten tokens and shares the same first eight tokens. A prefix lookup can still find blocks 17 and 42, leaving the last two tokens to process. The cached-block loop in <code>allocate</code> removes 17 from the free list and changes its count from zero to one. Block 42 is already in use, so it stays outside <code>free</code> and its count rises from one to two.</p>
+<p>That is the connection between releasing a request and retaining prefix reuse: <strong>free means available for reassignment; it does not mean the old cached data has already been discarded</strong>. If block 17 or 23 is selected for different data first, the allocation loop removes its old prefix mapping at that point.</p>
+<h4>Part 4: clear this request's page table</h4>
+<pre><code class="language-python">req.block_ids = []
+</code></pre>
+<p>After the loop, the request no longer owns any blocks. Clearing its list also means a second call, before any new blocks are attached, has no references to release again.</p>
+<p>The comment about clearing everything should be read as clearing block ownership. This method does not reset <code>req.num_computed_tokens</code>, erase token IDs, clear <code>req.block_hashes</code>, or change request status. If the request is being preempted and will run again, the surrounding code must update its progress to reflect the KV data it will need to recover or recompute.</p>
+<p>The final state is <code>req.block_ids = []</code>, <code>free = [44, 31, 23, 17]</code>, and one remaining reference to shared block 42. The method visits each attached block once, so its work grows with the number of blocks the request held.</p>
+<h4>Diagram 10: releasing ownership while retaining prefixes</h4>
+<p><a href="/assets/img/small-vllm/diagram-10-release-ownership.png"><img src="/assets/img/small-vllm/diagram-10-release-ownership.png" alt="Releasing the request leaves shared block 42 in use and returns blocks 31, 23, and 17 to the free queue while retaining valid prefix mappings."></a></p>
+<p>Releasing in reverse page-table order returns 31, then 23, then 17, producing <code>free = [44, 31, 23, 17]</code>. Block 42's count falls from two to one, so it stays in use by the other request. This request's page table becomes empty, but H0 → 17, H1 → 42, and H2 → 23 remain available for prefix lookup. Block 31 is free without a registered prefix.</p>
+<p><a id="connecting-back-to-the-scheduler"></a></p>
+<h3>7.9 Connecting back to the scheduler</h3>
+<p>Use the A/B/C example to follow the actual victim selection, release, retry, and resumption logic. Keep scheduling decisions in this section and block bookkeeping in the manager sections.</p>
+<p>For each function, use the same order: <strong>what it does → relevant code snippet → step-by-step explanation using the comments → resulting state</strong>. If the implementation differs from this draft, update the explanation to match the code.</p>
+<p><a id="how-this-connects-to-quantization"></a></p>
+<h2>How this connects to quantization</h2>
+<p>The engine manages both model weights and per-request KV data. This post follows the KV data. A later part of the series will trace the repository's quantized linear layers and checkpoint loading.</p>
+<p>For the weight side, my existing <a href="/blog/demystifying-gptq/">GPTQ article</a> covers the derivation and implementation, then explains INT4 packing, unpacking, and checkpoint layouts in Parts 7 and 8. The <a href="/blog/math-of-awq/">AWQ article</a> explains activation-aware scaling and the quantization-error trade-off. Those posts provide the mathematical background for the later quantization walkthrough.</p>
+<p><a id="series-roadmap"></a></p>
+<h2>Series roadmap</h2>
+<p>The series will follow the execution path through the repository. This article covers the KV cache manager; the remaining component walkthroughs are planned.</p>
+<table>
+<thead>
+<tr>
+<th>Part</th>
+<th>Topic</th>
+<th>What we will follow</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>KV cache manager</td>
+<td>Prefix hashes, lookup, allocation, registration, reference counts, and release.</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Request state and scheduling</td>
+<td>Request progress, waiting/running queues, token budgets, and preemption.</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Attention and model execution</td>
+<td>Attention metadata, KV writes and reads, model layers, and weight loading.</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Model runner and sampling</td>
+<td>Packed inputs, slot mappings, CUDA graphs, logits, and token selection.</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Engine and serving</td>
+<td>Generation, detokenization, streaming, cancellation, and HTTP handlers.</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Quantization</td>
+<td>Linear methods, GPTQ/AWQ checkpoint formats, and the Marlin execution path.</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Demos and supporting tools</td>
+<td>Benchmarks, command dispatch, integration utilities, and the legacy snapshot.</td>
+</tr>
+</tbody>
+</table>
+<p>The repository's <a href="https://github.com/sudhirpol522/small-vLLM">source</a> is the reference throughout. As each new article is published, its entry in this roadmap can become a link.</p>
+<p><a id="related-reading"></a></p>
+<h2>Related reading</h2>
+<ul>
+<li><a href="/blog/demystifying-gptq/">Demystifying GPTQ: From Lagrange Multipliers to Vectorized PyTorch</a> — derivation, implementation, integer packing and unpacking, and checkpoint layouts.</li>
+<li><a href="/blog/math-of-awq/">The Math of AWQ: Protecting Salient Channels from the Inside Out</a> — activation-aware scaling and its error trade-offs.</li>
+<li><a href="/blog/speculative-decoding-math/">Unpacking Speculative Decoding: The Math Behind the Speedup</a> — a separate inference optimization explored through acceptance probabilities and expected work.</li>
+</ul>5:["$","article",null,{"children":[["$","$L2",null,{"href":"/writing/","children":["← ","All writing"]}],["$","h1",null,{"children":"Understanding the KV Cache Manager: Prefix Caching and Chunked Prefill"}],["$","p",null,{"className":"muted","children":"October 30, 2026"}],["$","p",null,{"className":"lead","children":"A code walkthrough of prefix caching, chunked prefill, and the block allocation and release logic behind a small LLM inference engine."}],["$","hr",null,{}],["$","div",null,{"className":"prose","dangerouslySetInnerHTML":{"__html":"$f"}}]]}]
+b:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+8:null
+d:[["$","title","0",{"children":"Understanding the KV Cache Manager: Prefix Caching and Chunked Prefill · Sudhir Pol"}],["$","meta","1",{"name":"description","content":"A code walkthrough of prefix caching, chunked prefill, and the block allocation and release logic behind a small LLM inference engine."}],["$","meta","2",{"property":"og:title","content":"Understanding the KV Cache Manager: Prefix Caching and Chunked Prefill · Sudhir Pol"}],["$","meta","3",{"property":"og:description","content":"A code walkthrough of prefix caching, chunked prefill, and the block allocation and release logic behind a small LLM inference engine."}],["$","meta","4",{"property":"og:image","content":"https://sudhirpol522.github.io/assets/img/og.png"}],["$","meta","5",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","6",{"name":"twitter:title","content":"Understanding the KV Cache Manager: Prefix Caching and Chunked Prefill · Sudhir Pol"}],["$","meta","7",{"name":"twitter:description","content":"A code walkthrough of prefix caching, chunked prefill, and the block allocation and release logic behind a small LLM inference engine."}],["$","meta","8",{"name":"twitter:image","content":"https://sudhirpol522.github.io/assets/img/og.png"}]]
