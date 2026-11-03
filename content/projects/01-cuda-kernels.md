@@ -1,6 +1,6 @@
 ---
 title: FlashAttention-1 CUDA Kernels
-description: A tiled, non-causal FlashAttention-1 forward kernel in CUDA, built and optimized as a PyTorch C++ extension.
+description: I wrote FlashAttention-1 kernels in CUDA, improved their shared-memory access and softmax reductions, and checked the outputs against PyTorch.
 area: LLM Inference
 stack: CUDA, C++, PyTorch C++ extension
 highlight: "Validated against PyTorch SDPA"
@@ -9,7 +9,9 @@ importance: 2
 
 ## Overview
 
-Implemented a tiled, non-causal FlashAttention-1 forward kernel in CUDA with online softmax, using one thread block per (batch, head, query tile) and shared-memory staging for the Q, K, V, score, and output-accumulator tiles. Both kernel variants are exposed to PyTorch as a C++/CUDA extension via pybind11.
+I implemented the non-causal FlashAttention-1 forward pass in CUDA, then worked through shared-memory bank conflicts and serialized softmax reductions in the first version. Both kernel variants run through a PyTorch C++/CUDA extension built with pybind11.
+
+The implementation uses tiled attention and online softmax, with one thread block per batch, head, and query tile. Before timing either kernel, the benchmark checks its output against PyTorch scaled dot-product attention.
 
 ## Selected results
 

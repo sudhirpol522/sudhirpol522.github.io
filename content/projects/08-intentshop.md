@@ -1,6 +1,6 @@
 ---
 title: "IntentShop: Session-Based Recommendation"
-description: A two-stage e-commerce recommender combining session-aware neural retrieval with a residual reranker and chronological evaluation.
+description: I built a recommender that uses a shopping session to suggest the next product, then tested it on later sessions to measure how well it generalizes.
 area: Applied Machine Learning
 stack: Python, PyTorch, pandas, NumPy, Google Colab
 highlight: "0.3356 NDCG@10 on chronological evaluation"
@@ -9,7 +9,9 @@ importance: 3
 
 ## Overview
 
-IntentShop is a session-based recommendation system over 14,507 products. A session-aware neural retriever generates candidates, and an eight-feature residual reranker refines their ordering. The project evaluates next-product recommendations with chronological splits and explicit checks for data leakage.
+With IntentShop, I built a system that recommends the next product based on a shopping session. It first retrieves candidates from a catalog of 14,507 products using a neural model, then uses an eight-feature residual reranker to refine their order.
+
+I evaluated the recommendations on later requests, keeping the train and evaluation data in chronological order. Leakage checks, feature ablations, and comparisons across three random seeds helped me assess whether the reranker improved on retrieval alone.
 
 ## Selected results
 

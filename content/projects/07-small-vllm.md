@@ -1,6 +1,6 @@
 ---
 title: "small-vLLM: LLM Inference Engine"
-description: A vLLM-style inference engine with paged KV caching, continuous batching, quantized weight loading, and OpenAI-compatible serving.
+description: I built an LLM inference engine that manages GPU memory, batches incoming requests, and streams generated text through an OpenAI-compatible API.
 area: Model Serving
 stack: Python, PyTorch, FlashAttention, CUDA Graphs, FastAPI
 highlight: "Paged KV cache, continuous batching, CUDA Graphs, and INT4 weight loading"
@@ -9,7 +9,9 @@ importance: 1
 
 ## Overview
 
-small-vLLM implements the core components of an LLM serving engine: paged KV-cache management, reference-counted blocks for prefix reuse, continuous batching, chunked prefill, and request preemption. The project connects scheduling and memory management with attention backends, quantized execution, and a streaming API.
+In small-vLLM, I built the pieces that let an inference engine serve multiple requests while working within a GPU memory budget. It uses a paged KV cache with reference-counted blocks to reuse shared prefixes, continuous batching to schedule requests, and chunked prefill and preemption to manage the work.
+
+I connected those pieces to FlashAttention, CUDA Graphs, GPTQ and AWQ weight loading, and a streaming API. I also benchmarked the engine against vLLM on an RTX A6000; the measurements and workload settings are below.
 
 ## Selected results
 

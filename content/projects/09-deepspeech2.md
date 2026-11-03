@@ -1,6 +1,6 @@
 ---
 title: DeepSpeech2 for Automatic Speech Recognition
-description: A PyTorch speech-to-text implementation with masked convolutions, a bidirectional LSTM, and character-level CTC decoding.
+description: I implemented a DeepSpeech2 speech-to-text model in PyTorch and evaluated its transcriptions on LibriSpeech audio of varying lengths.
 area: Speech Recognition
 stack: Python, PyTorch, LibriSpeech
 highlight: "18.42% mean per-utterance WER on LibriSpeech"
@@ -9,7 +9,9 @@ importance: 4
 
 ## Overview
 
-Implemented a DeepSpeech2 speech-to-text model in PyTorch with two masked convolutional layers, a bidirectional LSTM, and character-level connectionist temporal classification (CTC) loss. The model processes 80-bin mel spectrograms and handles variable-length LibriSpeech audio throughout the convolutional and recurrent stages.
+I built a DeepSpeech2 speech-to-text model in PyTorch and evaluated the words it produced on LibriSpeech recordings. The model uses two masked convolutional layers, a bidirectional LSTM, and character-level connectionist temporal classification (CTC) loss.
+
+The recordings vary in length, so I tracked valid sequence lengths through the convolutional layers and packed the recurrent inputs. The model takes 80-bin mel spectrograms, downsamples them along the time axis, and produces transcriptions using greedy CTC decoding.
 
 ## Selected results
 
