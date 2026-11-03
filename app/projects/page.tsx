@@ -5,7 +5,7 @@ import { earlierProjects } from "@/content/profile";
 
 export const metadata: Metadata = {
   title: "Projects",
-  description: "Projects in agent systems, LLM inference, model serving, retrieval, and applied machine learning.",
+  description: "Projects in LLM inference, CUDA attention kernels, recommendation, speech recognition, and applied machine learning.",
 };
 
 export default function ProjectsPage() {

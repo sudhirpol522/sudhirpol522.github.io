@@ -4,7 +4,7 @@ description: A tiled, non-causal FlashAttention-1 forward kernel in CUDA, built 
 area: LLM Inference
 stack: CUDA, C++, PyTorch C++ extension
 highlight: "Validated against PyTorch SDPA"
-importance: 3
+importance: 2
 ---
 
 ## Overview

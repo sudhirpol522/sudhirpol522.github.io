@@ -8,11 +8,11 @@ export const profile = {
   focus: "LLM inference · Agentic AI · Model evaluation",
   image: "/assets/img/sudhir-pol.jpg",
   summary: [
-    "I build and evaluate LLM systems, and I publish what the measurements say — including when they say my own design didn't help.",
-    "At **Adobe** I built a multimodal LLM-as-judge framework that scored roughly 750 charts across ten quality dimensions and gated model releases; tuning the judge with DSPy raised its agreement with subject-matter experts from 0.79 to 0.92 F1. The hard part wasn't the model — it was getting the reviewers to agree with each other first, because that agreement is the ceiling on what any judge can reach. Before that, at **S&P Global**, I shipped a document-extraction workflow pairing a LoRA-fine-tuned Llama 2 with OpenSearch hybrid retrieval, evaluated in a comparison across 100 analysts.",
-    "Two of my recent projects produced results against my own design. A [quantization-aware inference router](/projects/02-quantroute/) I built turned out to be unnecessary: on an A100, AWQ ran 56% cheaper than FP16 at statistically indistinguishable quality, so the optimal policy collapsed to always using the cheap lane. A [multi-agent generation pipeline](/projects/00-agent-systems/) I designed performed identically to a single output at eight times the API calls — the entire gain came from the reranker. Both are in the READMEs, along with which numbers came from real hardware and which from a simulated backend.",
-    "Lately I've been working further down the stack: a [small inference engine](/projects/07-tiny-vllm/) with paged KV caching and continuous batching, [articles](/writing/) deriving the mathematics behind GPTQ and AWQ, [two merged PRs](https://github.com/hao-ai-lab/FastVideo/pulls?q=is%3Apr+author%3Asudhirpol522) to hao-ai-lab's FastVideo, an [open PR](https://github.com/vllm-project/vllm/pull/53647) to vLLM, and hand-written CUDA FlashAttention kernels. That's the direction I want to keep going.",
-    "Currently looking for ML engineering roles in LLM evaluation and inference.",
+    "I'm a machine learning engineer working on LLM evaluation and inference. I like building systems, understanding where they break, and using measurements to guide what I improve next.",
+    "At **Adobe**, I built a multimodal LLM-as-judge framework to evaluate roughly 750 charts across ten quality dimensions and check model quality before releases. Working with domain reviewers and tuning the judge with DSPy improved its agreement with expert labels from 0.79 to 0.92 F1. That work taught me how much good evaluation depends on people agreeing on what a good answer looks like. Before that, at **S&P Global**, I worked on extracting information from financial documents using a LoRA-fine-tuned Llama 2 and OpenSearch hybrid retrieval, with an evaluation involving 100 analysts.",
+    "In my own projects, I've also explored recommendation and speech recognition. With [IntentShop](/projects/08-intentshop/), I built a system that uses a shopping session to retrieve and rank the next products someone might want, then evaluated it on later sessions. With [DeepSpeech2](/projects/09-deepspeech2/), I implemented a speech-to-text model in PyTorch and evaluated its transcriptions on LibriSpeech audio.",
+    "More recently, I've been digging into how inference engines work. I'm building [small-vLLM](/projects/07-small-vllm/) with paged KV caching, continuous batching, and CUDA Graphs, and I've written [FlashAttention-1 CUDA kernels](/projects/01-cuda-kernels/) that I check against PyTorch's attention implementation. I also write [articles](/writing/) to work through the math behind methods like GPTQ and AWQ. Along the way, I've contributed [two merged PRs](https://github.com/hao-ai-lab/FastVideo/pulls?q=is%3Apr+author%3Asudhirpol522) to FastVideo and have an [open PR](https://github.com/vllm-project/vllm/pull/53647) to vLLM. I'd like to keep working at this intersection of implementation, evaluation, and performance.",
+    "I'm currently looking for machine learning engineer and data scientist roles.",
   ],
   links: [
     { label: "Email", href: "mailto:sudhirpol522@gmail.com", text: "sudhirpol522@gmail.com" },
@@ -25,7 +25,7 @@ export const profile = {
 export const interests = [
   "Reliable agent systems: explicit state, typed tool interfaces, human approval gates",
   "LLM inference efficiency: speculative decoding, Medusa, continuous batching, KV caching",
-  "Model compression: AWQ and GPTQ quantization, precision-aware routing",
+  "Model compression: AWQ and GPTQ quantization, INT4 weight loading",
   "Evaluation: LLM-as-judge calibration against expert labels, regression gating",
 ];
 
