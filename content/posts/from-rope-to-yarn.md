@@ -1113,7 +1113,7 @@ We will stretch both vectors by $c \approx 1.138629$, compute their dot product,
 
 ### The Step-by-Step Breakdown
 
-Take our YaRN-rotated query vector $\widetilde{q}_{3500}^{\mathrm{YaRN}}$ from Section 14 and multiply every single coordinate by $c = 1.138629436$:
+Take our YaRN-rotated query vector $\widetilde{q}_{3500}$ from Section 14 and multiply every single coordinate by $c = 1.138629436$:
 
 | Coordinate Slot | Rotated Value ($\widetilde{q}$) | Multiplication by $c = 1.138629436$ | Final YaRN Scaled Coordinate ($\widehat{q}$) | 
 | ----- | ----- | ----- | ----- | 
